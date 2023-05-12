@@ -1,3 +1,4 @@
+# this is the function file
 #p value function
 p_value_calculate_kruskal <- function(D) {
   if (dim(D)[1]!=0 & length(unique(D$From))>1 & length(unique(D$t))>1){
