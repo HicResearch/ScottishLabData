@@ -12,11 +12,7 @@ sort(unique(odbcListDrivers()[[1]]))
 ######################################
 ######################################
 #Set up the connection
-con <- dbConnect(odbc(),
-                 Driver = "SQL Server",
-                 Server = "hic-sql-02",
-                 Database = "RDMP_3564_ExampleData",
-                 Trusted_Connection = "True")
+con <- dbConnect()
 
 #Check the table header names for data table.
 #NOTE: You may need to replace 'STAGING' with another schema if this is different. 
