@@ -1,17 +1,12 @@
 ## clear the workspace ###################
 rm(list = ls()); gc()
 
-install.packages("ggplot2", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("eeptools", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("plyr", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("dplyr", repos=NULL, contriburl="file:V:/R/3.6.2/")
 library(ggplot2)
 library(eeptools)
 library(plyr)
 library(dplyr)
 
 #### set the working directory #######
-setwd("P:/Project 3564/ScottishLabData")
 source("0_functions.R")
 
 load("./data/selectedCodes.RData")
@@ -266,4 +261,3 @@ for (rc in ReadCodeList) {
   i=i+1
 } 
 save(quantityTable, file = "./data/quantityTable.RData")
-#write.csv(quantityTable, "P:/Project 3564/ScottishLabData/quantityTable14032023.csv")

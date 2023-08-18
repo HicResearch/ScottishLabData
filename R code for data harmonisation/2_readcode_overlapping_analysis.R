@@ -1,7 +1,6 @@
 ## clear the workspace ######
 rm(list = ls()); gc()
 
-install.packages("ggvenn", repos=NULL, contriburl="file:V:/R/4.1.2/")
 library(ggvenn)
 load("./data/ReadCodeAggregates.RData")
 ###################################

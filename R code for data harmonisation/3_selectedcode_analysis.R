@@ -2,7 +2,6 @@
 rm(list = ls()); gc()
 
 
-setwd("P:/Project 3564/ScottishLabData")
 SHList <- c("HIC","Glasgow","Lothian","DaSH")
 load("./data/selectedCodes.RData")
 ReadCodeList <- selectedCodes
