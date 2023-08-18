@@ -1,18 +1,3 @@
-## clear the workspace ######
-rm(list = ls())
-
-######################################
-######## install packages ############
-######################################
-
-install.packages("DBI", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("odbc", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("dplyr", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("dbplyr", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("haven", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("writexl", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("tidyverse", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("plotly", repos=NULL, contriburl="file:V:/R/3.6.2/")
 library(odbc)
 library(DBI)
 library(dplyr)
