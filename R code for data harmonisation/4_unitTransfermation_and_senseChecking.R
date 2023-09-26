@@ -2,13 +2,12 @@
 rm(list = ls()); gc()
 
 #### set the working directory #######
-setwd("P:/Project 3564/ScottishLabData")
+setwd("C:/Users/Administrator/Desktop/ScottishLabData")
 source("0_functions.R")
 
 ######################################
 #### unit and value transformation ###
 ######################################
-setwd("P:/Project 3564/ScottishLabData")
 unitchange <- read_excel("unitTransfermation.xls")
 colnames(unitchange)[8] <- "Rule"
 

@@ -1,7 +1,7 @@
 ## clear the workspace ######
 rm(list = ls()); gc()
 
-install.packages("ggvenn", repos=NULL, contriburl="file:V:/R/4.1.2/")
+install.packages("ggvenn")
 library(ggvenn)
 load("./data/ReadCodeAggregates.RData")
 ###################################
@@ -11,6 +11,11 @@ Lothian_ReadCodeAggregates <- Lothian_ReadCodeAggregates[order(-Lothian_ReadCode
 HIC_ReadCodeAggregates <- HIC_ReadCodeAggregates[order(-HIC_ReadCodeAggregates$recordCount),]
 Glasgow_ReadCodeAggregates <- Glasgow_ReadCodeAggregates[order(-Glasgow_ReadCodeAggregates$recordCount),]
 DaSH_ReadCodeAggregates <- DaSH_ReadCodeAggregates[order(-DaSH_ReadCodeAggregates$recordCount),]
+
+### calculate how many unique test across SHs##
+########### 09/14/2023 ########################
+all <- rbind(Lothian_ReadCodeAggregates, HIC_ReadCodeAggregates, Glasgow_ReadCodeAggregates, DaSH_ReadCodeAggregates)
+length(unique(all$code))
 
 t <- c(HIC_ReadCodeAggregates[1:100,"code"],Glasgow_ReadCodeAggregates[1:100,"code"],Lothian_ReadCodeAggregates[1:100,"code"],DaSH_ReadCodeAggregates[1:100,"code"])
 t <- unique(t)

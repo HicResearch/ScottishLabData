@@ -5,14 +5,14 @@ rm(list = ls())
 ######## install packages ############
 ######################################
 
-install.packages("DBI", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("odbc", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("dplyr", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("dbplyr", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("haven", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("writexl", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("tidyverse", repos=NULL, contriburl="file:V:/R/3.6.2/")
-install.packages("plotly", repos=NULL, contriburl="file:V:/R/3.6.2/")
+install.packages("DBI")
+install.packages("odbc")
+install.packages("dplyr")
+install.packages("dbplyr")
+install.packages("haven")
+install.packages("writexl")
+install.packages("tidyverse")
+install.packages("plotly")
 library(odbc)
 library(DBI)
 library(dplyr)
@@ -23,20 +23,20 @@ library(plotly)
 #### Connecting to the SQL Server ####
 ######################################
 #List drivers -check which ones are available
-sort(unique(odbcListDrivers()[[1]]))
+#sort(unique(odbcListDrivers()[[1]]))
 ######################################
 ######################################
 #Set up the connection
 con <- dbConnect(odbc(),
                  Driver = "SQL Server",
-                 Server = "hic-sql-02",
+                 Server = "sql.hic-tre.dundee.ac.uk",
                  Database = "RDMP_3564_ExampleData",
-                 Trusted_Connection = "True")
+                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
 
 #Check the table header names for data table.
 #NOTE: You may need to replace 'STAGING' with another schema if this is different. 
 #NOTE: Replace 'SE04_53_FP' with the table names.
-tbl(con, in_schema("dbo","FHIR_HIC")) %>% head
+#tbl(con, in_schema("dbo","FHIR_HIC")) %>% head
 
 #Set up schema for reading table.
 #NOTE: You may need to replace 'STAGING' with schema of this is different.

@@ -1,8 +1,10 @@
 ## clear the workspace ###################
 rm(list = ls()); gc()
 
+install.packages("dplyr")    # alternative installation of the %>%
+library(dplyr)    # alternatively, this also loads %>%
 
-setwd("P:/Project 3564/ScottishLabData")
+setwd("C:/Users/Administrator/Desktop/ScottishLabData")
 SHList <- c("HIC","Glasgow","Lothian","DaSH")
 load("./data/selectedCodes.RData")
 ReadCodeList <- selectedCodes
@@ -107,8 +109,7 @@ for (rc in ReadCodeList) {
   summaryTable[summaryTable$ReadCode==rc,"readCodeDescription"] <- paste0(tt[tt$Freq==max(tt$Freq),"data_allfour"], collapse = "; ")
   
   
-  #### set the working directory #######
-  setwd("P:/Project 3564/ScottishLabData")
+
   #### plot the density distribution ###
   cl <- rainbow(5)
   png(paste0("./plot/raw_",rc,"_rplot.png"), width = 1200, height = 560, pointsize = 14)
@@ -163,8 +164,14 @@ for (rc in ReadCodeList) {
 }
 save(summaryTable, file = "./data/summaryTable.RData")
 ####################################################
-####################################################
-####################################################
-  
-  
-  
+############# compare the frequency ################
+################### 14/09/2023 #####################
+t <- summaryTable[,c(1:6)]
+
+for(i in 1:180) {
+tt <- t[i,c(3:6)]
+tt <- tt[,!is.na(as.numeric(tt))]  # remove "NoData" items   
+t[i,"freqcompare"] <- max(as.double(tt))/min(as.double(tt))
+}
+
+table(t$freqcompare>10)
