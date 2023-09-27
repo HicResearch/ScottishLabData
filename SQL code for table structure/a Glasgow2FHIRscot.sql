@@ -45,7 +45,11 @@ SELECT
 
     quantityunit AS valueUnit,
 
-    (case when ARITHMETICCOMPARATOR is not null then CONCAT(ARITHMETICCOMPARATOR, QUANTITYVALUE) else null end) as valueString,
+    (case when ARITHMETICCOMPARATOR != '' 
+	     then CONCAT(ARITHMETICCOMPARATOR, QUANTITYVALUE) 
+		 else null 
+		 end
+	) as valueString,
 
     rangehighvalue AS referenceRangeHigh,
 

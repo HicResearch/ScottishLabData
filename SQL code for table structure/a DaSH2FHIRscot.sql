@@ -1,6 +1,6 @@
 --------- DaSH's lab data only contains biochemistry and haematology data 
 --------- Tests does not comes with readcode have been excluded from furture study
-
+use RDMP_3564_ExampleData
 select *, 
 substring(Reference_Range, 1, CHARINDEX('{', Reference_Range)-1) as "low",
 substring(Reference_Range, CHARINDEX('{', Reference_Range)+1, LEN(Reference_Range) ) as "high"
@@ -62,7 +62,9 @@ SELECT
 
     (case when ISNUMERIC(result_extension)=0 
              then result_extension 
-          else NULL 
+		  when ISNUMERIC(result)=0
+             then result 
+		  else NULL
      end
        ) AS valueString,
 
