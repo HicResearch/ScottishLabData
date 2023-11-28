@@ -1,0 +1,183 @@
+This file provides the mapping relationship between read code and SNOMED CT code for the 180 selected tests. This mapping is based on Read Code to SNOMED CT mapping has been established by NHS England. There were 16 ReadCode from Glasgow Safe Haven not able to map into SNOMED CT.,,,,,,,,
+,,,,,,,,
+,ReadCode,readCodeDescription,V3_READ_CODE,V3_TERM_ID,V3_TERM,SNOMED_CONCEPT_ID,SNOMED_DESCRIPTION_ID,SNOMED_TERM
+1,421B.,Blood film microscopy,X77bL,Y7GZU,Blood film microscopy,1.02227E+15,2.56721E+15,Blood film microscopy
+2,423..,Haemoglobin,Xa96v,Y7FBh,Haemoglobin concentration,1.02243E+15,2.55347E+15,Haemoglobin estimation
+3,425..,HCT,XE2Zq,YabTC,Haematocrit - PCV level,1.02229E+15,2.57571E+15,Haematocrit
+4,4258,Haematocrit,X76tb,Y7FD1,Haematocrit,1.02229E+15,2.57571E+15,Haematocrit
+5,426..,RBC,426..,Y7FCi,Red blood cell count,1.02245E+15,2.56726E+15,Red blood cell count
+6,4266,Nucleated RBC,4266,YMGpN,Nucleated red blood cell count,1.02246E+15,2.55348E+15,Nucleated red blood cell count
+7,428..,MCH,XE2pb,Yaba2,Mean cell haemoglobin level,1.02247E+15,2.58392E+15,MCH - Mean corpuscular haemoglobin
+8,429..,MCHC,429..,Y7FC4,Mean cell Hb concentration,1.02248E+15,2.55349E+15,MCHC - Mean corpuscular haemoglobin concentration
+9,42A..,MCV,42A..,Y7FCs,Mean cell volume,1.02249E+15,2.57574E+15,MCV - Mean corpuscular volume
+10,42B..,Plasma viscosity,XE2pd,Y7FKb,Plasma viscosity,1.0225E+15,2.58095E+15,Plasma viscosity
+11,42B6.,ESR,XE2m7,Y7FKU,Erythrocyte sedimentation rate,1.02251E+15,2.57009E+15,Erythrocyte sedimentation rate
+12,42bE.,% Hypochromia,XaIo4,YalNO,Percentage hypochromic cells,9.93901E+14,2.58139E+15,Percentage hypochromic cells
+13,42d1.,Transferrin saturation index,XaERN,Yaet9,Transferrin saturation index,9.91831E+14,2.57606E+15,Transferrin saturation index
+14,42g..,Warfarin dosage,X77Yh,Y7GTD,Haematology test,9.91861E+14,2.55903E+15,Haematology test
+15,42H..,WBC,XaIdY,Yal6t,Total white blood count,1.02254E+15,2.56665E+15,Total white cell count
+16,42h6.,Haemolysis,XaIwE,Yalhc,Haemolysis screening test,9.95661E+14,2.57105E+15,Haemolysis screening test
+17,42J..,Neutrophil count,42J..,Y7FGv,Neutrophil count,1.02255E+15,2.58394E+15,Neutrophil count
+18,42j9.,APTT (Mixture),XaIqJ,YalUE,APTT 50:50 mix,9.93981E+14,2.57637E+15,APTT (activated partial thromboplastin time) 50:50 mix
+19,42jG.,APTT,XS9U4,YSEfI,Partial thromboplastn time act,8.52511E+14,2.20803E+15,Activated partial thromboplastin time
+20,42K..,Eosinophil count,42K..,Y7FAh,Eosinophil count,1.02256E+15,2.56666E+15,Eosinophil count
+21,42L..,Basophil count,42L..,Y7FGt,Basophil count,1.02257E+15,2.5673E+15,Basophil count
+22,42M..,Lymphocyte count,42M..,Y7FGq,Lymphocyte count,1.02258E+15,2.56667E+15,Lymphocyte count
+23,42N..,Monocyte count,42N..,Y7FGk,Monocyte count,1.02259E+15,2.58395E+15,Monocyte count
+24,42P..,Platelet count,42P..,Y7FHW,Platelet count,1.02265E+15,2.5535E+15,Platelet count
+25,42P5.,Large Platelets,X76vp,Y7FHf,Platelet distribution width,1.01813E+15,2.57942E+15,Platelet distribution width
+26,42Q5.,Prothrombin Time,42Q5.,Y7FIO,One stage prothrombin time,8.52471E+14,2.20795E+15,Prothrombin time
+27,42QE.,INR,42QE.,Y7FIy,International normalised ratio,165581004,257472014,International normalised ratio
+28,42Qf.,D-Dimer,X76wX,Y7FIh,DDimer level,1.01922E+15,2.56613E+15,D-dimer level
+29,42Qn.,Fibrinogen,X76wQ,Y7FIY,Fibrinogen level,1.0193E+15,2.56614E+15,Fibrinogen level
+30,42Qu.,APTT Ratio,XaIU2,YakwO,APTT ratio,1.00142E+15,2.56038E+15,Activated partial thromboplastin time ratio
+31,42R4.,Ferritin,XE24r,YabSf,Serum ferritin level,9.93381E+14,2.57626E+15,Serum ferritin level
+32,42R7.,Iron,X76tH,Y7FBW,Serum iron level,1.01935E+15,2.5582E+15,Serum iron level
+33,42T..,Vitamin B12,XE2pf,YabaB,Serum vitamin B12 level,9.93391E+14,2.57225E+15,Serum vitamin B12 level
+34,42U5.,Serum Folate,42U5.,Y7FBL,Serum folate level,9.93411E+14,2.56784E+15,Serum folate level
+35,42VB.,Methaemoglobin,XaEM5,Yaenr,Methaemoglobin level,1.01942E+15,2.58364E+15,Methaemoglobin level
+36,42VR.,Oxyhaemoglobin,XaLBr,YaoFm,Oxyhaemoglobin level,1.01703E+15,2.56283E+15,Oxyhaemoglobin level
+37,42W4.,HbA1c,XaERp,Yaetb,HbA1c level (DCCT aligned),1.01943E+15,2.56616E+15,HbA1c level (Diabetes Control and Complications Trial aligned)
+38,42W5.,HbA1c (IFCC),XaPbt,YasFN,HbA1c levl - IFCC standardised,9.99791E+14,2.5729E+15,Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised
+39,42X..,Reticulocyte count,42X..,Y7FEl,Reticulocyte count,9.93441E+14,2.57067E+15,Reticulocyte count
+40,42Y0.,CarboxyHb.,42Y0.,YaXyf,Carboxyhaemoglobin level,8.51001E+14,2.20487E+15,Carboxyhaemoglobin level
+41,42Z5.,MPV,42Z5.,Y7FHd,Mean platelet volume,9.93481E+14,2.57068E+15,Mean platelet volume
+42,42Z7.,RDW,XE2mO,Y7FCq,Red blood cell distribut width,9.93501E+14,2.57227E+15,Red blood cell distribution width
+43,42ZD.,LUC,XE2bq,YaZuo,Large unstained cells,9.93551E+14,2.58134E+15,Large unstained cells
+44,43ad.,Tissu transglutaminase IgA lev,XaJg2,Yamko,Tissu transglutaminase IgA lev,1.01367E+15,2.5828E+15,Tissue transglutaminase IgA level
+45,43d5.,HIV antibody/antigen (Duo),XaFuN,Yah5T,HIV antibody/antigen (Duo),1.01417E+15,2.55753E+15,HIV (human immunodeficiency virus) antibody/antigen (Duo)
+46,43G1.,Anti Nuclear Antibody,XaC2s,YabSg,Anti-nuclear factor level,9.93591E+14,2.56868E+15,Anti-nuclear factor
+47,43hD.,Adenovirus         :; Influenza A virus  :; Influenza B virus  :; M. pneumoniae      :; RSV                :,XaO83,Yaqup,Respiratory virus screen PCR,1.00216E+15,2.56396E+15,Respiratory virus screen by polymerase chain reaction
+48,43J3.,IgG,XE259,YaVAu,Immunoglobulin G level,9.97011E+14,2.57676E+15,IgG
+49,43J4.,IgM,XE25A,YaVAv,Immunoglobulin M level,9.97021E+14,2.57258E+15,IgM
+50,43J5.,IgA,XE25B,YaVAw,Immunoglobulin A level,9.97031E+14,2.57126E+15,IgA
+51,43X2.,Hepatitis C antibody test,XaEOG,Yaeq2,Hepatitis C antibody test,1.00893E+15,2.58632E+15,Hepatitis C antibody test
+52,43Z2.,PSA,XE25C,Y7Fgr,Prostate-specific ag level,1.03079E+15,2.59972E+15,PSA (prostate-specific antigen) level
+53,43Z8.,Paraprotein Type,X77az,Y7GXJ,Paraprotein profile,9.97111E+14,2.57678E+15,Paraprotein profile
+54,43ZF.,Total PSA level,XaPqN,YasSY,Total PSA level,1.00659E+15,2.60775E+15,Total PSA (prostate specific antigen) level
+55,442f.,Total T3,XaIzH,YaluB,Serum total T3 level,9.96771E+14,2.55531E+15,Serum total T3 level
+56,442U.,Serum free T3 level,XaERq,Yaetc,Serum free triiodothyronin lev,1.01696E+15,2.58336E+15,Serum free triiodothyronine level
+57,442V.,Free T4,XaERr,Yaetd,Serum free T4 level,1.01697E+15,2.55787E+15,Serum free T4 level
+58,442W.,TSH,XaELV,Yaen4,Serum TSH level,1.02279E+15,2.60746E+15,Serum TSH (thyroid stimulating hormone) level
+59,443e.,LH,XM0lv,Yaew6,Serum LH level,1.02316E+15,2.5588E+15,Serum luteinising hormone level
+60,443h.,FSH,XM0lx,YMGpH,Serum FSH level,1.02319E+15,2.60721E+15,Serum FSH (follicle stimulating hormone) level
+61,4473,Testosterone,XE2dr,YabTE,Serum testosterone level,9.97161E+14,2.57128E+15,Serum testosterone level
+62,4482,Cortisol,XE2xW,Y7Fcn,Serum cortisol level,9.97191E+14,2.5598E+15,Serum cortisol level
+63,44a0.,CEA,X772k,Y7FgU,Carcinoembryonic antigen level,1.0267E+15,2.59927E+15,Carcinoembryonic antigen level
+64,44A1.,Parathyroid Hormone,XE2xc,Y7FdT,Serum parathyr hormone level,9.97221E+14,2.57261E+15,Serum parathyroid hormone level
+65,44a6.,CA125 level,XaJNf,YamNb,CA125 level,1.00046E+15,2.60717E+15,Serum CA 125 (cancer antigen 125) level
+66,44AJ.,PTH,XaIdU,Yal6p,Plasma parathyroid hormone lev,1.01302E+15,2.55735E+15,Plasma parathyroid hormone level
+67,44B..,Alpha Feto Protein,XE2ds,YabTF,Serum alpha-fetoprotein level,9.97241E+14,2.58178E+15,Serum alpha foetoprotein level
+68,44CB.,Transferrin,XE2dx,YabTK,Serum transferrin level,9.99641E+14,2.55567E+15,Serum transferrin level
+69,44CC.,Plasma C reactive protein,XE2dy,YabTL,Plasma C-reactve protein level,9.99651E+14,2.56947E+15,Plasma C reactive protein
+70,44CN.,Amylase,XM14L,YadvG,Serum amylase level,9.97491E+14,2.57132E+15,Serum amylase level
+71,44CS.,C Reactive Protein,XaINL,YakmN,Serum C reactive protein level,1.00137E+15,2.60714E+15,Serum CRP (C reactive protein) level
+72,44D5.,Lactate,XE2e0,YabTN,Serum lactate level,1.02807E+15,2.60057E+15,Serum lactate level
+73,44D8.,Plasma lactate level,XaISI,YakuD,Plasma lactate level,1.01315E+15,2.58276E+15,Plasma lactate level
+74,44dB.,Plasma LDL cholesterol level,XaEVs,Yaf0R,Plasma LDL cholesterol level,1.01059E+15,2.58647E+15,Plasma LDL (low density lipoprotein) cholesterol level
+75,44E3.,Bilirubin (POCT),XE2qu,Y7FeA,Total bilirubin level,1.02676E+15,2.60024E+15,Total bilirubin level
+76,44EC.,Serum total bilirubin level,XaERu,Yaetg,Serum total bilirubin level,9.97591E+14,2.56922E+15,Serum total bilirubin level
+77,44F..,Serum alkaline phosphatase,XE2px,Yabbs,Serum alkal phosphatase level,1.00062E+15,2.56027E+15,Serum alkaline phosphatase level
+78,44g..,Glucose,XM0ly,YMGpL,Plasma glucose level,1.01067E+15,2.5824E+15,Plasma glucose level
+79,44g0.,Glucose (Random),44g0.,YaZLG,Plasma random glucose level,1.03133E+15,2.60011E+15,Plasma random glucose level
+80,44g1.,Fasting Glucose,44g1.,YaZLH,Plasma fasting glucose level,1.00314E+15,2.56057E+15,Plasma fasting glucose level
+81,44G3.,ALT,XaLJx,YaoP8,Serum ALT level,1.01825E+15,2.57943E+15,Serum alanine aminotransferase level
+82,44G9.,Gamma Glut Trans,XaES3,Yaetp,Serum gamma GT level,1.00086E+15,2.5718E+15,Serum GGT (gamma-glutamyl transferase) level
+83,44GB.,Serum ALT level,XaLJx,YaoP8,Serum ALT level,1.01825E+15,2.57943E+15,Serum alanine aminotransferase level
+84,44h0.,Potassium ion,XaDvZ,Yae4O,Blood potassium level,1.01267E+15,2.56224E+15,Blood potassium level
+85,44h1.,Sodium Ion,XaDva,Yae4P,Blood sodium level,1.01268E+15,2.5788E+15,Blood sodium level
+86,44h2.,Chloride ion,XaDvb,Yae4Q,Blood chloride level,1.01269E+15,2.5827E+15,Blood chloride level
+87,44h3.,Actual Bicarb.,XaDvc,Yae4R,Blood bicarbonate level,1.0127E+15,2.57448E+15,Blood bicarbonate level
+88,44H4.,Total CK,44H4.,Y7Fbb,Creatine kinase level,1.0281E+15,2.60227E+15,Creatine kinase level
+89,44H5.,Asp Amino Trans,XE25Q,Y7FbX,Aspartate transaminase level,1.0311E+15,2.64308E+15,Aspartate aminotransferase level
+90,44hB.,Actual Bicarbonate,XaJp7,Yamvp,Actual bicarbonate level,1.018E+15,2.5835E+15,Actual bicarbonate level
+91,44HB.,AST,X771i,Y7Fba,AST serum level,1.00088E+15,2.55585E+15,Serum aspartate aminotransferase level
+92,44hC.,Standard Bicarbonate,XaJp8,Yamvq,Standard bicarbonate level,1.01801E+15,2.56596E+15,Standard bicarbonate level
+93,44hD.,Calcium (ionised),XaX4E,Yatwh,Blood ionised calcium level,1.00652E+15,2.58593E+15,Blood ionised calcium level
+94,44HF.,Lactate Dehydrogenase,XaES8,Yaetu,Serum LDH level,1.00092E+15,2.5773E+15,Serum lactate dehydrogenase level
+95,44HG.,Serum creatine kinase level,XaES5,Yaetr,Serum creatine kinase level,1.00093E+15,2.56092E+15,Serum creatine kinase level
+96,44I4.,Potassium,XE2pz,Yabas,Serum potassium level,1.00065E+15,2.57301E+15,Serum potassium level
+97,44I5.,Sodium,XE2q0,Yabat,Serum sodium level,1.00066E+15,2.56086E+15,Serum sodium level
+98,44I6.,Chloride,XE2q1,Yabbt,Serum chloride level,1.00067E+15,2.56087E+15,Serum chloride level
+99,44I7.,Bicarbonate,XE2q2,Yabau,Serum bicarbonate level,1.00068E+15,2.57174E+15,Serum bicarbonate level
+100,44I8.,Calcium,XE2q3,Yabav,Serum calcium level,1.00069E+15,2.56088E+15,Serum calcium level
+101,44I9.,Phosphate,XE2q4,Yabbu,Serum inorgan phosphate level,1.0007E+15,2.57302E+15,Serum inorganic phosphate level
+102,44IA.,Anion Gap,XE2mk,Yabaw,Plasma anion gap level,1.00071E+15,2.57175E+15,Plasma anion gap
+103,44IC.,Corrected serum calcium level,Xabpk,Yaxbx,Serum adjusted calcium conc,9.35051E+14,2.39507E+15,Serum adjusted calcium concentration
+104,44ID.,Ionised Calcium,XaIU0,YakwM,Serum ionised calcium level,1.01323E+15,2.56531E+15,Serum ionised calcium level
+105,44J3.,Creatinine,XE2q5,Yabay,Serum creatinine level,1.00073E+15,2.57727E+15,Serum creatinine level
+106,44J9.,Urea,XM0lt,YMGpD,Serum urea level,1.00095E+15,2.56093E+15,Serum urea level
+107,44K5.,Urate,XM0ls,Yae4e,Serum urate level,1.00102E+15,2.56031E+15,Serum urate level
+108,44L2.,Magnesium,XE2qw,Yabb1,Blood magnesium level,1.00076E+15,2.57728E+15,Blood magnesium level
+109,44LA.,Serum vitamin D,XE2e7,YabTU,Serum vitamin D level,1.03118E+15,2.60059E+15,Serum vitamin D level
+110,44lD.,U Protein:Creatinine,XaEMS,YaeoE,Urine protein/creatinine ratio,1.02873E+15,2.60161E+15,Urine protein/creatinine ratio
+111,44LD.,Serum magnesium level,XM0m2,YMGpr,Serum magnesium level,1.00109E+15,2.56381E+15,Serum magnesium level
+112,44lF.,Cholesterol/HDL ratio,XaEUq,Yaeyx,Serum cholesterol/HDL ratio,1.01568E+15,2.57485E+15,Serum cholesterol/high density lipoprotein ratio
+113,44M3.,Total Protein,XE2e9,YabTW,Serum total protein level,1.00081E+15,2.57729E+15,Serum total protein
+114,44M4.,Albumin,XE2eA,YabTX,Serum albumin level,1.00082E+15,2.57178E+15,Serum albumin level
+115,44MB.,Monoclonal Band,44MB.,YaaWk,Serum paraprotein level,1.01525E+15,2.55261E+15,Serum paraprotein level
+116,44MC.,Troponin T,44MC.,YaaWn,Serum troponin T level,1.01526E+15,2.57908E+15,Serum troponin T level
+117,44ME.,Troponin I hs,XaEQ3,Yaerp,Plasma troponin I level,1.00125E+15,2.56034E+15,Plasma troponin I level
+118,44MG.,Serum troponin I level,XaEOK,Yaeq6,Serum troponin I level,1.00127E+15,2.56385E+15,Serum troponin I level
+119,44N..,Prot E'phoresis,XE25U,Y7GOh,Serum protein electrophoresis,1.02218E+15,2.55864E+15,Serum protein electrophoresis
+120,44NA.,Protein electrophoresis,X77Wb,Y7GOT,Protein electrophoresis,1.01715E+15,2.58339E+15,Protein electrophoresis
+121,44p..,Icteric,X77W9,Y7GNE,Biochemical test,1.01579E+15,2.58015E+15,Biochemical test
+122,44P..,Serum cholesterol,XE2eD,YabTa,Serum cholesterol level,1.00567E+15,2.55127E+15,Serum cholesterol level
+123,44P5.,HDL Cholesterol,44P5.,Y7FfN,Serum HDL cholesterol level,1.00568E+15,2.5779E+15,Serum high density lipoprotein cholesterol level
+124,44P6.,LDL Cholesterol,44P6.,Y7FfR,Serum LDL cholesterol level,1.02219E+15,2.56658E+15,Serum low density lipoprotein cholesterol level
+125,44PF.,Total cholesterol:HDL ratio,44PF.,YaaCs,Total cholesterol:HDL ratio,1.02855E+15,2.6027E+15,Total cholesterol:HDL (high density lipoprotein) ratio
+126,44PI.,LDL-Cholest (calc'd),XaIp4,YalPw,Calculated LDL cholesterol lev,1.0145E+15,2.5525E+15,Calculated LDL (low density lipoprotein) cholesterol level
+127,44PJ.,Cholesterol,XaJe9,YamiI,Serum total cholesterol level,9.94351E+14,2.58145E+15,Serum total cholesterol level
+128,44PL0,Non-HDL Cholesterol,XabE1,Yax1a,Se non HDL cholesterol level,1.00619E+15,2.58586E+15,Serum non high density lipoprotein cholesterol level
+129,44Q..,Triglyceride,XE2q9,Yabb5,Serum triglyceride levels,1.00569E+15,2.55128E+15,Serum triglycerides level
+130,44q5.,Cannabinoids,XaEXI,Yaf2o,Urine cannabinoids screen test,1.01585E+15,2.58016E+15,Urine cannabinoids screening test
+131,44qF.,Amphetamines,XaEXd,YaloP,Urine amfetamine screen test,1.01595E+15,2.56269E+15,Urine amphetamine screening test
+132,44TJ.,Blood glucose,X772z,Y7FhO,Blood glucose level,9.97671E+14,2.56346E+15,Blood glucose level
+133,44uI.,Tacrolimus,XaIaR,Yal3m,Blood tacrolimus level,1.02628E+15,2.60422E+15,Blood tacrolimus level
+134,44WY.,Gentamicin,XaEPt,Yaerf,Serum gentamicin level,1.00693E+15,2.56158E+15,Serum gentamicin level
+135,44Y2.,pH,XE2mu,YabbD,Blood arterial pH level,1.00706E+15,2.55665E+15,Blood arterial pH
+136,44Y4.,pO2,44Y4.,Y7FXI,Arterial part press of oxygen,1.00708E+15,2.56461E+15,Arterial oxygen level
+137,44Y6.,pCO2,44Y6.,Y7FXv,Arterial partial press CO2,1.0071E+15,2.5853E+15,Arterial carbon dioxide
+138,44YA.,Oxygen Saturation,X7708,Y7FXX,Blood oxygen saturation,103228002,260893019,Haemoglobin saturation with oxygen
+139,44YD.,cH+/Hydrogen Ion,X770Y,Yakeh,Hydrogen ion concn - obsvn,27327002,45688013,Hydrogen ion concentration
+140,44ZG.,Base Excess,X806v,Y80ER,Base excess,1.00722E+15,2.58532E+15,Base excess
+141,44ZJ.,Point of care Blood Ketones,XaIbw,Yal5H,Blood ketone level,1.01733E+15,2.57502E+15,Blood ketone level
+142,44ZP.,Lactate,XaIn4,YalLA,Arterial blood lactate level,1.01459E+15,2.55758E+15,Arterial blood lactate level
+143,451E.,GFR calculated abbreviatd MDRD,XaK8y,YanME,GFR calculated abbreviatd MDRD,1.02029E+15,2.56978E+15,GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation
+144,451G.,GFR calctd abbtd MDRD Af Am or,XaMDA,YapMb,GFR calctd abbtd MDRD Af Am or,9.96231E+14,2.58164E+15,GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation adjusted for African American origin
+145,451L.,AKI warning stage,XabmE,YaxY7,AKI warning stage,1.00792E+15,2.5516E+15,Acute kidney injury warning stage
+146,46I..,24hr Urine Vol,XE2mw,Y7FPO,24 hour urine volume,395060000,2161316017,24 hour urine output
+147,46M7.,Creatinine (Urine),XE2qO,Yabby,Urine creatinine level,1.00327E+15,2.57332E+15,Urine creatinine level
+148,46N..,Urine Protein Conc,XE2eG,YabTc,Urine protein level,1.02881E+15,2.60061E+15,Urine protein level
+149,46N3.,Urine Protein,XE2eH,YabTd,Urine total protein level,1.00329E+15,2.58476E+15,Urine total protein
+150,46N4.,Urine Albumin,XE2eI,YabTe,Urine albumin level,1.0033E+15,2.55615E+15,Urine albumin level
+151,46O3.,Urine: Bence Jones' protein,XE2qS,YabbT,Urine Bence Jones protein lev,1.01538E+15,2.57912E+15,Urine Bence Jones protein
+152,46Q8.,Benzodiazepines,XE2my,YabbZ,Urine benzodiazepine level,1.02755E+15,2.60019E+15,Urine benzodiazepine level
+153,46QA.,Cocaine,XE2n0,Yabbb,Urine cocaine level,1.02756E+15,2.6002E+15,Urine cocaine level
+154,46QB.,Methadone,XE2n1,Yabbc,Urine methadone level,1.02757E+15,2.60021E+15,Urine methadone level
+155,46QF.,Opiates,XaCFE,Yaeec,Urine opiates screening,1.01584E+15,2.55774E+15,Urine opiates screening test
+156,46TC.,Urine albumin:creatinine ratio,XE2n3,Yaf2H,Urine albumin/creatinine ratio,1.02349E+15,2.55359E+15,Urine albumin:creatinine ratio
+157,46W..,Urine microalbumin,XE2bw,YadvR,Urine microalbumin level,1.01025E+15,2.58644E+15,Urine microalbumin level
+158,47K..,Quantitv faecal immunochem tst,Xaf0H,YayxK,Quantitv faecal immunochem tst,1.04936E+15,2.64329E+15,Quantitative faecal immunochemical test
+159,4I3L.,Urine volume (ml),XaENi,YaepU,Urine volume,9.93701E+14,2.57632E+15,Urine volume
+160,4IA1.,Sample appearance,XaJAl,Yam8R,Sample appearance,407708003,2159302010,Sample appearance
+161,4JR1.,Hepatitis B screening test,XaEXZ,Yaf35,Hepatitis B screening test,1.00927E+15,2.56183E+15,Hepatitis B screening test
+162,4Q3J.,f-Calprotectin-ALP,XaPbu,YasFO,Calprotectin level,1.03158E+15,2.59632E+15,Calprotectin level
+163,4QA..,Lipaemia,X772K,Y7Ff6,Lipid level,1.02083E+15,2.55329E+15,Lipid level
+164,68W1.,Anti-tTG IgA (DS2),XaIc7,Yal5S,Coeliac disease screen,9.93861E+14,2.55488E+15,Coeliac disease screen
+165,FIO2,Ventilation / O2%,NA,NA,NA,NA,NA,NA
+166,PHHB,Deoxyhaemoglobin,NA,NA,NA,NA,NA,NA
+167,PHT,cH+ (temp corrected),NA,NA,NA,NA,NA,NA
+168,PPCO2T,PCO2 (temp corrected,NA,NA,NA,NA,NA,NA
+169,PPO2T,PO2 (temp corrected),NA,NA,NA,NA,NA,NA
+170,PTCR,PT Ratio,NA,NA,NA,NA,NA,NA
+171,PTEMP,Patient Temperature,NA,NA,NA,NA,NA,NA
+172,STYP,POC Specimen Type,NA,NA,NA,NA,NA,NA
+173,Table,Microbiology,NA,NA,NA,NA,NA,NA
+174,TCT,Thrombin time,NA,NA,NA,NA,NA,NA
+175,TCTR,TCT ratio,NA,NA,NA,NA,NA,NA
+176,UPRO24,Urine Protein/volume,NA,NA,NA,NA,NA,NA
+177,VLDLC,VLDL-Chol (calc'd),NA,NA,NA,NA,NA,NA
+178,WCV,2019 NCoV,NA,NA,NA,NA,NA,NA
+179,XZXCVS,SARS-CoV-2,NA,NA,NA,NA,NA,NA
+180,XZXCVSN,SARS-CoV-2,NA,NA,NA,NA,NA,NA
