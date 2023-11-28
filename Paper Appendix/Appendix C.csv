@@ -1,5 +1,4 @@
-This file provides the mapping relationship between read code and SNOMED CT code for the 180 selected tests. This mapping is based on Read Code to SNOMED CT mapping has been established by NHS England. There were 16 ReadCode from Glasgow Safe Haven not able to map into SNOMED CT.,,,,,,,,
-,,,,,,,,
+This file provides the mapping relationship between read code and SNOMED CT code for the 180 selected tests. This mapping is based on Read Code to SNOMED CT mapping has been established by NHS England. There were 16 ReadCode from Glasgow Safe Haven not able to map into SNOMED CT.,
 ,ReadCode,readCodeDescription,V3_READ_CODE,V3_TERM_ID,V3_TERM,SNOMED_CONCEPT_ID,SNOMED_DESCRIPTION_ID,SNOMED_TERM
 1,421B.,Blood film microscopy,X77bL,Y7GZU,Blood film microscopy,1.02227E+15,2.56721E+15,Blood film microscopy
 2,423..,Haemoglobin,Xa96v,Y7FBh,Haemoglobin concentration,1.02243E+15,2.55347E+15,Haemoglobin estimation
