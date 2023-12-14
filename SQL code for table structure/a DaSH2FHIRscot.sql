@@ -1,6 +1,7 @@
 --------- DaSH's lab data only contains biochemistry and haematology data 
 --------- Tests does not comes with readcode have been excluded from furture study
 use RDMP_3564_ExampleData
+DROP TABLE DaSH_v2
 select *, 
 substring(Reference_Range, 1, CHARINDEX('{', Reference_Range)-1) as "low",
 substring(Reference_Range, CHARINDEX('{', Reference_Range)+1, LEN(Reference_Range) ) as "high"
@@ -9,7 +10,7 @@ from dbo.DaSH;
 
 DROP TABLE FHIR_DaSH
 CREATE TABLE dbo.FHIR_DaSH (
-personId         VARCHAR(50) NOT NULL,
+subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
 effectiveDate     DATETIME,
@@ -18,15 +19,15 @@ valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
 referenceRangeHigh    REAL NULL,
 referenceRangeLow     REAL NULL,
-encounterId       VARCHAR(50) NULL,
-specimentType      VARCHAR(50) NULL,
+encounter       VARCHAR(50) NULL,
+specimen      VARCHAR(50) NULL,
 healthBoard       VARCHAR(50) NULL,
 readCodeDescription  VARCHAR(250) NULL
 );
 
 INSERT INTO FHIR_DaSH
 (
-    personId,
+    subject,
     category,
     code,
     effectiveDate,
@@ -35,14 +36,14 @@ INSERT INTO FHIR_DaSH
     valueString,
     referenceRangeHigh,
     referenceRangeLow,
-    encounterId,
-    specimentType,
+    encounter,
+    specimen,
     healthBoard,
     readCodeDescription
 )
 
 SELECT
-    prochi AS personId,
+    prochi AS subject,
 
     category AS category,
 
@@ -72,9 +73,9 @@ SELECT
 
     low AS referenceRangeLow,
 
-    NULL AS encounterid,
+    NULL AS encounter,
 
-    NULL AS specimenttype,
+    NULL AS specimen,
 
     'Grampian' AS healthboard,
 

@@ -18,7 +18,7 @@ delete FROM dbo.FHIR_DaSH where code='';
 -------------------------------------------------------------------------------------------
 DROP TABLE HIC_ReadCodeAggregates
 ;WITH readCodeCount AS (
-SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT personId) AS patientCount
+SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_HIC
 GROUP BY code
 ) 
@@ -34,7 +34,7 @@ FROM readCodeCount
 -------------------------------------------------------------------------------------------
 DROP TABLE Glasgow_ReadCodeAggregates
 ;WITH readCodeCount AS (
-SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT personId) AS patientCount
+SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_Glasgow
 GROUP BY code
 ) 
@@ -48,7 +48,7 @@ FROM readCodeCount
 -------------------------------------------------------------------------------------------
 DROP TABLE Lothian_ReadCodeAggregates
 ;WITH readCodeCount AS (
-SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT personId) AS patientCount
+SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_Lothian
 GROUP BY code
 ) 
@@ -63,7 +63,7 @@ FROM readCodeCount
 --- recordCountPercent is the % value * 10 for some reason, cannot have float on the results
 DROP TABLE DaSH_ReadCodeAggregates
 ;with readCodeCount as (
-SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT personId) AS patientCount
+SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_DaSH
 GROUP BY code
 )

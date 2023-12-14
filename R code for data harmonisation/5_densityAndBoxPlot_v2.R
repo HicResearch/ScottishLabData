@@ -10,8 +10,13 @@ library(eeptools)
 library(plyr)
 library(dplyr)
 
-#### set the working directory #######
-setwd("C:/Users/Administrator/Desktop/ScottishLabData")
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "sql.hic-tre.dundee.ac.uk",
+                 Database = "RDMP_3564_ExampleData",
+                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
+
+
 source("0_functions.R")
 
 load("./data/selectedCodes.RData")
@@ -25,10 +30,11 @@ i=1
 for (rc in ReadCodeList) {
 ####### load raw data  ############
   print(i)
-  D <- data.frame(personId = character(), t = double(), effectiveDate =character(), From = character())
+  D <- data.frame(subject = character(), t = double(), effectiveDate =character(), From = character())
   for (SH in SHList) {
-    load(paste0("./data/raw_",SH,"_",rc,"D.RData"))
+    Q = paste0("SELECT * FROM FHIR_", SH," WHERE code = '", rc,"'")
     
+    data <- dbGetQuery(con, Q)
     t <- data[data$code==rc,"valueUnit"]
     if (length(t)[1]!=0) {
       tt <- unique(t)
@@ -36,7 +42,7 @@ for (rc in ReadCodeList) {
       tt <- tt[tt!=""]
       }
     
-    t <- data[data$code==rc,c("personId","referenceRangeHigh","referenceRangeLow" )]
+    t <- data[data$code==rc,c("subject","referenceRangeHigh","referenceRangeLow" )]
     if (dim(t)[1]!=0) {
       t$range <- paste0(round(t$referenceRangeLow,3),"--", round(t$referenceRangeHigh,3))
       tt <- unique(t$range)
@@ -50,8 +56,8 @@ for (rc in ReadCodeList) {
     if (length(t)!=0) {
       t <- as.numeric(t)
       # save data to D for plot
-      d <- data[,c("personId","valueQuantity","effectiveDate")]
-      colnames(d) <- c("personId","t", "effectiveDate")
+      d <- data[,c("subject","valueQuantity","effectiveDate")]
+      colnames(d) <- c("subject","t", "effectiveDate")
       d$t <- as.numeric(d$t)
       d$From <- SH
       D <- rbind(D, d)
@@ -67,15 +73,15 @@ for (rc in ReadCodeList) {
 ###### load preprocessed data  ###########
   
   #print(i)
-  D <- data.frame(personId = character(), t = double(), effectiveDate =character(), From = character())
+  D <- data.frame(subject = character(), t = double(), effectiveDate =character(), From = character())
   for (SH in SHList) {
     load(paste0("./data/",SH,"_",rc,"D.RData"))
     t <- data[,c("valueQuantity" )]
     t <- t[!is.na(t)]
     if (length(t)!=0) {
       t <- as.numeric(t)
-      d <- data[,c("personId","valueQuantity","effectiveDate")]
-      colnames(d) <- c("personId","t", "effectiveDate")
+      d <- data[,c("subject","valueQuantity","effectiveDate")]
+      colnames(d) <- c("subject","t", "effectiveDate")
       d$t <- as.numeric(d$t)
       d$From <- SH
       D <- rbind(D, d)
@@ -257,9 +263,40 @@ par(mfrow=c(2,4))
 ######## plot the scatter plot ##########
 #########################################
   D <- D_preprocessed
-  load("./data/Demography.RData")
+  
+  ## load demography ##############
+  TblRead <- DBI::Id(
+    schema = "dbo",
+    table = "Demography_HIC")
+  TblRead2 <- DBI::Id(
+    schema = "dbo",
+    table = "Demography_Glasgow")
+  TblRead3 <- DBI::Id(
+    schema = "dbo",
+    table = "Demography_Lothian")
+  TblRead4 <- DBI::Id(
+    schema = "dbo",
+    table = "Demography_DaSH")
+  
+  #This reads the above table as defined under TblRead
+  Demography_HIC <- dbReadTable(con, TblRead)
+  Demography_Glasgow <- dbReadTable(con, TblRead2)
+  Demography_Lothian <- dbReadTable(con, TblRead3)
+  Demography_DaSH <- dbReadTable(con, TblRead4)
+  Demography_Lothian$anon_date_of_birth <- as.Date(as.character(Demography_Lothian$anon_date_of_birth),format = "%d/%m/%Y")
+  Demography_HIC$From <- "HIC"
+  Demography_Glasgow$From <- "Glasgow"
+  Demography_DaSH$From <- "DaSH"
+  Demography_Lothian$From <- "Lothian"
+  Demography <- rbind(Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                      Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                      Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                      Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth","From")])
+  Demography <- unique(Demography)
+  
+  
   colnames(D)[2] <- "Value"
-  D <- merge(D, Demography[,c("PROCHI","sex","anon_date_of_birth")], by.x="personId", by.y="PROCHI")
+  D <- merge(D, Demography[,c("PROCHI","sex","anon_date_of_birth")], by.x="subject", by.y="PROCHI")
   ### group based on sex and age then plot
   ## age at test
   D$CalculatedAge <- floor(age_calc(as.Date(as.character(D$anon_date_of_birth,format("%Y-%m-%d"))), 
@@ -297,6 +334,7 @@ par(mfrow=c(2,4))
     scale_fill_brewer(palette="BuPu") +
     xlab("Age band at test") +
     ylab("valueQuantity") +
+    ylim(0, 180) +
     theme_grey(base_size = 18)
   ###### ggsave ########################
   ggsave(paste0("./plot/b_",rc,"_rplot.png"), width = 10, height = 4.7, dpi=120,unit="in")

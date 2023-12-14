@@ -64,11 +64,21 @@ unitTransferFunction <- function(data,unitinfor) {
     rules <- strsplit(as.character(unitinfor$Rule),";")
     for (rulenumber in 1:length(rules[[1]])) {
       r=rules[[1]][rulenumber] 
-      r_u <- lapply(strsplit(as.character(r)," "),function(x) x[pmax(0,which(x=="value")-1)])
-      r_r <- lapply(strsplit(as.character(r)," "),function(x) x[pmax(0,which(x=="value")+1)])
-      if (dim(na.omit(data[data$code==rc & data$valueUnit==r_u,]))[1]>0) { 
-        data[data$code==rc & data$valueUnit==r_u,"valueQuantity"] <- as.double(r_r)*data[data$code==rc & data$valueUnit==r_u,"valueQuantity"] 
+      if (r=="exclude from analysis") {
+        data <- data[0, ]
+      } else {
+        r_u <- lapply(strsplit(as.character(r)," "),function(x) x[pmax(0,which(x=="value")-1)])
+        r_r <- lapply(strsplit(as.character(r)," "),function(x) x[pmax(0,which(x=="value")+1)])
+        if (r_r=="delete") {
+          data <- data[!data$valueUnit==r_u,]
+        } else { 
+          if (dim(na.omit(data[data$code==rc & data$valueUnit==r_u,]))[1]>0) {
+            data[data$code==rc & data$valueUnit==r_u,"valueQuantity"] <- as.double(r_r)*data[data$code==rc & data$valueUnit==r_u,"valueQuantity"]
+          }
+        }  
       }
+      
+      
     }
     if (dim(data[data$code==rc,])[1]>0)
       data[data$code==rc,"valueUnit"] <- unitinfor$Unit

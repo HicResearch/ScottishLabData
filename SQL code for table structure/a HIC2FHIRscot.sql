@@ -1,9 +1,9 @@
 --------- HIC's pathology and microbiology data does not comes with readcode, they have been excluded from furture study
-
+use RDMP_3564_ExampleData
 
 DROP TABLE FHIR_HIC
 CREATE TABLE dbo.FHIR_HIC (
-personId         VARCHAR(50) NOT NULL,
+subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
 effectiveDate     DATETIME,
@@ -12,8 +12,8 @@ valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
 referenceRangeHigh    REAL NULL,
 referenceRangeLow     REAL NULL,
-encounterId       VARCHAR(50) NULL,
-specimentType      VARCHAR(50) NULL,
+encounter       VARCHAR(50) NULL,
+specimen      VARCHAR(50) NULL,
 healthBoard       VARCHAR(50) NULL,
 readCodeDescription  VARCHAR(250) NULL
 );
@@ -23,7 +23,7 @@ readCodeDescription  VARCHAR(250) NULL
 --------------------------------------------------------------------
 INSERT INTO FHIR_HIC
 (
-    personId,
+    subject,
     category,
     code,
     effectiveDate,
@@ -32,13 +32,13 @@ INSERT INTO FHIR_HIC
     valueString,
     referenceRangeHigh,
     referenceRangeLow,
-    encounterId,
-    specimentType,
+    encounter,
+    specimen,
     healthBoard,
     readCodeDescription
 )
 SELECT
-    prochi AS personid,
+    prochi AS subject,
 
     'Biochemistry' AS category,
 
@@ -63,9 +63,9 @@ SELECT
 
     rangelowvalue AS referenceRangeLow,
 
-    testreportid AS encounterId,
+    testreportid AS encounter,
 
-    samplename AS specimentType,
+    samplename AS specimen,
 
     hb_extract AS healthBoard,
 
@@ -79,7 +79,7 @@ FROM dbo.Labs_Biochem
 --------------------------------------------------------------------
 INSERT INTO FHIR_HIC
 (
-    personId,
+    subject,
     category,
     code,
     effectiveDate,
@@ -88,13 +88,13 @@ INSERT INTO FHIR_HIC
     valueString,
     referenceRangeHigh,
     referenceRangeLow,
-    encounterId,
-    specimentType,
+    encounter,
+    specimen,
     healthBoard,
     readCodeDescription
 )
 SELECT
-    prochi AS personId,
+    prochi AS subject,
 
     'Haematology' AS category,
 
@@ -119,9 +119,9 @@ SELECT
 
     rangelowvalue AS referenceRangeLow,
 
-    testidentifier AS encounterId,
+    testidentifier AS encounter,
 
-    samplename AS specimentType,
+    samplename AS specimen,
 
     hb_extract AS healthBoard,
 
@@ -135,7 +135,7 @@ WHERE ReadCodeValue IS NOT NULL;
 --------------------------------------------------------------------
 INSERT INTO FHIR_HIC
 (
-    personId,
+    subject,
     category,
     code,
     effectiveDate,
@@ -144,13 +144,13 @@ INSERT INTO FHIR_HIC
     valueString,
     referenceRangeHigh,
     referenceRangeLow,
-    encounterId,
-    specimentType,
+    encounter,
+    specimen,
     healthBoard,
     readCodeDescription
 )
 SELECT
-    prochi AS personId,
+    prochi AS subject,
 
     'Immunology' AS category,
 
@@ -169,10 +169,10 @@ SELECT
     rangelowvalue AS referenceRangeLow,
 
  -- [!WARNING!] no source column found. 
-    NULL AS encounterId,
+    NULL AS encounter,
 
  -- [!WARNING!] no source column found. 
-    NULL AS specimentType,
+    NULL AS specimen,
 
     hb_extract AS healthBoard,
 
@@ -194,7 +194,7 @@ ALTER COLUMN datetimesampled datetime NULL;
 
 INSERT INTO FHIR_HIC
 (
-    personId,
+    subject,
     category,
     code,
     effectiveDate,
@@ -203,13 +203,13 @@ INSERT INTO FHIR_HIC
     valueString,
     referenceRangeHigh,
     referenceRangeLow,
-    encounterId,
-    specimentType,
+    encounter,
+    specimen,
     healthBoard,
     readCodeDescription
 )
 SELECT
-    prochi AS personId,
+    prochi AS subject,
 
     'Virology' AS category,
 
@@ -234,9 +234,9 @@ SELECT
 
     rangelowvalue AS referenceRangeLow,
 
-    testreportid AS encounterId,
+    testreportid AS encounter,
 
-    samplename AS specimentType,
+    samplename AS specimen,
 
     hb_extract AS healthBoard,
 

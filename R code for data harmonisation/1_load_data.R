@@ -4,7 +4,6 @@ rm(list = ls())
 ######################################
 ######## install packages ############
 ######################################
-
 install.packages("DBI")
 install.packages("odbc")
 install.packages("dplyr")
@@ -13,6 +12,8 @@ install.packages("haven")
 install.packages("writexl")
 install.packages("tidyverse")
 install.packages("plotly")
+install.packages("ggvenn")
+library(ggvenn)
 library(odbc)
 library(DBI)
 library(dplyr)
@@ -96,35 +97,6 @@ rm(D)
 ####################################################################
 ################# load demography data table #######################
 ####################################################################
-#NOTE: Replace 'FHIR_HIC' with the table name.
-TblRead <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_HIC")
-TblRead2 <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_Glasgow")
-TblRead3 <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_Lothian")
-TblRead4 <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_DaSH")
-
-#This reads the above table as defined under TblRead
-Demography_HIC <- dbReadTable(con, TblRead)
-Demography_Glasgow <- dbReadTable(con, TblRead2)
-Demography_Lothian <- dbReadTable(con, TblRead3)
-Demography_DaSH <- dbReadTable(con, TblRead4)
-Demography_Lothian$anon_date_of_birth <- as.Date(as.character(Demography_Lothian$anon_date_of_birth),format = "%d/%m/%Y")
-Demography_HIC$From <- "HIC"
-Demography_Glasgow$From <- "Glasgow"
-Demography_DaSH$From <- "DaSH"
-Demography_Lothian$From <- "Lothian"
-Demography <- rbind(Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth","From")])
-Demography <- unique(Demography)
 #### tt will have the duplicated records ####
 p_dup <- Demography[duplicated(Demography$PROCHI), "PROCHI"] 
 tt <- Demography[Demography$PROCHI %in% p_dup,]

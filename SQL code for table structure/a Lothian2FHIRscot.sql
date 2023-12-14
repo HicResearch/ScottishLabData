@@ -1,6 +1,10 @@
+use RDMP_3564_ExampleData
+
 --------------------------------------------------------------------
 ---------- TestCode to ReadCode ------------------------------------
 --------------------------------------------------------------------
+
+DROP dbo.Lothian_ReadCode
 SELECT *
 Into dbo.Lothian_ReadCode
 FROM 
@@ -16,6 +20,7 @@ ON b.TestItemCode = lkp.Test_Code;
 --------------------------------------------------------------------
 --------------- Add Unit Information -------------------------------
 --------------------------------------------------------------------
+DROP dbo.Lothian_ReadCode_Unit
 SELECT *
 Into dbo.Lothian_ReadCode_Unit
 FROM 
@@ -34,7 +39,7 @@ ON b.TestItemCode = lkp.CTTC_Code;
 --------------------------------------------------------------------
 DROP TABLE FHIR_Lothian
 CREATE TABLE dbo.FHIR_Lothian (
-personId         VARCHAR(50) NOT NULL,
+subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
 effectiveDate     DATETIME,
@@ -43,8 +48,8 @@ valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
 referenceRangeHigh    REAL NULL,
 referenceRangeLow     REAL NULL,
-encounterId       VARCHAR(50) NULL,
-specimentType      VARCHAR(50) NULL,
+encounter       VARCHAR(50) NULL,
+specimen      VARCHAR(50) NULL,
 healthBoard       VARCHAR(50) NULL,
 readCodeDescription  VARCHAR(250) NULL
 );
@@ -52,7 +57,7 @@ readCodeDescription  VARCHAR(250) NULL
 
 INSERT INTO FHIR_Lothian
 (
-    personId,
+    subject,
     category,
     code,
     effectiveDate,
@@ -61,13 +66,13 @@ INSERT INTO FHIR_Lothian
     valueString,
     referenceRangeHigh,
     referenceRangeLow,
-    encounterId,
-    specimentType,
+    encounter,
+    specimen,
     healthBoard,
     readCodeDescription
 )
 SELECT
-    prochi AS personId,
+    prochi AS subject,
 
     ordersubcategory AS category,
 
@@ -99,9 +104,9 @@ SELECT
      end
        ) AS referenceRangeLow,
 
-    orderid AS encounterId,
+    orderid AS encounter,
 
-    specimentype AS specimentType,
+    specimentype AS specimen,
 
     'Lothian' AS healthboard,
 

@@ -14,46 +14,80 @@ library(plyr)
 library(dplyr)
 library(gridExtra)
 library(RColorBrewer)
+
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "sql.hic-tre.dundee.ac.uk",
+                 Database = "RDMP_3564_ExampleData",
+                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
+
 #########################################
 ###### Scatter plot for referenceRange ##
 ############### 22/08/2023 ##############
-#### set the working directory #######
-setwd("C:/Users/Administrator/Desktop/ScottishLabData")
-getwd()
-load("./data/Demography.RData")
+## load demography ##############
+TblRead <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_HIC")
+TblRead2 <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_Glasgow")
+TblRead3 <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_Lothian")
+TblRead4 <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_DaSH")
+
+#This reads the above table as defined under TblRead
+Demography_HIC <- dbReadTable(con, TblRead)
+Demography_Glasgow <- dbReadTable(con, TblRead2)
+Demography_Lothian <- dbReadTable(con, TblRead3)
+Demography_DaSH <- dbReadTable(con, TblRead4)
+Demography_Lothian$anon_date_of_birth <- as.Date(as.character(Demography_Lothian$anon_date_of_birth),format = "%d/%m/%Y")
+Demography_HIC$From <- "HIC"
+Demography_Glasgow$From <- "Glasgow"
+Demography_DaSH$From <- "DaSH"
+Demography_Lothian$From <- "Lothian"
+Demography <- rbind(Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                    Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                    Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                    Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth","From")])
+Demography <- unique(Demography)
+
 SHList <- c("HIC","Glasgow","Lothian","DaSH")
 rc="43Z2."
 #print(i)
 data_allfour <- c()
 for (SH in SHList) {
-  load(paste0("./data/raw_",SH,"_",rc,"D.RData"))
+  Q = paste0("SELECT * FROM FHIR_", SH," WHERE code = '", rc,"'")
+  data <- dbGetQuery(con, Q)
   data_allfour <- rbind(data_allfour, data)
 }
 #########################################################################################
 #HIC
-t <- data_allfour[data_allfour$healthBoard=="F"|data_allfour$healthBoard=="T",c("personId","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
-t <- merge(t, Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "personId", by.y = "PROCHI")
+t <- data_allfour[data_allfour$healthBoard=="F"|data_allfour$healthBoard=="T",c("subject","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
+t <- merge(t, Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "subject", by.y = "PROCHI")
 t$range <- paste0(round(t$referenceRangeLow,3),"--", round(t$referenceRangeHigh,3))
 t$SafeHaven <- "HIC"
 D <- t
 
 #Glasgow
-t <- data_allfour[data_allfour$healthBoard=="Glasgow",c("personId","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
-t <- merge(t, Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "personId", by.y = "PROCHI")
+t <- data_allfour[data_allfour$healthBoard=="Glasgow",c("subject","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
+t <- merge(t, Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "subject", by.y = "PROCHI")
 t$range <- paste0(round(t$referenceRangeLow,3),"--", round(t$referenceRangeHigh,3))
 t$SafeHaven <- "Glasgow"
 D <- rbind(D, t)
 
 #Lothian
-t <- data_allfour[data_allfour$healthBoard=="Lothian",c("personId","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
-t <- merge(t, Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "personId", by.y = "PROCHI")
+t <- data_allfour[data_allfour$healthBoard=="Lothian",c("subject","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
+t <- merge(t, Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "subject", by.y = "PROCHI")
 t$range <- paste0(round(t$referenceRangeLow,3),"--", round(t$referenceRangeHigh,3))
 t$SafeHaven <- "DataLoch"
 D <- rbind(D, t)
 
 #DaSH
-t <- data_allfour[data_allfour$healthBoard=="Grampian",c("personId","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
-t <- merge(t, Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "personId", by.y = "PROCHI")
+t <- data_allfour[data_allfour$healthBoard=="Grampian",c("subject","referenceRangeHigh","referenceRangeLow","effectiveDate" )]
+t <- merge(t, Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth")], by.x = "subject", by.y = "PROCHI")
 t$range <- paste0(round(t$referenceRangeLow,3),"--", round(t$referenceRangeHigh,3))
 t$SafeHaven <- "DaSH"
 D <- rbind(D, t)

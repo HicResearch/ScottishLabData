@@ -3,12 +3,47 @@
 
 rm(list = ls()); gc()
 
-load("./data/Demography.RData")
 install.packages("ggpubr")
 library(eeptools)
 library(ggpubr)
 library(RColorBrewer)
 display.brewer.all()
+
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "sql.hic-tre.dundee.ac.uk",
+                 Database = "RDMP_3564_ExampleData",
+                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
+
+## load demography ##############
+TblRead <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_HIC")
+TblRead2 <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_Glasgow")
+TblRead3 <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_Lothian")
+TblRead4 <- DBI::Id(
+  schema = "dbo",
+  table = "Demography_DaSH")
+
+#This reads the above table as defined under TblRead
+Demography_HIC <- dbReadTable(con, TblRead)
+Demography_Glasgow <- dbReadTable(con, TblRead2)
+Demography_Lothian <- dbReadTable(con, TblRead3)
+Demography_DaSH <- dbReadTable(con, TblRead4)
+Demography_Lothian$anon_date_of_birth <- as.Date(as.character(Demography_Lothian$anon_date_of_birth),format = "%d/%m/%Y")
+Demography_HIC$From <- "HIC"
+Demography_Glasgow$From <- "Glasgow"
+Demography_DaSH$From <- "DaSH"
+Demography_Lothian$From <- "Lothian"
+Demography <- rbind(Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                    Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                    Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
+                    Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth","From")])
+Demography <- unique(Demography)
 
 ###### change SCSIMD5 0 into NA #################
 Demography_HIC[Demography_HIC$SCSIMD5==0,"SCSIMD5"] =NA
@@ -42,7 +77,7 @@ dprivation <- ggplot(Demography, aes(From)) +
   geom_bar(position="fill",aes(fill = SCSIMD5), width = 0.5) +
   scale_fill_brewer(palette="Set2") +
   xlab("Safe Haven") +
-  ylab("Count") +
+  ylab("Percentage") +
   theme_grey(base_size = 16) +
   #theme(legend.position = c(0.96, 0.2)) +
   theme(legend.title = element_text(colour="black", size=9, 

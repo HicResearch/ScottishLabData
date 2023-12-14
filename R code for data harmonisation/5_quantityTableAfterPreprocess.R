@@ -10,8 +10,6 @@ library(eeptools)
 library(plyr)
 library(dplyr)
 
-#### set the working directory #######
-setwd("C:/Users/Administrator/Desktop/ScottishLabData")
 source("0_functions.R")
 
 load("./data/selectedCodes.RData")
@@ -33,7 +31,7 @@ i=1
 for (rc in ReadCodeList) {
   #print(i)
   data_allfour <- c()
-  D <- data.frame(personId = character(), t = double(), effectiveDate =character(), From = character())
+  D <- data.frame(subject = character(), t = double(), effectiveDate =character(), From = character())
   for (SH in SHList) {
     load(paste0("./data/",SH,"_",rc,"D.RData"))
     data_allfour <- c(data_allfour, data[,"readCodeDescription"])
@@ -43,8 +41,8 @@ for (rc in ReadCodeList) {
     if (length(t)!=0) {
       t <- as.numeric(t)
       quantityTable[quantityTable$ReadCode==rc,paste0(SH,"_valueQuantity")] <- paste0(round(median(t, na.rm = TRUE),1), " [", round(IQR(t, na.rm = TRUE),1),"]")
-      d <- data[,c("personId","valueQuantity","effectiveDate")]
-      colnames(d) <- c("personId","t", "effectiveDate")
+      d <- data[,c("subject","valueQuantity","effectiveDate")]
+      colnames(d) <- c("subject","t", "effectiveDate")
       d$t <- as.numeric(d$t)
       d$From <- SH
       D <- rbind(D, d)
