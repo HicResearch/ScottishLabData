@@ -51,15 +51,91 @@ save(selectedCodes, file = "./data/selectedCodes.RData")
 x <- list(
   HIC=HIC_ReadCodeAggregates[HIC_ReadCodeAggregates[,"code"] %in% t,"code"],  # 135
   Glasgow=Glasgow_ReadCodeAggregates[Glasgow_ReadCodeAggregates[,"code"] %in% t,"code"],  #128
-  Lothian=Lothian_ReadCodeAggregates[Lothian_ReadCodeAggregates[,"code"] %in% t,"code"],  #121
+  DataLoch=Lothian_ReadCodeAggregates[Lothian_ReadCodeAggregates[,"code"] %in% t,"code"],  #121
   DaSH=DaSH_ReadCodeAggregates[DaSH_ReadCodeAggregates[,"code"] %in% t,"code"]   #126
 )
 
-ggvenn(x,
+tt <- ggvenn(x,
        fill_color =c("#0073C2FF","#EFC000FF","#868686FF","#9900FF"),
-       stroke_size = 0.5, set_name_size = 4)
+       stroke_size = 0.5, set_name_size = 4,  show_percentage = FALSE)
 
 sum(HIC_ReadCodeAggregates[HIC_ReadCodeAggregates[,"code"] %in% t,"recordCount"])/sum(HIC_ReadCodeAggregates[,"recordCount"])  #0.989
 sum(Glasgow_ReadCodeAggregates[Glasgow_ReadCodeAggregates[,"code"] %in% t,"recordCount"])/sum(Glasgow_ReadCodeAggregates[,"recordCount"])  #0.974
 sum(Lothian_ReadCodeAggregates[Lothian_ReadCodeAggregates[,"code"] %in% t,"recordCount"])/sum(Lothian_ReadCodeAggregates[,"recordCount"])  #0.985
 sum(DaSH_ReadCodeAggregates[DaSH_ReadCodeAggregates[,"code"] %in% t,"recordCount"])/sum(DaSH_ReadCodeAggregates[,"recordCount"])  #0.995
+
+#merge all readcodeaggregates
+all_aggregate <- rbind(HIC_ReadCodeAggregates, DaSH_ReadCodeAggregates, Lothian_ReadCodeAggregates, Glasgow_ReadCodeAggregates)
+all_aggregate <- all_aggregate[,c("code","recordCount")]
+all_aggregate <- aggregate(all_aggregate$recordCount, by=list(Category=all_aggregate$code), FUN=sum)
+colnames(all_aggregate) <- c("code", "recordCount")
+#all4 percentage 
+lall4 <- Reduce(intersect, list(x$HIC,x$Glasgow,x$DataLoch,x$DaSH))
+l <- lall4
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.79
+# three
+lhdd <- Reduce(intersect, list(x$HIC,x$DataLoch,x$DaSH))
+l <- setdiff(lhdd,lall4)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.072
+
+lhgd <- Reduce(intersect, list(x$HIC,x$Glasgow,x$DaSH))
+l <- setdiff(lhgd,lall4)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.0026
+
+lhgl <- Reduce(intersect, list(x$HIC,x$Glasgow,x$DataLoch))
+l <- setdiff(lhgl,lall4)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.00996
+
+# two
+lgl <- Reduce(intersect, list(x$Glasgow,x$DataLoch))
+l <- setdiff(lgl,lall4)
+l <- setdiff(l,lhgl)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.0024
+
+lhd <- Reduce(intersect, list(x$HIC,x$DaSH))
+l <- setdiff(lhd,lall4)
+l <- setdiff(l,lhdd)
+l <- setdiff(l,lhgd)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.0145
+
+lhl <- Reduce(intersect, list(x$HIC,x$DataLoch))
+l <- setdiff(lhl,lall4)
+l <- setdiff(l,lhgl)
+l <- setdiff(l,lhdd)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.00173
+
+lhg <- Reduce(intersect, list(x$HIC,x$Glasgow))
+l <- setdiff(lhg,lall4)
+l <- setdiff(l,lhgd)
+l <- setdiff(l,lhgl)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.0159
+
+lld <- Reduce(intersect, list(x$DataLoch,x$DaSH))
+l <- setdiff(lld,lall4)
+l <- setdiff(l,lhdd)
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.0047
+
+#just one
+l <- x$HIC
+l <- l[!(l %in% x$Glasgow)]
+l <- l[!(l %in% x$DataLoch)]
+l <- l[!(l %in% x$DaSH)]
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.0215
+
+l <- x$Glasgow
+l <- l[!(l %in% x$HIC)]
+l <- l[!(l %in% x$DataLoch)]
+l <- l[!(l %in% x$DaSH)]
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.014
+
+l <- x$DataLoch
+l <- l[!(l %in% x$Glasgow)]
+l <- l[!(l %in% x$HIC)]
+l <- l[!(l %in% x$DaSH)]
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.001
+
+l <- x$DaSH
+l <- l[!(l %in% x$Glasgow)]
+l <- l[!(l %in% x$DataLoch)]
+l <- l[!(l %in% x$HIC)]
+sum(all_aggregate[all_aggregate[,"code"] %in% l,"recordCount"])/sum(all_aggregate[,"recordCount"])  #0.035
