@@ -331,7 +331,7 @@ par(mfrow=c(2,4))
   ggplot(D, aes(x=Band, y=Value, fill=sex)) + 
     geom_boxplot(alpha=0.3, outlier.shape = NA) +
     #theme(legend.position="none") +
-    scale_fill_brewer(palette="BuPu") +
+    scale_fill_brewer(palette="Set2") +
     xlab("Age band at test") +
     ylab("valueQuantity") +
     ylim(0, 180) +

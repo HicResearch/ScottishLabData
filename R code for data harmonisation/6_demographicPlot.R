@@ -75,6 +75,7 @@ age <- ggplot(Demography, aes(x=From, y=CalculatedAge, fill=sex)) +
 
 dprivation <- ggplot(Demography, aes(From)) + 
   geom_bar(position="fill",aes(fill = SCSIMD5), width = 0.5) +
+  scale_y_continuous(labels = scale::percent) +
   scale_fill_brewer(palette="Set2") +
   xlab("Safe Haven") +
   ylab("Percentage") +
