@@ -46,14 +46,12 @@ Tables been loaded into the database:
 | dbo.DaSH     | *DaSH all data* |
 | dbo.SCI_Store_20220802      | *Glasgow all data*     |
 | dbo.Labs_Biochem | *HIC biochemistry data*   |
- 
+| dbo.HaematologyRestructured | *HIC haematology data*   |
+| dbo.ImmunologyRestructured | *HIC immunology data*   |
+| dbo.VirologyRestructured | *HIC virology data*  |
+| dbo.Lothian  | *Lothian all data*   |
+| dbo.Lothian_TestCode2ReadCode | *Lothian local code to read code mapping*   | 
                      
-- dbo.HaematologyRestructured          *HIC haematology data*
-- dbo.ImmunologyRestructured           *HIC immunology data*
-- dbo.VirologyRestructured             *HIC virology data*
-- dbo.Lothian                          *Lothian all data* 
-- dbo.Lothian_TestCode2ReadCode        *Lothian local code to read code mapping*
-
 Scripts should be run in sequence as marked as "a", "b" and "c" in the name. It does not matter which one to run first between the same mark. For example, either run "a DaSH2FHIRscot.sql" before or after "a Glasgow2FHIRscot.sql" is OK.
  
 ### Running R code
