@@ -39,10 +39,15 @@ Repository sub-directories:
 - *Paper Appendix/* Appendix for published paper related to this work
 
 ### Running SQL scripts
-Tables been loaded into the database: 
-- dbo.DaSH,                            *DaSH all data*
-- dbo.SCI_Store_20220802               *Glasgow all data*
-- dbo.Labs_Biochem                     *HIC biochemistry data*
+Tables been loaded into the database:
+
+| Tables Name       | Description           |
+| ------------- |:-------------:|
+| dbo.DaSH     | *DaSH all data* |
+| dbo.SCI_Store_20220802      | *Glasgow all data*     |
+| dbo.Labs_Biochem | *HIC biochemistry data*   |
+ 
+                     
 - dbo.HaematologyRestructured          *HIC haematology data*
 - dbo.ImmunologyRestructured           *HIC immunology data*
 - dbo.VirologyRestructured             *HIC virology data*
