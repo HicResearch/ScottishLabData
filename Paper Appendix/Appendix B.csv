@@ -1,4 +1,4 @@
-ReadCode,readCodeDescription,HIC_unit,Glasgow_unit,Lothian_unit,DaSH_unit,Unit,if 
+ReadCode,readCodeDescription,HIC_unit,Glasgow_unit,DataLoch_unit,DaSH_unit,Unit,if 
 44I4.,Potassium,mmol/L; nmol/L,mmol/L,mmol/L,mmol/L,mmol/L,if nmol/L value 1e-06
 44J3.,Creatinine,umol/L,umol/L,umol/L,umol/L; umol/l,umol/L,
 451E.,GFR calculated abbreviatd MDRD,mL/min,ml/min; mL/min,ml/min,,ml/min,
