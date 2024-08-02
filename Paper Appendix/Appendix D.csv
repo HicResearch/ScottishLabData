@@ -1,7 +1,7 @@
 "High similarities between Safe Havens on the value central tendency and test utilisation",,,,,,,,
 "Test frequent calculated as record count per 1000 patients.",,,,,,,,
 """valueQuantity"" value is used to calculate the <Median [Interquartile Range] | Mean (Standard Deviation)>.",,,,,,,,
-ReadCode,HIC_test_freq,Glasgow_test_freq,Lothian_test_freq,DaSH_test_freq,HIC_valueQuantity,Glasgow_valueQuantity,Lothian_valueQuantity,DaSH_valueQuantity
+ReadCode,HIC_test_freq,Glasgow_test_freq,DataLoch_test_freq,DaSH_test_freq,HIC_valueQuantity,Glasgow_valueQuantity,DataLoch_valueQuantity,DaSH_valueQuantity
 44I4.,13.703,19.02,15.9,16.162,4.3 [0.7] | 4.4 (0.5),4.3 [0.6] | 4.3 (0.5),4.3 [0.6] | 4.4 (0.5),4.3 [0.5] | 4.3 (0.5)
 44J3.,13.539,18.816,15.598,15.739,75 [32] | 83.4 (36.3),71 [28] | 79.8 (32.5),73 [28] | 84.2 (33),72 [29] | 79.4 (30.3)
 451E.,13.967,19.548,12.869,16.14,120 [108] | 71.6 (52),120 [0] | 100.1 (36.1),120 [0] | 116.2 (14.9),120 [0] | 101.7 (34.2)
