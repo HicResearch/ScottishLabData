@@ -32,7 +32,7 @@ for (rc in ReadCodeList) {
   data[,"valueQuantity"] <- as.double(as.character(data[,"valueQuantity"]))
   data$originalValueQuantity <- data$valueQuantity
   dimoriginal <- dim(data)      # calculate how many records before change
-  data <- unitTransferFunction(data,unitinfor)
+  data <- unitTransferFunction(data,unitinfor,rc)
   ## calculate the percentage of records lose through unit transer
   d <- data.frame(SafeHaven = SH) 
   d$code <- rc

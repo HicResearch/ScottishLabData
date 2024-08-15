@@ -54,7 +54,7 @@ outlierCutFunction <- function(data) {
 }
 
 #unit transfer function
-unitTransferFunction <- function(data,unitinfor) {
+unitTransferFunction <- function(data,unitinfor,rc) {
   if (is.na(unitinfor$Rule)==TRUE) {
     data[data$code==rc,"valueUnit"] <- unitinfor$Unit
     
@@ -72,8 +72,8 @@ unitTransferFunction <- function(data,unitinfor) {
         if (r_r=="delete") {
           data <- data[!data$valueUnit==r_u,]
         } else { 
-          if (dim(na.omit(data[data$code==rc & data$valueUnit==r_u,]))[1]>0) {
-            data[data$code==rc & data$valueUnit==r_u,"valueQuantity"] <- as.double(r_r)*data[data$code==rc & data$valueUnit==r_u,"valueQuantity"]
+          if (dim(data[data$code==rc & data$valueUnit==r_u,])[1]>0) {
+            data[data$code==rc & data$valueUnit==r_u,"valueQuantity"] <- as.double(r_r)*as.double(data[data$code==rc & data$valueUnit==r_u,"valueQuantity"])
           }
         }  
       }
