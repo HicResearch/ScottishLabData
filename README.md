@@ -1,6 +1,12 @@
 
 
 # ScottishLabData - A pipeline for harmonising NHS Scotland laboratory data to enable national-level analyses
+## Reference
+If you are using this software, please reference the following paper:
+
+Gao, C., Mumtaz, S., McCall, S., O’Sullivan, K., McGilchrist, M., Morales, D.R., Hall, C., Wilde, K., Mayor, C., Linksted, P. and Harrison, K., 2025. A pipeline for harmonising NHS Scotland laboratory data to enable national-level analyses. Journal of Biomedical Informatics, p.104771.
+https://doi.org/10.1016/j.jbi.2024.104771 
+
 ## Background
 In Scotland, laboratory data is captured, stored and reported from local health board systems with significant heterogeneity. For researchers or other users, working on laboratory datasets across regional cohorts requires effort and time.
 
