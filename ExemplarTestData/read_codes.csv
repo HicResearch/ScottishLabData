@@ -1,0 +1,2156 @@
+Test_Code	Read_Code	Test_Expansion
+ABO	431..	ABO Blood Group
+AKIR	451L.	Acute Kidney Injury
+B3MT	4Q2g.	Plasma 3-Methoxytyramine
+B5HIA	46T9.	U.5HIAA
+B5HIAA	46TE.	U. 5HIAA
+B6MMP	44ul.	6-methylmercaptopurine
+B6TGN	44un.	6-thioguanine
+B7DHC	4QA0.	7-Dehydrocholesterol
+B7DHCX	44p..	7-Dehydrocholesterol
+BAACE	44CH.	ACE-Architect
+BAAFP	44B..	AFP-Architect
+BAB12	42T..	Vitamin B12
+BABIC	44h3.	Actual Bicarb.
+BABILE	44ZE.	Total bile acids
+BABNP	44AV.	NTproBNP
+BAC125	44a6.	CA125-Architect
+BACARN	44tM.	Acylcarnitine profile
+BACARX	44p..	Acylcarnitine profile
+BACE	44CH.	ACE
+BACEA	44a0.	CEA-Architect
+BACEX	44p..	ACE
+BACOR	4482.	Cortisol
+BACPEP	449E.	C-Peptide
+BACRX	44p..	Microalbumin
+BACTH	448r.	ACTH
+BADAA	44p..	Adalimumab Antibod.
+BADALG	44p..	Adalimumab
+BADHAS	4478.	DHAS
+BADJPH	4Q1F.	Adjusted Phenytoin
+BAE	44yA.	acid esterase, wbc
+BAEF	4Q92.	acid esterase, fib
+BAFER	42R4.	Ferritin
+BAFOL	42U5.	Serum Folate
+BAFP	44B..	AFP
+BAFPX	44p..	Alpha feto protein
+BAFT3	442U.	Free T3
+BAFT3X	44p..	Free T3
+BAFT4	442V.	Free T4
+BAFT4X	44p..	Free T4
+BAFUC	44t2.	a-fucosidase, wbc
+BAFUCF	4Q92.	a-fucosidase, fib
+BAG	44IA.	Anion Gap
+BAGAL	44y8.	a-galactosidase, wbc
+BAGALF	4Q92.	a-galactosidase, fib
+BAGLUC	44p..	a-glucosidase, wbc
+BAID	4Q92.	a-iduronidase, wbc
+BAIDF	4Q92.	a-iduronidase, fib
+BAINS	449D.	Insulin
+BALB	44M4.	Albumin
+BALBT	44M4.	Albumin
+BALBXC	44J6.	U. Alb Excr Rate
+BALC	44XA.	Ethanol
+BALDE	448t.	Aldosterone (erect)
+BALDH	44HF.	LDH -Architect
+BALDO	448q.	Aldosterone-Liaison
+B-ALDO	4484.	Aldosterone
+BALDS	448u.	Aldosterone (supine)
+BALDU	448q.	Aldosterone
+BALP	44F..	Alk.Phos
+BALPB	44FC.	ALP: Bone Isoenzyme
+BALPII	44FF.	ALP: Intestinal
+BALPIS	44FE.	ALP E'phoresis
+BALPIX	44p..	Alk. Phos. Isoenzymes
+BALPL	44FD.	ALP: Liver Isoenzyme
+BALT	44GB.	ALT
+BALU	44LI.	Aluminium
+BAMAN	44t3.	a-mannosidase, wbc
+BAMANF	4Q92.	a-mannosidase, fib
+BAMI	44WV.	Amikacin
+BAMIK	44WV.	Amikacin
+BAMIO	44WD.	Amiodarone
+BAMM	44Z9.	Ammonia
+BAMP	44qF.	Urine Amphetamine
+BAMPRL	443n.	Prolactin Mono
+BAMST	44p..	Specimen Type
+BAMY	44CN.	Amylase
+BANDR	4475.	Androstenedione
+BANDRX	44p..	Androstenedione
+BAPOA1	44d9.	Apolipoprotein A1
+BAPOB	44c..	Apolipoprotein B
+BAPOE	4L10.	Apo E genotype
+BAPRL	443j.	Prolactin
+BAPROL	443j.	Prolactin
+BAPSA	43Z2.	PSA-Architect
+BAPTH	44AJ.	PTH
+BARCF	42U4.	Red Cell Folate
+BARENE	44AI.	Renin (erect)
+BARENS	44AK.	Renin (supine)
+BARENU	44AH.	Renin
+BASA	44t9.	arylsulphatase A, wbc
+BASAF	4Q92.	arylsulphatase A, fib
+BASALR	44D6.	AST:ALT Ratio
+BASCR	44lB.	U. Arsenic/Creatinine
+BASHBG	44CD.	SHBG
+BAST	44HB.	AST
+BAT	44C6.	Alpha1 Antitryp
+BAT3	4424.	Total T3
+BAT3X	44p..	Total T3
+BAT4	4426.	Total T4
+BATE	44p..	Atenolol
+BATES	4473.	Testosterone
+BATEX	44p..	Plasma Atenolol
+BATHCG	44Z3.	HCG (Tumour)
+BATP	4L00.	A1AT Phenotype
+BATPX	44p..	A1AT Phenotype
+BATROP	44ME.	HS Troponin I
+BATSH	442W.	TSH
+BATSHX	44p..	TSH
+BAUCOR	46JF.	U. Cortisol
+BBAMP	46Q5.	Dipstick Amphet.
+BBARB	46Q9.	Urine Barbiturates
+BBBARB	46Q9.	Dipstick Barb.
+BBBENZ	46Q8.	Dipstick Benzo.
+BBCAN	44q5.	Dipstick Cannab.
+BBCOC	46QH.	Dipstick Cocaine
+BBE	44ZG.	Base Excess
+BBENZ	46Q8.	Urine Benzos
+BBGAL	44t5.	B-galactosidase, wbc
+BBGALF	4Q92.	B-galactosidase, fib
+BBGLU	44TJ.	Blood glucose
+BBGLUC	44y2.	B-glucosidase, wbc
+BBGLUF	4Q92.	B-glucosidase, fib
+BBGLUR	44tA.	B-glucuronidase, wbc
+BBIL	44EC.	Bilirubin
+B-BIL	46R5.	Urinalysis Bilirubin
+BBILE	44ZE.	Bile Acids
+BBILI	44E3.	Bilirubin (POCT)
+BBIOPT	44r0.	Biopterin, total, blood spot
+BBIOT	44Cn.	Biotinidase
+BBJK	46O4.	U kappa L chains
+BBJL	46O4.	U lambda L chains
+BBJP	46O3.	Bence-Jones Protein
+BBJPX	46O3.	Bence Jones Protein
+BBMAN	44t4.	B-mannosidase, wbc
+BBMANF	4Q92.	B-mannosidase, fib
+BBMETA	46QQ.	Bionike Metamphet.
+BBMETH	46QB.	Dipstick Methadone
+BBMI	44CF.	Beta 2 Microglob.
+BBNEW	44qW.	Newborn screening
+BBNP	44AR.	BNP
+BBOHP	44p..	17aOH-Prog. blood spot
+BBOPI	46QF.	Dipstick Opiates
+BBUP	46Qr.	Buprenorphine
+BC125	44a6.	CA125-Centaur
+BC3	43I1.	C3
+BC4	43I2.	C4
+BCA	44I8.	Calcium
+BCA125	44a1.	CA125
+BCA199	44a3.	CA199
+BCAD	44X9.	blood cadmium
+BCAF	44WM.	Caffeine (mass units)
+BCAFF	44WM.	Caffeine
+BCAFP	4875.	CSF Alphafetoprotein
+BCALB	4874.	CSF Albumin
+BCALBC	4874.	CSF Albumin
+BCAN	44q5.	Urine Cannabinoid
+BCAPP	482..	CSF Appearance
+BCARB	44W5.	Carbamazepine
+BCARBA	44W5.	Carbamazepine
+BCARBX	44p..	Carbamazepine
+BCBIL	44EB.	Conj. Bilirubin
+BCBIOG	44p..	CSF Biogenic amines
+BCBIOX	44p..	CSF Biogenic amines
+BCCA	44IC.	Adjustd Calcium
+BCCEA	44a0.	CEA-Centaur
+BCCR	46gj.	U. Citrate:Cr ratio
+BCEA	44a0.	CEA
+BCEAC	44a0.	CEA-Centaur
+BCER	44C5.	Caeruloplasmin
+BCERX	44p..	Caeruloplasmin
+BCFAST	44p..	Glucose spec.
+BCFTES	4Q2F.	Calc Free Testo
+BCGAG	4Q36.	Chromogranin A (Glasgow)
+BCGAGX	4Q36.	Chromogranin A (Glasgow)
+BCGLU	488..	CSF Glucose
+BCHAS	44CO.	Cholinesterase
+BCHCG	48P..	CSF HCG
+BCHOL	44PJ.	Cholesterol
+BCHOLG	44PJ.	Glasgow Cholesterol
+BCHOLX	44p..	Lipids
+BCHR	44lF.	Chol:HDLC Ratio
+BCHROA	44a5.	C'graninA H'smith
+BCHROB	44Cw.	Chromogranin B
+BCHROM	44Ll.	Blood Chromium
+BCIC	44WJ.	Ciclosporin
+BCICX	44p..	Ciclosporin sendaway
+BCIDN	44p..	Asialotransferrin
+BCIDN2	44p..	Asialotransferrin 2nd Check
+BCIGG	43JD.	CSF IgG
+BCK	44HG.	CK
+BCKMB	44H8.	CKMB
+BCKX	44p..	CK
+BCL	44I6.	Chloride
+BCLAC	48C..	CSF Lactate
+BCLACT	48C..	CSF Lactate
+BCLDH	4I3K.	CSF LDH
+BCLI	44h2.	Chloride ion
+BCLOB	44uF.	Clobazam
+BCLON	44uE.	Clonazepam
+BCMTF	44p..	CSF 5-Methyltetrahydrofolate
+BCMTFX	44p..	CSF 5-Methyltetrahydrofolate
+BCO2	44I7.	TCO2
+BCOB	44Lm.	Blood Cobalt
+BCOC	46QH.	Urine Cocaine Met.
+BCOEX	44p..	Coeliac screen
+BCOHB	42Y0.	CarboxyHb.
+BCOR	4482.	Cortisol
+BCORX	44p..	Cortisol
+BCPEP	4494.	C-Peptide
+BCPEPX	44p..	C-Peptide
+BCPT	44p..	CSF Pterins
+BCPTX	44p..	CSF Pterins
+BCR	44J3.	Creatinine
+BCRC	44J3.	Creatinine
+BCRE	44J3.	Creatinine
+BCRP	44CS.	C-Reactive Prot
+BCRYO	43cC.	Cryoglobulin
+BCRYOF	43cC.	Cryofibrinogen
+BCT	44A2.	Calcitonin
+BCTP	487..	CSF Protein
+BCTX	44p..	Calcitonin
+BCU	44L4.	Copper
+BCUG	44LJ.	Copper
+BCUX	44p..	Copper
+BCX	4825.	CSF Spectroscopy
+BCYC	44WJ.	Ciclosporin
+BDBIC	4I3G.	Dial. Bicarb.
+BDBIL	44E8.	Direct Bili.
+BDBN	44u2.	Dibucaine No.
+BDCR	4N1..	Dial. Creat.
+BDCR0	4N1..	Dial. Creat. 0 hrs
+BDCR2	4N1..	Dial. Creat. 2 hrs
+BDCR4	4N1..	Dial. Creat. 4 hrs
+BDEPOR	44Zb.	Erythrocyte Porph
+BDESIA	44p..	Desialylated transferrin
+BDESIX	44p..	Desialylated transferrin
+BDFPOR	47Z1.	Faecal Porphyrin
+BDGLU	4N2..	Dial. Glucose
+BDGLU0	4N2..	Dial. Glucose 0 hrs
+BDGLU2	4N2..	Dial. Gluc. 2 hrs
+BDGLU4	4N2..	Dial. Gluc. 4 hrs
+BDHAS	4478.	DHAS
+BDHASY	4478.	DHAS
+BDHT	4Q26.	Dihydrotestosterone
+BDIG	44W9.	Digoxin
+BDIGOX	44W9.	Digoxin
+BDISAC	44p..	Disaccharidase interp
+BDISO	4Q13.	Plasma Disopyramide
+BDK	4N4..	Dial. Potassium
+BDNA	4N5..	Dial. Sodium
+BDNAST	4L3..	DNA storage
+BDPPOR	44ZB.	Plasma Porphyrin
+BDU	4N0..	Dial. Urea
+BDU0	4N0..	Dial. Urea 0 hrs
+BDU2	4N0..	Dial. Urea 2 hrs
+BDU4	4N0..	Dial. Urea 4 hrs
+BDUPBC	44l9.	U. PBG:Creat
+BDUPBG	46R4.	U. Porphobilinogen
+BDUPCR	44lC.	U. Porph:Creat
+BDUPOR	46R3.	Urine Porphyrin
+BDUR	44p..	Urine Duration
+BDURN	44p..	Urine Duration (NPEx)
+BDVOL	4I31.	Dial. Volume
+BDVOL4	44p..	Drain Vol. 4hrs
+BDVOLN	44p..	Drain Vol. O/N
+BEDDP	46Qf.	Urine Methadone Met
+BENOL	4Q93.	Neurone-specific enolase
+BEPHR	44NA.	Prot E'phoresis/Igs
+BEPHX	44N..	Serum Electrophoresis
+BEPO	44A5.	Erythropoetin
+BETH	44XA.	Ethanol
+BETHG	4Q64.	Ethylene Glycol
+BETHS	44W6.	Ethosuximide
+BF	44p..	Fluid Type
+BFAAT	478F.	Faecal a1 antitrypsin
+BFADAA	44p..	Adalimumab Ab free
+BFAFP	4I3N.	Fluid AFP
+BFAIC	4474.	FA Index
+BFAICR	4474.	FA Index
+BFALB	4I3B.	Fluid Albumin
+BFAMY	4I3E.	Fluid Amylase
+BFAPH	47A..	pH, faecal
+BFAST	44p..	Spec type Rand/Fast
+BFAT	478A.	Faecal Fat
+BFBIC	4I3G.	Fl. Bicarbonate
+BFCA	4I3Q.	Fluid Calcium
+BFCALP	4Q3J.	f-Calprotectin-ALP
+BFCALX	44p..	Faecal calprotectin
+BFCHL	4I3O.	Fluid Cholesterol
+BFCL	4I35.	Fluid Chloride
+BFCR	4I37.	Fluid Creatinine
+BFE	42R7.	Iron
+BFELX	44p..	Faecal elastase
+BFERR	42R4.	Ferritin
+BFFA	44O9.	Free Fatty Acids
+BFGC	4Q92.	galactocerebrosidase, fib
+BFGLU	4I39.	Fluid glucose
+BFINAB	44p..	Infliximab Ab free
+BFIX	43R..	Immunofixation
+BFK	4I34.	Fluid Potassium
+BFLDH	4I3K.	Fluid LDH
+BFLEC	44u9.	Flecainide
+BFLN	44uA.	Fluoride No.
+BFMG	4I3V.	Fluid Magnesium
+BFNA	4I33.	Fluid Sodium
+BFOB	479..	Occult Blood
+BFOSM	4I3X.	Osmolality (Fluid)
+BFPH	4I3F.	Fluid pH
+BFR	42R4.	Ferritin
+BFRED	47B3.	Faecal red. subs.
+BFREEZ	44p..	Sample frozen
+BFRUC	44Z1.	Fructosamine
+BFRX	44p..	Ferritin
+BFSH	443h.	FSH
+BFT3	442U.	Free T3
+BFT4	442V.	Free T4
+BFTG	4I3W.	Fluid Triglyceride
+BFTLC	47C..	Sugar TLC, faec
+BFTP	4I3A.	Fluid T Protein
+BFU	4I36.	Fluid Urea
+BFUA	4I3M.	Fluid Urate
+BFUPR	4I3A.	Fluid (U) Protein
+BG6S	4Q92.	Galactose6S sulphatase,wbc
+BG6SF	4Q92.	Galactose6S sulphatase,fib
+BGAB	44Wn.	Gabapentin
+BGAL	4Q81.	Galactose
+BGALK	4Q91.	Galactokinase
+BGALPQ	42G3.	Galactose-1-PUT, quant
+BGALPS	42G3.	Galactose-1-PUT, qual
+BGAS	4498.	Gastrin
+BGAST	4498.	Gastrin
+BGCER	44t8.	galactocerebrosidase, wbc
+BGCERF	4Q92.	galactocerebrosidase,fib
+BGCET	44XA.	Ethanol
+BGCMSA	46Q5.	Amphet. Confirm.
+BGCMSO	44p..	Opiate Confirmation
+BGEN	44WY.	Gentamicin
+BGENO	4L01.	Phenotype
+BGFR	451E.	eGFR (/1.73m2)
+BGFRR	451N.	eGFR (/1.73m2)EPI
+BGGT	44G9.	GGT
+BGH	4481.	Growth Hormone
+BGHX	44p..	Growth Hormone
+BGLRP	4Q92.	B-glucuronidase, pl
+BGLU	44g..	Glucose
+B-GLU	466..	Urinalysis Glucose
+BGLUC	44A9.	Glucagon
+BGLUF	44g1.	Glucose (fasting)
+BGLUP	44g..	Plasma glucose
+BGLUR	44g0.	Glucose (Random)
+BGONX	44p..	LH AND FSH
+BGPD	42G4.	Glu-6P-Dehydrogenase
+BGPX	4Q96.	Glut. Peroxidase
+BGRH	4481.	Growth Hormone
+BGST	44p..	Specimen Type
+BGTT	44V..	Glucose Tolerance Test
+BGUTX	44p..	Gut Hormone Screen
+BH+	44YD.	H+
+BHBA1C	42W4.	HbA1c (DCCT)
+BHBAIF	42W5.	HbA1c (IFCC)
+BHBAU	42W4.	HBA1C
+BHBF	42V3.	Haemoglobin F
+BHCG	4Q27.	HCG
+BHCGT	44Z3.	HCG (Tumour Marker)
+BHDL	44P5.	HDL Chol.
+BHDLX	44p..	HDL Cholesterol
+BHEXA	44tD.	hexosaminidase A, wbc
+BHEXAF	4Q92.	hexosaminidase A, fib
+BHEXT	44tB.	hexosaminidase total, wbc
+BHEXTF	4Q92.	hexosaminidase tot, fib
+BHEXTP	44Cs.	hexosaminidase tot, pl
+BHG	44XB.	Mercury
+BHOB	4Q51.	Hydroxybutyrate
+BHOMO	44k3.	Homocysteine, pl
+BHP	44CA.	Haptoglobin
+BHYAL	4Q3E0	Hyaluronic Acid
+BICA	44ID.	Ionised Calcium
+BIGA	43J5.	IgA
+BIGAK	44MB.	IgAK Paraprotein
+BIGAL	44MB.	IgAL Paraprotein
+BIGDK	44MB.	IgDK Paraprotein
+BIGDL	44MB.	IgDL Paraprotein
+BIGEK	44MB.	IgEK Paraprotein
+BIGEL	44MB.	IgEL Paraprotein
+BIGF1	44A7.	IGF-1
+BIGF1A	44AB.	IGF-1 (IDS iSys)
+BIGF1X	44Ck.	IGF1
+BIGG	43J3.	IgG
+BIGGC	43J3.	IgG
+BIGGK	44MB.	IgGK Paraprotein
+BIGGL	44MB.	IgGL Paraprotein
+BIGGO	43J3.	IgG (Oligoclonal band assay)
+BIGM	43J4.	IgM
+BIGMK	44MB.	IgMK Paraprotein
+BIGML	44MB.	IgML Paraprotein
+BIGSX	43J..	Immunoglobulins
+BIGX	44p..	Immunoglobulins
+BIMAL	44M4.	Albumin (Immuno)
+BIMALC	44M4.	Albumin (Immuno)
+BINAB	44p..	Infliximab Ab
+BINFG	44p..	Infliximab
+BINHA	443q.	Inhibin A
+BINHB	443r.	Inhibin B
+BINS	449D.	Insulin
+BINSAB	43Gk.	Insulin antibodies
+BINSX	44p..	Insulin
+BIPTH	44AJ.	PTH
+BITT	4545.	Insulin T. Test
+BK	44I4.	Potassium
+B-KET	468..	Urinalysis Ketones
+BKFLC	44MB.	Kappa FLC
+BKI	44h0.	Potassium ion
+BKLR	44le.	Kappa/Lambda Ratio
+BKPPA	44MB.	Free Kappa
+BLAC	44ZP.	Lactate (POCT)
+BLACT	44D8.	Lactate
+BLACTA	44p..	Lactase, bpsy
+BLAM	44Wg.	Lamotrigine
+BLAMX	44p..	Lamotrigine
+BLASE	44C3.	Lipase
+BLCYS	4Q52.	Cystine, leucocyte
+BLDEP	44x0.	LD Isoenzymes
+BLDH	44HF.	LDH
+BLDHX	44p..	LDH
+BLDLC	44P6.	LDL Chol.
+BLEAD	44X8.	Blood Lead
+B-LEU	46f..	Urinalysis Leu'cyte
+BLFLC	44MB.	Lambda FLC
+BLGC	44t8.	galactocerebrosidase, wbc
+BLH	443e.	LH
+BLI	44W8.	Lithium
+BLMDA	44MB.	Free lambda
+BLPA	4Q3G0	Lipoprotein (a)
+BLPLIP	44p..	Lipoprotein Lipase
+BLSM	44y0.	sphingomyelinase, wbc
+BLYS	4Q92.	lysosomal profile, wbc
+BLYSF	4Q92.	Lysosomal enzymes, Fibs
+BLYSP	4Q92.	Lysosomal enzymes, pl
+BLYSR	44y..	Lysosomal single test,wbc
+BMALTA	44p..	Maltase, bpsy
+BMANG	44LV.	Blood Manganese
+BMANGX	44p..	Blood Manganese
+BMETA	46LP.	U. Metadrenalin
+BMETH	46QB.	Urine Methadone
+BMETHS	44X4.	Methanol
+BMETP	4Q213	Plasma Metanephrine
+BMG	44LD.	Magnesium
+BMHB	42VB.	Methaemoglobin
+BMIS	44p..	General Misc.
+BMPRL	443n.	Prolactin mono
+BMPRL%	44p..	Macroprolactin recovery
+BMPROL	443n.	Prolactin Mono
+BMPSE	4Q82.	MPS electrophoresis
+BMPSQ	44p..	Mucopolysaccharide quant
+BMTAL	44MF.	Methaemalbumin
+BMTX	44Wa.	Methotrexate
+BMUT	44p..	Urine Misc
+BMYCO	44uV.	Mycophenolate
+BNA	44I5.	Sodium
+BNAI	44h1.	Sodium Ion
+BNEURO	44Cb.	Neurotensin
+BNH3	44Z9.	Ammonia
+B-NIT	46X2.	Urinalysis Nitrite
+BNMET	4Q214	Plasma Normetanephrine
+BNOREQ	44p..	Tests requested
+BNORM	46LI.	U. Normetadrenalin
+BNORQF	44p..	Tests requested
+BNORQU	44p..	Tests requested
+BO2S	44YA.	Oxygen Sat
+BO2T	44p..	Oxygen therapy
+BO6MAM	4I76.	Oral Fl 6MAM (heroin)
+B-OB	469..	Urinalysis Blood
+BOBENZ	4I73.	Oral Fl Benzos
+BODIAZ	4I7B.	Oral Fl Diazepam
+BOES	4465.	Oestradiol
+BOESX	44p..	Oestradiol
+BOETIZ	44p..	Oral Fl Etizolam
+BOFALP	44p..	Oral Fl Alprazolam
+BOFAMP	4I3e.	Oral Fl Amphetamine
+BOFBEC	4I78.	Oral Fl Cocaine met.
+BOFBUP	44p..	Oral Fl Buprenorphine
+BOFCOC	4I74.	Oral Fl Cocaine
+BOFCOD	4I79.	Oral Fl Codeine
+BOFDEL	44p..	Oral Fl Delorazepam
+BOFDHC	4I7A.	Oral Fl Dihydrocodeine
+BOFDIC	44p..	Oral Fl Diclazepam
+BOFMOR	4I72.	Oral Fl Morphine
+BOFOPI	4I71.	Oral Fl Opiates
+BOFTEM	4I7E.	Oral Fl Temazepam
+BOGABA	44u3.	Oral Fl Gabapentin
+BOHB	42VR.	Oxyhaemoglobin
+BOHP	448n.	17-OH Prog.
+BOHPX	44p..	17-OH-Progesterone
+BOLIG	48S..	CSF Oligo Bands
+BOLIGX	44p..	Oligoclonal bands
+BOMAMP	44p..	Oral Fl Metamphetamine
+BOMDMA	44p..	Oral Fl MDMA
+BOMDON	4I75.	Oral Fl Methadone
+BONITR	44p..	Oral Fl Nitrazepam
+BONORD	4Q1D.	Oral Fl Nordiazepem
+BOOXAZ	44p..	Oral Fl Oxazepam
+BOOXYC	44p..	Oral Fl Oxycodone
+BOPGAB	44p..	Oral Fl Pregabalin
+BOPI	44q4.	Urine Opiates
+BORG	46T5.	Organic Acid Profile
+BOSM	44J4.	Osmolality
+BOTRAM	44p..	Oral Fl Tramadol
+BOXRX	44p..	oxalate creat ratio
+BP	44I9.	Phosphate
+BPAAQ	44k..	Amino acids, pl
+BPAILE	44Sh.	Alloisoleucine, pl
+BPALA	44S7.	alanine, pl
+BPARA	44WB.	Paracetamol
+BPARAQ	44XE.	Paraquat
+BPARG	44Sc.	Arginine, pl
+BPASA	44kN.	Arginosuccinate, pl
+BPASP	44kQ.	Aspartate, pl
+BPB	44X8.	Lead
+BPBGC	46R4.	U.Porphobilinogen
+BPBGX	46R4.	U.Porphobilinogen Sendaway
+BPBNP	44AP.	NTproBNP
+BPBX	44p..	Lead
+BPCIT	44kM.	Citrulline, pl
+BPCL	44i1.	Plasma Chloride
+BPCO2	44Y6.	pCO2
+BPCT	44Ab.	Procalcitonin
+BPCYS	44kI.	Cystine, pl
+BPEPH	44N..	Prot E'phoresis
+BPGLN	44k0.	Glutamine, pl
+BPGLU	44kP.	Glutamate, pl
+BPGLY	44k1.	Glycine, pl
+BPH	44Y2.	pH
+B-PH	46A..	Urinalysis pH
+BPHB	44W2.	Phenobarbital
+BPHBA	44W2.	Phenobarb
+BPHEN	44W3.	Phenytoin
+BPHENY	44W3.	Phenytoin
+BPHIS	44k2.	Histidine, pl
+BPHYT	44ZK.	Phytanic acid
+BPHYTX	44p..	Phytanic acid
+BPILE	44k5.	Isoleucine, pl
+BPK	44h8.	Plasma Potassium
+BPLEU	44k6.	Leucine, pl
+BPLYS	44k7.	Lysine, pl
+BPMET	44k8.	Methionine, pl
+BPMETX	44p..	Plasma Metadrenaline (S/A)
+BPNA	44h6.	Plasma Sodium
+BPO2	44Y4.	pO2
+BPORE	44Z5.	Porphyrin, erythrocyte total
+BPORN	44k9.	Ornithine, pl
+BPORP	44ZB.	Porphyrin, plasma total
+B-POST	44p..	Posture
+BPP	4492.	PP
+BPPHE	44kA.	Phenylalanine, pl
+BPPHEM	44S6.	Phenylalanine, PKU
+BPPRO	44kB.	Proline, pl
+BPRG	4463.	Progesterone
+BPRIS	44ZL.	Pristanic Acid
+BPRL	443j.	Prolactin
+BPRLX	44p..	Prolactin
+B-PRO	46N..	Urinalysis Protein
+BPSA	43Z2.	PSA
+BPSER	44kC.	Serine, pl
+BPTAU	44kD.	Taurine, pl
+BPTH	44AJ.	PTH
+BPTHR	44kE.	Threonine, pl
+BPTHRP	44AM.	PTHrp
+BPTHX	44p..	PTH
+BPTYR	44kG.	Tyrosine, pl
+BPTYRM	44SQ.	Tyrosine, PKU
+BPVAL	44kH.	Valine, pl
+BQFIT	479..	Quantitative Faecal IC Test
+BQUAL	44p..	Qualitative Analysis, ur
+BQUIN	4Q14.	Quinine
+BRACE	44CH.	ACE
+BRACTH	448r.	ACTH
+BRAFP	44B..	AFP
+BRC125	44a6.	CA125
+BRCEA	44a0.	CEA
+BRCOR	4482.	Cortisol
+BRCPEP	449E.	C-peptide
+BRDHAS	4478.	DHEAS
+BRENX	44p..	Renin
+BRFT3	442U.	Free T3
+BRFT4	442V.	Free T4
+BRGH	4481.	Growth Hormone
+BRHCG	4Q27.	HCG
+BRINS	449D.	Insulin
+BRLDH	44HF.	LDH
+BRON	43m6.	RO No.
+BRPROL	443j.	Prolactin
+BRPSA	43Z2.	PSA
+BRPTH	44AJ.	PTH
+BRSHBG	44CD.	SHBG
+BRT3	4424.	Total T3
+BRTES	4473.	Testosterone
+BRTG	442d.	Thyroglob. Roche
+BRTGA	43Ga.	Thyroglob Ab Roche
+BRTHCG	44Z3.	HCG (Tumour)
+BRTROP	44ME.	HS Troponin T
+BRTSH	442W.	TSH
+BSAL	44WA.	Salicylate
+BSALU	44LI.	Aluminium
+BSB	44hC.	Standard Bicarbonate
+BSBIC	44h3.	Std. Bicarbonate
+BSC125	44a6.	CA 125
+BSCEA	44a0.	CEA
+BSCU	44LF.	Copper
+BSELE	44LC.	Selenium
+BSELEX	44p..	Selenium
+B-SG	466A.	Urinalysis Sp Grav.
+BSHBG	44CD.	SHBG
+BSHBGX	44CD.	SHBG (Send away code)
+BSIR	44uS.	Sirolimus
+BSIROX	44p..	Sirolimus (send)
+BSIRX	44p..	Sirolimus
+BSM	44y0.	sphingomyelinase, wbc
+BSMF	4Q92.	sphingomyelinase, fib
+BSOM	449B.	Somatostatin
+BSPB	44X8.	Blood Lead
+BSTERX	44p..	Steroid profile
+BSTGN	442d.	Thyroglobulin RIA
+BSTON	4G9..	Stone analysis
+BSUCRO	44p..	Sucrase, bpsy
+BSUCU	46P2.	Copper, urine
+BSWCL	4I44.	Sweat chloride
+BSWCON	4I49.	Sweat conductivity
+BSWVOL	44p..	Sweat volume (weight)
+BT3	4424.	Total T3
+BT4	442b.	Total T4
+BTAC	44uI.	Tacrolimus
+BTACX	44uI.	Tacrolimus
+BTBG	4429.	Thyroxine Bind Glob.
+BTBGAL	4Q92.	B-galactosidase, pltlet
+BTCHS	44CO.	Cholinesterase
+BTES	4473.	Testosterone
+BTESAB	44p..	Free Testo Alb factor
+BTESE	4473.	ECi Testo.
+BTESL	4473.	Testosterone MS
+BTESR	4473.	Testosterone
+BTESTX	44p..	Testosterone
+BTFTX	44p..	Thyroid function tests
+BTG	44Q..	Triglyceride
+BTGAB	43Ga.	Thyroglob Ab.
+BTGICM	43Ga.	Thyroglob ICMA
+BTGIRM	43Ga.	Tg (IRMA)
+BTGN	442d.	Thyroglob RIA
+BTGNI	442d.	Thyroglob ICMA
+BTGNN	43Ga.	Thyroglob Ncasl
+BTGRIA	43Ga.	Thyroglob RIA
+BTHCG	44Z3.	HCG (Tumour)
+BTHE	44Wl.	Theophylline
+BTHEO	44Wl.	Theophylline
+BTHGX	44Ch.	Thyroglobulin
+BTHIO	44p..	Thiopental
+BTINS	449D.	Total insulin
+BTMP<2	451J.	TMP/GFR mM/L GF
+BTMP>2	451J.	TMP/GFR mM/L GF
+BTMPG<	451J.	TMP/GFR mM/L GF
+BTMPG>	451J.	TMP/GFR mM/L GF
+BTOB	44Wd.	Tobramycin
+BTP	44M3.	Total Protein
+BTPE	44M3.	Total Protein
+BTPMBX	44p..	TPMT
+BTPMT	44Cd.	TPMT
+BTPMTB	44Cd.	TPMT (Birm'ham)
+BTPMTX	44p..	TPMT
+BTR	44CB.	Transferrin
+BTRABR	43Gu.	TRAB
+BTRABS	43Gu.	TRAB
+BTRABX	44p..	TRAB
+BTROP	44ME.	Troponin I
+BTRX	44p..	Transferrin
+BTRYP	44CK.	Trypsin, faecal
+BTS	42d1.	Transferrin Sat
+BTSH	442W.	TSH
+BTST	44p..	Specimen Type
+BU	44J9.	Urea
+BU2OHF	46Q8.	U. 2OH-Flurazepam
+BU6MAM	46Qd.	U.6MAM-Heroin Met.
+BU7ACL	46Q8.	Urine Clonazepam
+BU7AFN	46Q8.	U. Flunitrazepam
+BUA	44K5.	Urate
+BUAAQ	46T6.	Amino acids, ur
+BUACR	46TC.	MicroalbuminACR
+BUACRX	44p..	Urine Microalbumin ACR
+BUADR	46LD.	Adrenaline, ur
+BUAFC	44p..	U. Cortisol
+BUAFR	46LL.	U. Cortisol:creatinine ratio
+BUAFV	46JF.	U. Cortisol
+BUALA	46TN.	Alanine, ur
+BUALB	46N4.	Urine Albumin
+BUALP	44p..	U. Alprazolam
+BUAMP	46Q5.	Urine Amphetamine
+BUAMV	46TG.	U. Amylase
+BUAMY	46T7.	Urine Amylase
+BUARG	46hJ.	Arginine, ur
+BUAS	46TO.	Urine Arsenic
+BUASP	46h7.	Aspartate, ur
+B-UBG	46R7.	Urinalysis UBG
+BUBIL	46R5.	Urine Bilirubin
+BUBJK	46O4.	Bence-Jones Kappa
+BUBJL	46O4.	Bence-Jones Lambda
+BUBJP	46e7.	Bence-Jones Protein
+BUBUP	46Qr.	Urine Buprenorphine
+BUCAC	46P4.	Urine Calcium
+BUCACR	44l1.	Calcium:creat. ratio
+BUCAE	46P4.	U Calcium Exc.
+BUCAN	44q5.	Urine Cannabinoid
+BUCAV	46MC.	Urine Calcium
+BUCCL	4517.	Creat Clearance
+BUCCLE	4517.	Creat Clearance
+BUCCR	46LL.	Cor:Creat Ratio
+BUCIT	46hQ.	Citrulline, ur
+BUCLC	46ML.	Urine Chloride
+BUCLV	46ML.	Urine Chloride
+BUCOC	46QH.	Urine Cocaine Met.
+BUCOCR	46LL.	Cortisol, Free - ur
+BUCOD	44q2.	Urine Codeine
+BUCORV	46K9.	U. Cortisol
+BUCORY	44p..	Cortisol, Free -ur
+BUCPCR	44lza	U. C-pep:Crea ratio
+BUCPE	44p..	U. C-peptide
+BUCRC	46M7.	U. Creatinine
+BUCRE	44p..	U. Creat (Exeter)
+BUCRV	46MD.	U. Creatinine
+BUCTR	46TI.	U. Citrate output
+BUCUC	46P2.	Urine Copper
+BUCUEX	46P8.	Urine copper excr.
+BUCUT	46P2.	Copper, urine
+BUCUV	46P8.	Urine Copper
+BUCYS	46TS.	Cystine, ur
+BUCYSC	46TS.	ur cyst monitor
+BUDEL	44p..	U. Delorazepam
+BUDHC	44q3.	U. Dihydrocodeine
+BUDIAZ	46Qk.	Urine Diazepam
+BUDIC	44p..	U. Diclazepam
+BUDO	46L3.	Dopamine, ur
+BUEDDP	46Qf.	U. Methadone Met.
+BUETIZ	44p..	U. Etizolam
+BUFENA	46MN.	Sodium, fractional excretion
+BUFLUR	46Q8.	Urine Flurazepam
+BUFRP	44p..	Phosphate,TmPO4/GFR
+BUG	466..	U. glucose
+BUGABA	44u3.	Urine Gabapentin
+BUGLN	46hG.	Glutamine, ur
+BUGLRF	4Q92.	B-glucuronidase, fib
+BUGLU	46hF.	Glutamate, ur
+BUGLY	46Tq.	Glycine, ur
+BUHCG	465..	U. Pregnancy Test
+BUHG	44lf.	Mercury:Creat. ratio
+BUHIAA	44p4.	5-HIAA, ur
+BUHIS	46Tr.	Histidine, ur
+BUHOMO	46TU.	Urine homocystine
+BUHVA	46L6.	HVA, ur
+BUILE	46Ts.	Isoleucine, ur
+BUKC	46M3.	Urine Potassium
+BUKV	46MH.	Urine Potassium
+BULEU	46Tt.	Leucine, ur
+BULYS	46Tu.	Lysine, ur
+BUMAMP	46QQ.	U. Metamphetamine
+BUMCR	44lb.	Magnesium:creat. ratio
+BUMDA	44qC.	Urine MDA
+BUMDEA	44qD.	Urine MDEA
+BUMDMA	44qE.	Urine MDMA
+BUMDON	46QB.	Urine Methadone
+BUMET	46LG.	U. Metadrenaline
+BUMETH	46Tv.	Methionine, ur
+BUMGC	46P1.	Urine Magnesium
+BUMGV	46ME.	Urine Magnesium
+BUMMA	46Tn.	Methylmalonic acid, ur
+BUMOR	46QC.	Urine Morphine
+BUMYO	467C.	U.Myoglobin
+BUNAC	46M4.	Urine Sodium
+BUNACR	44p..	U. Sodium:Creat
+BUNAV	46MI.	Urine Sodium
+BUNBUP	46Qx.	U. Norbuprenorphine
+BUNITR	46Qn.	Urine Nitrazepam
+BUNOR	46LH.	U. Normetadren.
+BUNORA	46L2.	Noradrenaline, ur
+BUNORD	4Q1D.	Urine Nordiazepam
+BUOCR	46g2.	Oxalate:creatinine
+BUORN	46Tw.	Ornithine, ur
+BUOROT	46Tg.	Orotic Acid, ur
+BUOSM	46MB.	U. Osmolality
+BUOXAC	46T1.	U. Oxalate
+BUOXAV	46MF.	U. Oxalate
+BUOXAZ	46Qp.	Urine Oxazepam
+BUOXYC	46hc.	Urine Oxycodone
+BUPAR	46Q6.	Urine Paraquat
+BUPBG	44p..	U.PBG:Creat Ratio
+BUPC	46M9.	Urine Phosphate
+BUPCRX	44p..	U Prot:creat ratio
+BUPGAB	44p..	Urine Pregabalin
+BUPHE	46Tx.	Phenylalanine, ur
+BUPOR	46R3.	Urine Porphyrin
+BUPORC	46R3.	U.Porphyrins
+BUPORQ	46R3.	U.Porphy:CreatRatio
+BUPORV	46R9.	U.Porphyrins
+BUPRC	46N3.	U.Total Protein
+BUPRCR	44lD.	U.Protein:Creat
+BUPRV	467A.	U.Total Protein
+BUPV	46MG.	Urine Phosphate
+BURO	46R7.	U. Urobilinogen
+BUSER	46Tz.	Serine, ur
+BUSTER	46J8.	Steroid Profile, ur
+BUTAU	46h0.	Taurine, ur
+BUTC	46Qj.	Urine Tricyclic scrn
+BUTCRC	46M7.	Urine Creatinine
+BUTEM	46Qo.	Urine Temazepam
+BUTHR	46h1.	Threonine, ur
+BUTLC	46a..	Sugar TLC, ur
+BUTRAM	46hb.	Urine Tramadol
+BUTRIM	4Q63.	Trimethylamine, ur
+BUTYR	46h3.	Tyrosine, ur
+BUUAC	46M5.	Urine Urate
+BUUALB	46N6.	U. Albumin
+BUUAV	46MJ.	Urine Urate
+BUUC	46M6.	Urine Urea
+BUUCR	44lc.	Urate:creat. ratio
+BUUPBG	46R4.	U. Porphobinogen
+BUUV	44p..	Urine Urea
+BUVAL	46h4.	Valine, ur
+BUVMA	44p..	urine VMA
+BUZNC	46P7.	Urine Zinc
+BUZNV	46P7.	Urine Zinc
+BVAL	44W4.	Valproate
+BVALP	44W4.	Valproate
+BVALX	44W4.	Valproate
+BVAN	44We.	Vancomycin
+BVCL	4I35.	Chloride vitreous
+BVCR	4I37.	Creat, vitreous
+BVGLU	4I39.	Glucose vitreous
+BVIP	4496.	VIP
+BVITA	44L5.	Vitamin A
+BVITAX	44p..	Vitamin A
+BVITB1	42ZE.	Vitamin B1
+BVITB2	42ZF.	Vitamin B2
+BVITB6	42ZG.	Red Cell vitamin B6
+BVITC	44L9.	Vitamin C
+BVITD	44LP.	25-OH Vitamin D
+BVITD1	44LO.	1,25-OH Vit D
+BVITD2	4QB40	25OH Vit D2 (LC/MS)
+BVITD3	4QB41	25OH Vit D3 (LC/MS)
+BVITDI	44LA.	25OH VitD imm'assay
+BVITDT	44LA.	Total 25OH Vit D
+BVITDX	44p..	25-OH Vitamin D
+BVITE	44LB.	Vitamin E
+BVITEC	44LX.	Vit E/cholesterol
+BVITEX	44p..	Vitamin E
+BVITK	44p..	Vitamin K/Trig ratio
+BVITKX	44p..	Vitamin K
+BVK	4I34.	Potassium, vitreous
+BVLAC	4I3Y.	Lactate vitreous
+BVLFA1	44OG.	C26 VLChain Fatty Acid
+BVLFA2	44p..	C26/22 VLCFA
+BVLFA3	44p..	C24/22 VLCFA
+BVNA	4I33.	Sodium, vitreous
+BVOL	4I3L.	Urine Volume
+BVST	44p..	Specimen Type
+BVTB2	42ZF.	Red Cell Vitamin B2
+BVTB6	42ZG.	Vitamin B6
+BVTD1X	44p..	1,25-OH Vit D
+BVU	4I36.	Urea, vitreous
+BXEPOR	44Z5.	Erythrocyte Porph.
+BXFPOR	47Z1.	Faeces: Porphyrin
+BXPBG	46R4.	U. porphobilinogen
+BXPOR	4QCB.	Porphyrin Service
+BXPORS	44p..	Porphyrin Service:
+BXPPOR	44ZB.	Plasma Porphyrin
+BXUPOR	46R3.	U. Porphyrin:Creat
+BZN	44LK.	Zinc
+BZNG	44LK.	Zinc
+BZNGX	44p..	Zinc
+CD19	42g..	CD19 (Total B cells)
+CD3	42g..	CD3 (Total T cells)
+CD3HLA	42g..	CD3/HLA(activated T cells)
+CD4	42g..	CD4 (Helper T cells)
+CD56	42g..	CD16CD56 (Total NK cells)
+CD56P	42g..	CD16CD56  (%)
+CD8	42g..	CD8 (Cytotoxic T cells)
+CDRAT	42g..	CD4 / CD8 Ratio
+CSFBAS	42g..	CSF - Basophils
+CSFBLA	42g..	CSF - Blast cells
+CSFEOS	42g..	CSF - Eosinophils
+CSFIMM	42g..	CSF - Atypical Immature
+CSFLYM	42g..	CSF - Lymphocytes
+CSFMAC	42g..	CSF - Macrophages
+CSFMON	42g..	CSF - Monocytes
+CSFNEU	42g..	CSF - Neutrophils
+CSFRBC	42g..	CSF - Red Cell Count
+CSFWBC	42g..	CSF - White Cell count
+EAPT	42jG.	APTT
+ECLFBG	42Qn.	Fibrinogen (Clauss)
+EF8INX	42g..	ESC Factor 8 inhibitor to RIE
+EHBOPX	42g..	ESC Hb opathy screen to RIE
+EHEAD1	42g..	-----------------------------
+EHEAD2	42g..	T & B LYMPHOCYTE SUBSETS
+EHEAD5	42g..	NEUTROPHIL FUNCTION TESTS
+EHEAD6	42g..	------------------------------
+EHEPLX	42g..	ESC LMW heparin assay
+ELUPX	42g..	ESC Lupus screen to RIE
+EMPAG	4JRD.	Screen for PlasmodiumHRP&LDH
+ENAIX	42g..	ESC NAI screen to RIE
+ENFECO	42g..	Neutrophil oxid-E.coli stim.
+ENFFML	42g..	Neutrophil oxid-FMLP stim.
+ENFPHG	42g..	Neutrophil Phagocytosis
+ENFPMA	42g..	Neutrophil oxid-PMA stim.
+EPT	42Q5.	Prothrombin Time
+ERES	42g..	esc research sample
+ERET	42X..	Reticulocyte count
+ETOXX	44p..	Toxicology Screen
+EVLFAX	44p..	Very Long Chain Fatty Acids
+FOQ	42h3.	Family Origin Questionnaire
+FOQR	42h3.	FOQ Risk Identification
+H.APT	42Qu.	APTT (ratio)
+H.B12	42T..	Vitamin B12
+H.DCT	42YH.	DCT (DAT) EDTA
+H.FER	42R4.	Ferritin
+H.IFA	43GJ.	Intrinsic Factor Ab
+H.IMT	43A..	I.M. Test
+H.MIX	42j9.	APTT Mix (Ratio)
+H.PT	42QE.	PT ratio
+H.RCF	42U4.	Red Cell Folate
+H.SF	42U5.	Serum Folate
+H.TT	42jK.	Thrombin time (ratio)
+HAA	42Z6.	Arachidonic Acid Agg
+HACAG	43GT0	Anticardiolipin IgG
+HACAM	43GT1	Anticardiolipin IgM
+HADAM	42Qx.	ADAMTS13 Activity
+HAEMSA	42g..	Haematology sendaway test
+HAPTT	42jG.	APTT
+HAPTTN	42Qw.	APTT Normal
+HAPTTR	42Qu.	APTT Ratio
+HAPTU	42Qu.	APT Unsuitable
+HARGA	43nC.	Argatroban
+HATM	42N6.	Atyp. mononuclear
+HATYIM	42g..	Atyp. Immature Cells
+HB12	42T..	Vitamin B12
+HB2G	43r2.	Beta 2 Glycoprotein IgG
+HB2M	43r3.	Beta 2 Glycoprotein IgM
+HBA	42V2.	Hb A
+HBA2	42V9.	HbA2
+HBASO	42L..	Basophil Count
+HBF	42V3.	HbF
+HBLAST	42O5.	Blast Cells
+HCALRS	42g..	Calreticulin Method
+HDD	42Qf.	D-Dimer
+HDDHS	42Qf.	VTE Exclusion
+HDFBG	42Qn.	Fibrinogen (Clauss)
+HEDOX	43nC.	Edoxaban
+HEMI	42jD.	Emicizumab
+HEOS	42K..	Eosinophil Count
+HESR	42B6.	ESR
+HESRU	42B6.	ESR Unsuitable
+HF10	42QO.	Factor X:c
+HF11	42QN.	Factor XI:c
+HF12	42QM.	Factor XII:c
+HF13	42QT.	Factor XIII Assay
+HF2	42Qg.	Factor II:c
+HF2L	4L40.	Prothrombin 20210 G to A
+HF5	42QR.	Factor V:c
+HF5L	42Qe.	Factor V (Leiden)
+HF7	42QP.	Factor VII:c
+HF8	42Qm.	Factor VIII:c
+HF8AG	42Qk.	FVIII vWF:Ag Assay
+HF8CHB	42QB.	Chromogenic FVIII Bovine
+HF8INB	42hD.	FVIII Inh (Bovine)
+HF8INH	42Qj.	FVIII Inh (human)
+HF8INP	42ja.	FVIII Inh (porcine)
+HF8R	42Qm.	Refacto Factor VIII
+HF8RC	42QI.	FVIII vWF:RCOF Assay
+HF8RCO	42QI.	FVIII vWF:RCOF Assay (Acustar)
+HF9	42QC.	Factor IX:c
+HF9INH	42Qh.	Factor IX Inh (human)
+HF9REF	42QC.	Refixia Factor IX
+HFOL	42U5.	Folate
+HFPS	42QH.	Free Protein S Immune
+HFU	424..	FBC Unsuitable
+HG6PDA	42G4.	Patient G6PD Assay
+HG6PDS	42G4.	G6PD Screening Test
+HG6S	42G4.	G6PD Screen (Qual)
+HHAP	44CA.	Serum Haptoglobin
+HHBA2	42V9.	HbA2
+HHBABQ	42VA.	Abn Hb Quantification
+HHBCEL	42V1.	Hb Eph (cell. acet)
+HHBCIT	42V7.	Hb Eph (citrate agar)
+HHBCQ	42VF.	HbC Quantitation
+HHBDQ	42VG.	HbD Quantitation
+HHBEQ	42VH.	HbE Quantitation
+HHBF	42V3.	HbF
+HHBG	423..	Haemoglobin
+HHBHQ	42VA.	HbH Quantification
+HHBLQ	42VM.	Hb Lepore Quantification
+HHBS	42h2.	HbS Test
+HHBSQ	42VD.	HbS Quantitation
+HHBUQ	42VA.	Unidentified Hb Variant Quant
+HHCT	4258.	Haematocrit
+HHEINZ	42h4.	Heinz Bodies
+HHIT	42g..	HIT Assay
+HHITS	42g..	HIT Screen
+HHLAHT	4L41.	Comment:
+HIEF	42V1.	Isoelectric focusing eph
+HIM	43A..	IM Screen.
+HINR	42QE.	INR (Warfarin)
+HLADR	42g..	HLA - DR
+HLYMP	42M..	Lymphocyte Count
+HMANI	42QE.	Manchester Reagent INR
+HMBASO	42L..	Basophil Count
+HMCH	428..	Mean Cell Hb
+HMCHC	429..	Mean cell Hb conc.
+HMCV	42A..	Mean cell volume
+HMEOS	42K..	Eosinophil Count
+HMETAM	42O8.	Metamyelocytes
+HMETHB	42VB.	Methaemoglobin
+HMIX	42j9.	APTT (Mixture)
+HMLYMP	42M..	Lymphocyte Count
+HMMONO	42N..	Monocyte Count
+HMNEUT	42J..	Neutrophil Count
+HMONO	42N..	Monocyte Count
+HMP	42YA.	Malarial Parasites
+HMYELO	42O7.	Myelocytes
+HNEUT	42J..	Neutrophil Count
+HNRBC	4266.	NRBC/100 WBC
+HNRBCA	4266.	Nucleated RBC count
+HNRCC	4266.	NRBC/100 WBC
+HPCB	42Qq.	Protein C Activity
+HPLAS	42a..	Plasma cells
+HPLT	42P..	Platelet count
+HPROMY	42O6.	Promyelocytes
+HPT	42Q5.	Prothrombin Time
+HPT_N	42Qv.	PT Normal Control
+HPTRU	42QE.	PTR Unsuitable
+HPVIS	42B..	Viscosity - plasma
+HRBC	426..	Red cell count
+HRCFOL	42U4.	Red Cell Folate
+HRDWSD	42g..	RBC Dist. Width SD
+HREF	42g..	Referred to Clinician (FBC)
+HREFC	42g..	Referred to Clinician (Coag)
+HRETIC	42X..	Reticulocyte Count
+HRIV	44vh.	Rivaroxaban Assay
+HSCRU	42h0.	Coagulation SCR Unsuitable
+HSTIFT	4527.	Schilling Test + IF
+HSTT	4526.	Schilling Test
+HTPS	42QF.	Total Protein S Immune
+HTTN	42Qy.	Thrombin Time - Normal
+HTTP	42g..	TT + Protamine Sulphate
+HTTPN	42g..	TT + Prot Sulph Normal
+HTTT	42Q8.	Thrombin Time
+HVIDAS	42Qf.	Vidas DVT Test
+HVITS	42YD.	Vitamin B12/Fol Stored
+HVITU	42YD.	Vitamin B12/Fol Unsuitable
+HVITX	42g..	Vit B12/Folate
+HVWFCB	42jg.	vWf Collagen Binding
+HVWFM	42jJ.	vWF-Multimers
+HWBC	42H..	White cell count
+I5260	43b..	RO 52 / RO 60
+IACH	43Ge.	Acetyl Choline Receptor a/b
+IADR	43mX.	Adrenal Cortex Antibody
+IAMA	43G2.	Mitochondrial Antibody
+IAMAT	43a4.	Mitochondrial Antibody titre
+IANA	43G1.	Anti Nuclear Antibody
+IANAM2	43aJ.	Mitochondrial Antibody M2
+IANAT	43G1.	Anti Nuclear Antibody Titre
+IANCA	43mS.	ANCA by Immunofluorescence
+IAPC	43b..	Alternative Pathway Complement
+IAQUA	43rT.	Aquaporin 4 antibody
+IARI	43cB.	Allergen result interpretation
+IASP	43fF.	Aspergillus Precipitins (IgG)
+IAVP1	43Jc.	Pigeon Avian Precipitins
+IAVP2	43Jc.	Budgerigar Avian Precipitins
+IAVP3	43Jc.	Parrot Avian Precipitins
+IBAS	43b..	Basal Ganglia Antibodies
+IC1	43li.	Penicillin G
+IC1EST	43I3.	C1 esterase inhibitor
+IC1INH	43b..	C1 INHIBITOR FUNCTION
+IC1Q	43b..	C1Q LEVEL
+IC1QA	43b..	C1Q ANTIBODY LEVEL
+IC2	43lD.	Penicillin V
+IC3	43I1.	C3
+IC3NEF	43b..	C3 Nephritic Factor
+IC3NEP	43b..	C3 NEPHRITIC FACTOR
+IC4	43I2.	C4
+IC6	43i7.	Amoxicilloyl
+ICENP	43b..	Centromere (Index)
+ICENPI	43b..	Centromere
+ICH50	43I5.	CH50(haemolytic Complement)
+ICIC	43QO.	Immune Complex Ratio
+ICLG	43G9.	Anti Cardiolipin (IgG)
+ICRITH	4JQ6.	Crithidia luciliae
+ID1	43QU.	House dust mite
+IDNA	43Gv.	Anti ds DNA
+IDNAIF	43Gv.	Anti ds DNA if ANA positive
+IDUP	416..	TEST REFUSAL
+IE1	43QC.	Cat dander
+IE3	43QT.	Horse dander
+IE5	43QK.	Dog dander
+IE6	43Ye.	Guinea pig epithelium
+IE7	43lZ.	Pigeon Droppings
+IE71	43lj.	Mouse epithelium
+IE72	43lW.	Mouse urine
+IE73	43lJ.	Rat epithelium
+IE74	43lk.	Rat urine
+IE84	43YB.	Rabbit epithelium
+IENA	43mL.	ENA Screen
+IEX1	43lw.	Mixed animal dander
+IEX71	43QN.	Mixed feathers
+IEX72	43Qf.	Mixed cagebird
+IF1	43lF.	Egg White
+IF10	43YD.	Sesame seeds
+IF12	43YS.	Pea
+IF13	43Y1.	Peanut
+IF14	43YG.	Soya
+IF15	43iN.	White bean
+IF17	43l3.	Hazelnut
+IF18	43Q9.	Brazil nut
+IF2	43lE.	Cow's milk
+IF20	43Q2.	Almond
+IF201	43Y3.	Pecan nut
+IF202	43QB.	Cashew nut
+IF203	43Y7.	Pistacio
+IF207	43Qm.	Clam
+IF208	43lu.	Lemon
+IF212	43b..	Mushroom
+IF215	43Qt.	Lettuce
+IF218	43lY.	Paprika
+IF23	43l7.	Crab
+IF235	43l9.	Lentil
+IF237	43Q4.	Apricot
+IF24	43YF.	Shrimp
+IF242	43QD.	Cherry
+IF244	43Qo.	Cucumber
+IF25	43YK.	Tomato
+IF253	43b..	Pine Nut
+IF255	43Y9.	Plum
+IF256	43YM.	Walnut
+IF259	43i2.	Grape
+IF26	43la.	Pork
+IF260	43lo.	Broccoli
+IF263	43b..	Green Pepper
+IF27	43Yj.	Beef
+IF279	43b..	Chilipepper
+IF284	43iX.	Turkey
+IF3	43QH.	Cod
+IF309	43b..	Chickpea
+IF33	43Y0.	Orange
+IF35	43YA.	Potato
+IF352	43b..	ARAH8 PEANUT
+IF36	43l6.	Coconut
+IF37	43b..	Blue Mussel
+IF4	43YP.	Wheat
+IF40	43l2.	Tuna
+IF41	43YR.	Salmon
+IF416	43Jz.	Omega 5 Gliadin
+IF420	43b..	PRU P3 Peach
+IF422	43b..	ARAH1 Peanut
+IF423	43b..	ARAH2 Peanut
+IF424	43b..	ARAH3 Peanut
+IF44	43YH.	Strawberry
+IF45	43YQ.	Yeast
+IF47	43YU.	Garlic
+IF48	43YX.	Onion
+IF49	43Q4.	Apple
+IF5	43Yk.	Rye
+IF6	43Q7.	Barley
+IF7	43Yg.	Oat
+IF75	43lG.	Egg yolk
+IF79	43lt.	Gluten
+IF8	43QX.	Maize
+IF81	43I5.	Hard Cheese
+IF83	43l8.	Chicken meat
+IF84	43QV.	Kiwi
+IF85	43iE.	Celery
+IF87	43YT.	Melon
+IF88	43Yd.	Mutton
+IF89	43b..	Mustard
+IF9	43lc.	Rice
+IF91	43b..	Mango
+IF92	43Q6.	Banana
+IF93	43b..	Cocoa
+IF94	43Y2.	Pear
+IF95	43Yh.	Peach
+IF96	43lf.	Avocado
+IFL	43f6.	Farmers Lung
+IFX1	43Qa.	Mixed nuts 1
+IFX2	43YW.	Mixed fish
+IFX22	43Qa.	Mixed Nuts 2
+IFX29	43b..	Mixed Citrus
+IGABA	43b..	GABA,AMPA1,AMPA2
+IGAD	43m8.	Anti GAD
+IGANG	43a1.	Anti Ganglioside
+IGBM	43Gi.	Anti GBM
+IGLYC	4Q53.	GLYCINE RECEPTOR ANTIBODIES
+IGPC	43G4.	Gastric Parietal Cell
+IGX3	43QQ.	Mixed grass pollen
+IHIST	43mR.	Histone Antibodies
+IHMG	43b..	HMG CoA reductase antibody
+II1	43JB.	Honey bee venom
+II3	43Ja.	Common wasp venom
+IIA2	43a3.	Anti-IA2
+IIF	43GJ.	Intrinsic factor antibody
+IIGG	43J3.	IgG
+IIGG1	43JO.	IgG1
+IIGG2	43JP.	IgG2
+IIGG3	43JQ.	IgG3
+IIGG4	43JR.	IgG4
+IINS	43Gk.	INSULIN ANTIBODIES
+IJO1	43N5.	Anti Jo1
+IJO-1	43N5.	Jo-1 (Index)
+IJO1IN	43N5.	Jo-1
+IK82	43QW.	Latex
+IK84	43YI.	Sunflower seeds
+ILA	43N1.	Anti La(SS-B)
+ILAIN	43N1.	La
+ILASSB	43N1.	La (Index)
+ILGI1	43b..	LGI1 / CASPR2 ANTIBODIES
+ILKM	43GW.	LKM1
+ILRP4	43b..	LRP4 Antibody
+IM2	43aJ.	Mitochondrial Antibody M2
+IM3	43Q5.	Aspergillus (Specific IgE)
+IMAG	43WX.	Myelin associated glycoprotein
+IMOG	43b..	MOG Antibodies
+IMPO	43a5.	MPO-ANCA by EIA
+IMUSK	43rJ.	Anti-Musk antibody
+IMX1	43lO.	Mixed moulds
+IMYO	43b..	MYOSITIS SCREEN
+INEUR	43b..	Anti Hu,Anti Yo,Anti Ri
+INFT	43b..	NEUTROPHIL FUNCTION TEST
+INMDA	43rV.	NMDA RECEPTOR ANTIBODY
+IOV	43a7.	Anti Ovary Steroid Cells
+IPARA	43a8.	Anti Parathyroid
+IPEMPH	43mc.	PEMPHIGOID ANTIBODY
+IPIC	43a3.	Pancreatic Islet Cell a/b
+IPIT	43mI.	Anti Pituitary
+IPLA2R	43b..	Anti-PLA2R
+IPNEUM	43b..	SEROTYPE APA
+IPR3	43Gz.	PR3-ANCA by EIA
+IRC202	43Yt.	Suxamethonium
+IREJ	416..	REJECTED REQUEST
+IRET	43GV.	Reticulin(IgG)
+IRF221	43iD.	Coffee
+IRF222	43i1.	Tea
+IRF224	43iR.	Poppy seeds
+IRF253	43iB.	Pine nuts
+IRF279	43i9.	Chilli pepper
+IRF281	43i0.	Curry
+IRF343	43lh.	Raspberry
+IRHF	43F..	Rheumatoid Factor
+IRNP70	43N2.	RNP70 (Index)
+IRNPIN	43N2.	RNP70
+IRO	43N0.	Anti Ro(SS-A)
+IROIN	43N0.	Ro
+IROSSA	43N0.	Ro(Index)
+IRW203	43lb.	Rape pollen
+ISALG	43b..	Single allergen - sent away
+ISCL70	43N4.	Anti Scl70
+ISCLIN	43N4.	Scl-70S
+ISCLS	43N4.	Scl-70S (Index)
+ISM	43N2.	Anti Sm
+ISMA	43G3.	Smooth muscle Antibody
+ISMAT	43G3.	Smooth muscle Antibody titre
+ISMDP	43N2.	SmDP (Index)
+ISMIN	43N2.	SmDP
+ISMRNP	43N2.	Anti Sm/RNP
+IT215	43b..	rBetv1Pr10 Birch
+ITEST	43aR.	Anti Testis Steroid Cells
+ITIGE	43J7.	Total IgE
+ITPO	43Gd.	Anti Thyroid Peroxidase
+ITR	416..	Test Refusal
+ITR2	416..	TEST REFUSAL GPC,AMA,SMA,CCP
+ITRYP	44Cm.	Tryptase
+ITX1	43YL.	Mixed tree pollen
+IUGBM	43Gi.	Urgent Anti GBM
+IUMPO	43a5.	Urgent MPO ANCA
+IUPR3	43Gz.	Urgent PR3 ANCA
+IVGCC	43aI.	Voltage gated Ca++ channel a/b
+IVGKC	43at.	Voltage Gated K+ channel a/b
+IWX1	43YO.	Mixed weeds
+IZNT8	43b..	Anti-ZnT8
+JBC	4JI4.	Blood Culture
+JCTOX	683B.	C. difficile toxin test:
+JFA	4I1A.	Enteric Investigations
+JMRSA	4JRA.	MRSA Screen
+JPREG	465..	Pregnancy Test:
+JSPF	4I16.	Culture and Sensitivities
+JSS	31B1.	Sellotape slide:
+JUR	46U..	Urine Culture
+MACA	4JSA.	Acanthamoeba Investigations
+MACT	4I16.	Actinomyces Culture
+MAFB	4JS9.	Mycobacteria Microscopy
+MAMI	44WV.	Amikacin Assay
+MASS	4J44.	Referred antimicrobial assay
+MBC	4JI4.	Blood Culture
+MBINT	4JI4.	Blood Culture Interim
+MBMIC	4JI4.	Blood Culture Microscopy
+MCOB	43jK.	(COBAS Absorbance value) :
+MCOBI	43jK.	Chlamydia trachomatis PCR :
+MCTAB	43jK.	Abbott realtime Chlamydia
+MDT	43jp.	Mycobacteria Detection
+MEC	4I1A.	Enteric Investigations
+MECDI	683B.	C. difficile test:
+MECH	4I1A.	Helicobacter Culture
+MEM	4I1A.	Enteric Parasitology
+MEME	4JSA.	Microscopy For Enterobius
+MEMU	4JSA.	Urine Parasitology
+MGCAB	43jA.	Abbott realtime Gonorrhoea
+MGCN	43E6.	Gonococcal Screening Test
+MGCPE	4I16.	CPE Screen
+MGEN	44WY.	Gentamicin Assay
+MGI	4I1H.	Gonococcal Investigations
+MHAG	43k7.	Helicobacter pylori antigen:
+MIQCT	43jd.	Ph HV internal QC Ct:
+MIQPC	43jd.	Ph HV internal QC PCR:
+MIRU	43jp.	MIRU Sequencing
+MISCT	43jp.	IS6110 TB complex Ct:
+MISPC	43jd.	IS6110 TB complex PCR:
+MITCT	43jd.	ITS Mycobacteria specific Ct:
+MITPC	43jd.	ITS Mycobacteria specific PCR:
+MLEG	4JQ4.	Legionella culture
+MMCS	4I16.	Culture and Sensitivities
+MMGIT	4J2B.	MGIT Tube
+MMGITI	4J2B.	MGIT Growth Index:
+MMIC	4JS..	Microscopy
+MMRS	4JRA.	MRSA Screening
+MMT	43jp.	Mycobacteria Molecular Typing
+MQGI	43jp.	Quantiferon Gold
+MRALP	43eT.	Legionella antigen (urine)
+MRCS	4I1E.	Respiratory Culture and Sens
+MREF	4J2B.	Mycobacteria Referred Samples
+MSTR	44Wj.	Streptomycin assay
+MTBC	4J2B.	Mycobacteria Culture
+MTBC12	4J2B.	Mycobacteria Culture 12 weeks
+MTD	43jp.	M. tuberculosis complex PCR
+MTEI	44Wk.	Teicoplanin assay
+MTOB	44Wd.	Tobramycin Assay
+MTPCR	43wB.	Treponema pallidum PCR
+MTRL	4I1H.	Reference lab report
+MUBCT	4JV..	Bacterial screen :
+MUCULT	46U..	Urine culture
+MUEC	4KH0.	Epithelial cells :
+MURBC	46G9.	Red cells        :
+MURE	4J2C.	Ureaplasma/Mycoplasma Invest.
+MUWBC	46G7.	White cells      :
+MVAN	44We.	Vancomycin Assay
+NMCHC	429..	Mean cell Hb conc.
+NMPCR	43h5.	Multiplex PCR for meningitis
+P16SGC	43jA.	N. gonorrhoeae (16s PCR)     :
+PGENO	4325.	Probable Genotype
+PGI1GC	43jA.	N.gonorrhoeae (Pgi1 PCR)
+PORAGC	43jA.	N. gonorrhoeae (PorA PCR)    :
+Q.BC	42M9.	B-Cells
+Q.C11	42g..	Class II
+Q.C117	43VX.	CD 117
+Q.C79A	43VO.	CD 79b
+Q.C79B	43VO.	CD 79b
+Q.CD10	43VK.	CD 10
+Q.CD13	43V3.	CD 13
+Q.CD14	43V5.	CD 14
+Q.CD15	43Va.	CD 15
+Q.CD19	43V6.	CD 19
+Q.CD20	43V8.	CD 20
+Q.CD22	43V9.	CD 22
+Q.CD23	43VA.	CD 23
+Q.CD3	43VB.	CD 3
+Q.CD33	43VC.	CD 33
+Q.CD34	43VD.	CD 34
+Q.CD4	43VH.	CD 4
+Q.CD45	43VU.	CD 45
+Q.CD4A	43V1.	CD 4 Pos. Absolute
+Q.CD4I	43VH.	CD 4 Pos. Percent
+Q.CD5	43VN.	CD 5
+Q.CD55	42g..	CD 55
+Q.CD59	42g..	CD 59
+Q.CD64	43s8.	CD 64
+Q.CD7	43VF.	CD 7
+Q.CD8	43VI.	CD 8
+Q.CD8A	43V2.	CD 8 Pos. Absolute
+Q.CD8I	43VI.	CD 8 Pos. Percent
+Q.CIGM	43JF.	Cytoplasmic IgM
+Q.CON	42g..	Checked by :
+Q.EPOR	44A5.	EPO Result
+Q.FA	42g..	Factor Assay - Send Away
+Q.FMC7	43VQ.	FMC7
+Q.FT4	442V.	Free T4
+Q.GLY	42g..	Glycophorin
+Q.H34	42g..	CD 34%
+Q.H34U	42g..	CD 34 (Abs)
+Q.LA	42g..	Lupus screen - Send away
+Q.NKC	42MB.	NK-Cells
+Q.RAT	43VE.	CD4/CD8 Ratio
+Q.REP	42g..	Test Performed:
+Q.SKAP	42g..	Surface Kappa
+Q.SLAM	42g..	Surface Lambda
+Q.SP	42g..	Sample Prep.
+Q.SPR	42g..	Reported by :
+Q.ST	42g..	Sample Type
+Q.STES	42h2.	HbS screen
+Q.TC	42M6.	T-Cells
+Q.TDT	43VT.	TdT
+Q.TMB	42h1.	Thrombophilia Screen
+Q.TSH	442W.	TSH
+Q-A1EP	44p..	Alpha 1 Globulin
+Q-A2EP	44p..	Alpha 2 Globulin
+Q-ACE	44CH.	zz-ACE
+Q-AFPM	44p..	Corrected AFP MOM
+Q-ALEP	44M4.	Albumin (e'phoresis)
+Q-APOE	4L10.	Apo E genotype registration
+Q-APOT	4L10.	Apo E genotype
+Q-BEEP	44p..	Beta Globulin
+Q-CER	44C5.	Caeruloplasmin(Send Away code)
+Q-CSA	44WJ.	Cyclosporin (send away code)
+QCTTGG	43ae.	Anti-tTG IgG
+Q-ET	44p..	External Tests
+Q-FPOR	47Z1.	Faecal Porphyrin
+QG7ACH	44p..	7-a-cholestenone
+Q-GAEP	44p..	Gamma Globulin
+QGANG	43a1.	Anti Ganglioside Abs.
+QGANX	43a1.	Anti-Gangliosides
+QGCLO	4JO..	CLO test
+QGCOEA	68W1.	Coeliac Screen
+QGFCT	478G.	Faecal chymotrypsin
+QGFEL	47E..	Faecal Elastase
+QGFHB	478H.	Faecal haemoglobin
+Q-GH	4481.	Growth Hormone
+QGICT	44V..	Glucose Tolerance Test
+QGIN	44V..	Glucose Tolerance Test
+QGLAX1	46QS.	Bisacodyl
+QGLAX2	46Th.	Phenolphthalein
+QGLAX3	46Tj.	Rhein
+Q-GLUP	44g..	zz-Plasma Glucose
+QGSEMG	43mM.	Antiendomysium IgG
+QGTT	44V..	Glucose Tolerance Test
+QGTTG	43ad.	Anti-tTG IgA
+QGTTGA	68W1.	Anti-tTG IgA (DS2)
+Q-HA	4Q3E.	S/A Hyaluronic Acid
+Q-HCGM	44p..	Corrected HCG MOM
+Q-IGAL	44MB.	IgAL Paraprotein
+Q-IGDK	44MB.	IgDK Paraprotein
+Q-IGDL	44MB.	IgDL Paraprotein
+Q-IGEK	44MB.	IgEK Paraprotein
+Q-IGEL	44MB.	IgEL Paraprotein
+Q-IGGK	44MB.	IgGK Paraprotein
+Q-IGGL	44MB.	IgGL Paraprotein
+Q-IGMK	44MB.	IgMK Paraprotein
+Q-IGML	44MB.	IgML Paraprotein
+QIMAG	43Gl.	Anti-Myelin Assoc G'prot
+QIMAX	43Gl.	Anti-Myelin Assoc G'prot
+Q-KPPA	44MB.	Kappa Paraprotein
+Q-LH	443e.	LH (Send Away code)
+Q-LMP	44p..	LMP Date
+QNEUR	43a6.	Neuronal Antibodies
+QNEUX	43a6.	S/A Neuronal Antibodies
+Q-NTC	44p..	NTD Risk
+Q-OE2	4465.	Oestradiol (send away code)
+Q-PRG	4463.	Progesterone (send away code)
+Q-PRL	443j.	Prolactin (send away code)
+Q-PTH	44AJ.	PTH (Send Away)
+Q-RENE	44AI.	Renin erect
+Q-RENS	44AK.	Renin supine
+Q-RENU	44AH.	Renin
+Q-T18	44p..	trisomy 18 risk
+Q-T18C	44p..	trisomy 18 risk interpretation
+Q-TAFP	44B..	Alpha-fetoprotein
+Q-TES	4473.	Testosterone BTMTES (tandem)
+Q-TFSN	42d1.	Transferrin Satn.
+Q-TINS	449D.	Total insulin
+Q-TT3	4424.	T3 (Total)
+Q-UACR	46TC.	Ur Alb/Creat Ratio
+Q-UAER	44J6.	Urine Alb Excr Rate
+Q-UALB	46N4.	Urine Albumin
+Q-UAMY	46T7.	Urine Amylase
+Q-UBJK	46O4.	Bence-Jones Kappa
+Q-UBJL	46O4.	Bence-Jones Lambda
+Q-UCA	46P4.	Urine Calcium
+Q-UCC	4517.	Creatinine Clearance
+Q-UCL	46ML.	Urine Chloride
+Q-UCR	46M7.	Urine Creatinine
+Q-UK	46M3.	Urine Potassium
+Q-UMG	46P1.	Urine Magnesium
+Q-UNA	46M4.	Urine Sodium
+Q-UOSM	46MB.	Osmol. (Urine)
+Q-UOXL	46T1.	Ur Oxalate
+Q-UP	46M9.	Urine Phosphate
+Q-UPBG	46R4.	Ur Porphobilinogen
+Q-UPH	46A..	Urine pH
+Q-UTP	46N3.	Urine Total Protein
+Q-UU	46M6.	Urine Urea
+Q-UUA	46M5.	Urine Urate
+Q-UUAL	46N6.	Urine Albumin
+Q-UUAM	46TG.	Urine Amylase
+Q-UUCA	46MC.	Urine Calcium
+Q-UUCL	46ML.	Urine Chloride
+Q-UUCO	46LQ.	Urine Cortisol
+Q-UUCR	46MD.	Urine Creatinine
+Q-UUK	46MH.	Urine Potassium
+Q-UUMG	46ME.	Urine Magnesium
+Q-UUNA	46MI.	Urine Sodium
+Q-UUOX	46MF.	Ur Oxalate
+Q-UUP	46MG.	Urine Phosphate
+Q-UUUA	46MJ.	Urine Urate
+Q-VA	44L5.	Vitamin A (Retinol)-Send away
+Q-VAL	44W4.	Valproate
+Q-VC	44L9.	Vitamin C(Send away code)
+Q-VD3A	44LL.	zz 1-25-OH Vitamin D sendaway
+Q-VD3B	44LM.	25-hydroxy vitamin D3
+Q-VE	44LB.	Vitamin E(Send away)
+Q-ZN	44LK.	Serum Zinc (send away code)
+RBHCG	44Z3.	HCG
+RPVAD	49F..	Analysis delay
+RSAPP	4919.	Appearance
+RSCON	49I..	Consistency
+RSIMMS	49B8.	Immotile Sperm
+RSLIQ	49G..	Liquefaction
+RSMOTN	49B7.	Non-Prog Motility
+RSMOTP	49B0.	Prog. Motility
+RSRC	4964.	Round Cells
+RSTCON	498..	Total Sperm Count
+RSVOL	492..	Volume
+RTHCG	44Z3.	HCG (Tumour)
+RUHCG	465..	U. Pregnancy Test
+SAMIX	42j9.	APTT Mix
+SAPTT	42jG.	APTT
+SAPTTR	42Qu.	APTT Ratio
+SB12	42T..	B12
+SFER	42R4.	Ferritin
+SFIB	42Qn.	Fibrinogen
+SFOL	42U5.	Serum Folate
+SGFR	451E.	eGFR (/1.73m2)
+SGTT	44V..	Glucose Tolerance Test
+SHACHX	42g..	SJH haemachromatosis gene
+SHBEL	42V1.	HB Electrophoresis
+SINR	42QE.	INR
+SMAA	4JRD.	Malarial Ag Test
+SPFA	4JRD.	P Falciparum Ag
+SPT	42Q5.	Prothrombin time
+SRCF	42U4.	Red Cell Folate
+WGSAG	4JQ..	Aminoglycosides by WGS
+WGSEMB	4JQ..	Ethambutol by WGS
+WGSINH	4JQ..	Isoniazid by WGS
+WGSPZA	4JQ..	Pyrazinamide by WGS
+WGSQUI	4JQ..	Fluoroquinolones by WGS
+WGSRIF	4JQ..	Rifampicin by WGS
+WGSSM	4JQ..	Streptomycin by WGS
+WGTBCN	4JQ..	Cluster name for ECOSS
+WGTBL	4JQ..	WGS TB Lineage
+WGTBSP	4JQ..	Organism identified by WGS:
+XEC	4I1A.	Enteric culture, Routine
+XECAB	4I1A.	Enteric screen, Post travel
+XECDT	683B.	Clostridium difficile toxin
+XECEC	4JRB.	Enteric culture, E coli O157
+XEMOC	4JSA.	Enteric micro, OCP
+XISCDE	683B.	C difficile toxin EIA test:
+XMAFTS	44ud.	Flucytosine assay
+XMAITZ	4JQ1.	Itraconazole assay
+XMC	4I1B.	Mycology, culture
+XMCA	43f5.	Cryptococcal antigen test :
+XMID	4I1B.	Mycology Identification
+XMM	4JS3.	Mycology, microscopy
+XMPASP	4JDC.	Aspergillus precipitin tests:
+XMPAV	43Jc.	Avian precipitin tests:
+XMPFUN	43fE.	Fungal precipitin tests:
+XMPTAC	43WN.	Thermophilic precipitin tests:
+Z19PCR	43jB.	Parvovirus B19 DNA:
+Z229EX	43jS1	Coronavirus 229E :
+Z229LU	43jS1	Coronavirus 229E PCR:
+Z229PC	43jn.	Coronavirus 229E PCR result =
+Z229QS	43jS1	Coronavirus 229E :
+Z417NR	43jS1	SARS CoV2 variant K417N
+Z417TR	43jS1	SARS CoV2 variant K417T
+Z452RR	43jS1	SARS CoV2 variant L452R
+Z484KR	43jS1	SARS CoV2 variant E484K
+Z681RR	43jS1	SARS CoV2 variant P681R
+ZA4PC	43hB.	Adenovirus F40/41 DNA
+ZABCT	4JQ..	A. baumanii Ct value
+ZABPC	4JQ..	A. baumanii  PCR result
+ZADECT	43jM.	Adeno Ct value:
+ZADEPC	43jM.	Adenovirus PCR:
+ZADEX	43jM1	Adenovirus :
+ZADLU	43jM1	Adenovirus PCR:
+ZADNB	43ee.	Anti-DNase B:
+ZADPC	43jM.	Adenovirus PCR :
+ZADQS	43jM1	Adenovirus :
+ZADT	43jM.	Adenovirus typing
+ZAHIPC	4J34.	HIV PCR:
+ZAL4PC	43jS1	Alinity SARS-COV2 PCR =
+ZALCCT	43jS1	Internal control CT=
+ZALECT	43jS1	COV specific (E gene) CT=
+ZALICN	43jS1	Alinity SARS-COV2 CN Value =
+ZALIFA	43w61	Influenza A virus PCR :
+ZALIFB	43w61	Influenza B virus PCR :
+ZALIPC	43jS1	Alinity SARS-COV2 PCR =
+ZALIRS	43jk1	RSV virus PCR :
+ZALPC	43jS1	Altona SARS-COV2 PCR =
+ZALSCT	43jS1	SARS-COV2 (S gene) CT=
+ZAMOR	43g0.	Amoebic serology
+ZANT	4JQ..	Anthrax investigation:
+ZARBC	43dB.	Anti-HBc Antibody:
+ZARBC2	43dB.	Anti-HBc Antibody:
+ZARBCM	43JA.	Anti-HBc IgM Antibody:
+ZARBEB	43dC.	Anti-HB e Antibody:
+ZARBEG	43B9.	Hepatitis B e Antigen:
+ZARBGC	43d8.	Hepatitis B surface Ag CONFIRM
+ZARBR	4JRJ.	Arbovirus serology
+ZARBSB	43d8.	Antibody to hep B surface Ag:
+ZARBSG	43d9.	Hepatitis B surface Antigen:
+ZARBSQ	43d9.	Hep B surface Ag qualitative
+ZARCMG	43W1.	CMV IgG Antibody :
+ZAREBG	43JG.	EBV VCA IgG Antibody Index:
+ZARHAG	43JI.	Anti-HAV IgG Antibody:
+ZARHAM	43JJ.	Anti-HAV IgM Antibody:
+ZARHCB	43X2.	Hepatitis C Antibody Index:
+ZARHCG	43k1.	HCV Antigen:
+ZARHIC	43d5.	HIV Ag/Ab COMBO:
+ZARHTL	4JDc.	Architect HTLV I/II Ab Assay
+ZARRUG	4JR0.	CMIA for Rubella IgG Antibody:
+ZARRUM	43JX.	Rubella IgM Antibody Index:
+ZARSYG	43eh.	Anti-Treponemal IgG Antibody:
+ZARTOG	43gE.	CMIA T gondii IgG Antibody:
+ZASOR	43E7.	Anti Streptolysin O screen(R):
+ZASOT	43E7.	Anti-streptolysin O (ASO):
+ZASPC	43jP1	Astrovirus cDNA
+ZASTPC	43jP1	Astrovirus PCR
+ZASTR	43E8.	Anti Staphylolysin:
+ZAVPR	43Jc.	Avian precipitin test
+ZB19G2	43dP.	Parvovirus B19 IgG
+ZB19GI	43dP.	Parvo B19 IgG Antibody Index:
+ZB19M2	43dQ.	Parvovirus B19 IgM
+ZB19MI	43dQ.	Parvo B19 IgM Antibody Index:
+ZB19PC	43jB1	Parvovirus B19 real-time PCR
+ZBABR	4JQ..	Babesia referred Test
+ZBARR	43e4.	Bartonella Referred test
+ZBHEGR	43e5.	IF for B.henselae IgG:
+ZBHEMR	43e6.	IF for B.henselae IgM:
+ZBKPC	43jR1	BK quantitative PCR
+ZBKR	4JQ..	BK PCR
+ZBLA	43f2.	Blastomycosis serology
+ZBMS2	43jS1	MS2 Internal Control =
+ZBNP	43jS1	SARS-COV2(N protein)=
+ZBOCEX	43hE.	Human Bocavirus :
+ZBOCLU	43hE.	Bocavirus PCR:
+ZBOCPC	43jB.	Bocavirus PCR result =
+ZBOCQS	43hE.	Bocavirus :
+ZBORF1	43jS1	SARS-COV2(ORF1ab)=
+ZBORR	43e1.	Borrelia serology
+ZBPC	43jS1	(BioBest) SARS-COV2 PCR=
+ZBPEX	43wE.	Bordetella pertussis:
+ZBPPC	43wE.	B.pertussis PCR Result =
+ZBPQS	43wE.	Bordetella pertussis :
+ZBQEGR	43e7.	IF for B.quintana IgG:
+ZBQEMR	43e8.	IF for B.quintana IgM:
+ZBRSVP	43dn.	BINAX RSV Point of Care =
+ZBRU	43eA.	Brucella serology
+ZBSP	43jS1	SARS-COV2(S protein)=
+ZBT	683B.	C.diff Binary Toxin =
+ZCAMCT	4JQ..	Campylobacter Ct
+ZCAMPC	4JQ..	Campylobacter PCR
+ZCAMR	43n5.	Campylobacter serology
+ZCCHPC	43js.	Crimean-Congo HF Virus RT-PCR
+ZCDBT	683B.	C.diff Binary Toxin Ct=
+ZCDSP	683B.	C.diff Internal Control=
+ZCDTB	683B.	C.diff Toxin B Ct=
+ZCHPNG	43eG.	Chlamydia pneumonia IgG titre:
+ZCHPSG	43ex.	Chlamydia psittaci IgG titre:
+ZCMAVI	43Wf.	CMV IgG Avidity Index Value
+ZCMAVR	43Wf.	CMV IgG Avidity Result
+ZCMDR	43j01	CMV DBS PCR RESULT
+ZCMG	43W1.	CMV IgG Antibody Index:
+ZCMM1	43W0.	CMV IgM Antibody Confirmation:
+ZCMMI	43W0.	CMV IgM Antibody Index:
+ZCMPC	43j0.	PCR for Cytomegalovirus DNA
+ZCMPCC	43j01	CMV PCR
+ZCMPQ	43j0.	CMV Quantitative DNA
+ZCMVM	43W0.	LIAISON CMV IgM
+ZCOVC	43jS1	Covid-19 GeneXpert Control
+ZCOVE	43jS1	Covid-19 GeneXpert E-gene PCR
+ZCOVEX	43jS1	(ePLEX)SARS-COV2 Virus:
+ZCOVN2	43jS1	Covid-19 GeneXpert N2 gene PCR
+ZCOVPC	43jS1	Covid-19 GeneXpert PCR
+ZCPEP	4JT..	CARBAPENEMASE PROD. BACT. PCR:
+ZCPPC	43jK.	Chlamydia spp. PCR:
+ZCPPCT	43jK.	Chlamydia pneumoniae CT
+ZCPPLU	43jK.	Chlamydia pneumoniae PCR:
+ZCPPPC	43jK.	Chlamydia pneumoniae PCR:
+ZCPSCT	43jK.	Chlamydia psittaci CT
+ZCPSPC	43jK.	Chlamydia psittaci PCR:
+ZCRYCT	4JQ..	Cryptosporidium Ct
+ZCRYPC	4JQ..	Cryptosporidium PCR
+ZCSA	43dF.	Influenza A
+ZCSAD	43WS.	Adenovirus
+ZCSB	43dG.	Influenza B
+ZCSCM	43WT.	Cytomegalovirus
+ZCSHS	43dE.	Herpes simplex virus
+ZCSME	43dJ.	Measles virus
+ZCSMV	43dO.	Mumps virus
+ZCSMY	43n1.	Mycoplasma pneumoniae
+ZCSP	43WM.	Chlamydia
+ZCSQ1	43eM.	Coxiella burnetii phase 1
+ZCSQ2	43eK.	Coxiella burnetii phase 2
+ZCSRS	43dd.	Respiratory syncytial virus
+ZCSVZ	43dY.	Varicella Zoster virus
+ZCTA	43dF.	Influenza A
+ZCTAD	43WS.	Adenovirus
+ZCTB	43dG.	Influenza B
+ZCTCM	43WT.	Cytomegalovirus
+ZCTHS	43dE.	Herpes simplex virus
+ZCTMY	43n1.	Mycoplasma pneumoniae
+ZCTP	43WM.	Chlamydia
+ZCTQ1	43eM.	Coxiella burnetii phase 1
+ZCTQ2	43eK.	Coxiella burnetii phase 2
+ZCTRS	43dd.	Respiratory syncytial virus
+ZCTVZ	43dY.	Varicella Zoster virus
+ZCYSR	43g3.	Cysticercosis serology
+ZD68CT	43jL.	Enterovirus type D68 Ct:
+ZD68PC	43jL.	Enterovirus type D68 PCR:
+ZDBSBC	4JQ..	DBS HBVcore antibody test
+ZDBSBS	4JQ..	DBS HBVsurface antigen test
+ZDBSCP	43q..	DBS HCV PCR
+ZDBSCT	43q..	DBS HCV RT- PCR
+ZDBSHC	4JQ..	DBS HCV Antibody test
+ZDBSHI	4JQ..	DBS HIV test
+ZDOBC2	43dB.	Anti-HBc Antibody:
+ZDOBSQ	43d9.	Hep B surface Antigen:
+ZDOCMG	43W1.	CMV IgG Antibody :
+ZDOEBV	43JG.	EBV VCA IgG Antibody
+ZDOHAM	43JJ.	Anti-HAV IgM Antibody:
+ZDOHCB	43X2.	Hepatitis C Antibody:
+ZDOHCG	43k1.	HCV Antigen:
+ZDOHIC	43d5.	HIV Ag/Ab Combo:
+ZDOHTL	4JDc.	HTLV I/II Antibody:
+ZDOSYG	43eh.	Syphilis IgG Antibody
+ZDOTOG	43gE.	Toxoplasma IgG Antibody
+ZDVPC	43j31	Dengue Virus RT-PCR
+ZEAHPC	4JQ..	Entamoeba histolytica PCR
+ZEBCO	43jS1	Eurobioplex SARS-COV2 PCR :
+ZEBFA	43w61	Influenza A virus PCR :
+ZEBFB	43w61	Influenza B virus PCR :
+ZEBG	43JG.	EBV IgG Antibody TO VCA:
+ZEBG2I	4JQ..	EBV VCA IgG Antibody Index:
+ZEBG3	43JG.	LIAISON EBV VCA IgG
+ZEBM	43WP.	EBV IgM Antibody to VCA:
+ZEBM2I	43WP.	EBV VCA IgM Antibody Index:
+ZEBM3	43WP.	LIAISON EBV VCA IgM
+ZEBN2I	4JQ..	EBV NA IgG Antibody Index:
+ZEBN3	43JH.	LIAISON EBV Nuclear Ag IgG
+ZEBPQ	43jV.	EBV Quantitative DNA
+ZEBRS	43jk1	RSV PCR :
+ZECCT	4JQ..	E. coli Ct value
+ZECPC	4JQ..	E. coli  PCR result
+ZEFLRS	43hD.	Xpert Respiratory Viral Panel
+ZEM	4JU..	Electron Microscopy
+ZENCR	43jL.	Enterovirus PCR:
+ZENPC	43jL.	Enterovirus PCR:
+ZENPCR	43jL.	Enterovirus RNA (PCR):
+ZENQS	43jL.	Enterovirus :
+ZENTR	43d4.	Enterovirus IgM
+ZENTT	43jL.	Enterovirus Typing
+ZEVPPC	43js.	Pan Ebola RT-PCR PCR:
+ZFAEX	43w61	Influenza A  Virus :
+ZFALU	43w61	Influenza A virus PCR :
+ZFAPC	43w61	Influenza A virus PCR :
+ZFAPI	43w61	Influenza A virus PCR :
+ZFAQS	43w61	Influenza A Virus :
+ZFAR	43w6.	Influenza A POS for typing.
+ZFASC	4JW4.	Fasciola Serology:
+ZFAT	4JU..	Direct Immunofluorescence
+ZFAXP	43w61	Xpert Influenza A result=
+ZFBEX	43wD1	Influenza B virus  :
+ZFBLU	43wD1	Influenza B virus PCR :
+ZFBPC	43wD1	Influenza B virus PCR :
+ZFBPI	43wD1	Influenza B virus PCR :
+ZFBQS	43wD1	Influenza B :
+ZFBR	43wD.	Influenza B POS for typing.
+ZFBXP	43wD1	Xpert Influenza B result=
+ZFH1EX	43w61	Human Influenza A H1 :
+ZFH1PC	43k2.	Human Influenza A H1 PCR:
+ZFH1QS	43w61	Influenza A H1 :
+ZFH3CT	43k2.	Human OIV H3 Ct:
+ZFH3EX	43w61	Human Influenza A H3 :
+ZFH3LU	43w61	Human Influenza A H3 PCR:
+ZFH3PC	43k2.	Human Influenza A H3 PCR:
+ZFH3QS	43w61	Influenza A H3 :
+ZFH5PC	43k2.	Influenza H5 PCR result=
+ZFH7PC	43w6.	Influenza A H7 result =
+ZFILR	43g5.	Filarial serology
+ZFLA	4JRJ.	Flavivirus test:
+ZGIACT	4JQ..	Giardia lamblia Ct
+ZGIAPC	4JQ..	Giardia lamblia PCR
+ZGLAMR	4JQ..	Giardia lamblia serology:
+ZHAEPC	43j9.	PCR Result for bexA gene =
+ZHAG	43JI.	Anti-HAV IgG Antibody Index:
+ZHAM	43JJ.	Anti-HAV IgM Antibody Index:
+ZHBC	43dB.	Anti-HBc Antibody Index:
+ZHBC2I	43dB.	Anti-HBc (TOTAL) Index:
+ZHBCM	43dA.	Anti-HBc IgM Antibody Index:
+ZHBDR	43jG.	Hepatitis B virus DNA
+ZHBEB	43dC.	Anti-HBe Antibody Index:
+ZHBEG	43B9.	Hepatitis Be Antigen Index:
+ZHBPC	43jG.	PCR for Hep B virus DNA
+ZHBPCQ	43jG.	Quant.PCR for Hep B virus DNA
+ZHBQ	43jG.	HBV Real-Time PCR:
+ZHBQC	43jG1	XPERT HBV Viral Load:
+ZHC100	43X2.	Hep C RIBA c100
+ZHC22	43X2.	Hep C RIBA c22
+ZHC33	43X2.	Hep C RIBA c33
+ZHCB	43X2.	Hepatitis C Antibody Index:
+ZHCB1	43X2.	Hep C Antibody Confirm.(RIBA)
+ZHCB3I	43X2.	Hepatitis C Antibody Index(C)
+ZHCFQ	43q..	Xpert POCT HCV RNA Quant:
+ZHCFR	43q..	Xpert POCT HCV RNA Result:
+ZHCGE2	4JQ3.	Hepatitis C Virus Genotype
+ZHCGEN	4JQ3.	Hepatitis C Virus Genotype
+ZHCNS5	43X2.	Hep C RIBA ns5
+ZHCP	43q..	Hepatitis C PCR (Qualitative):
+ZHCPQ	43q..	Hepatitis C PCR (QUANTITATIVE)
+ZHCPT	4J3B.	Hepatitis C Quantitative PCR:
+ZHCRES	43q..	HEPATITIS C VIRUS RESISTANCE
+ZHCSEQ	43q..	HCV SEQUENCING
+ZHCSOD	43X2.	Hep C RIBA hSOD Control
+ZHCXPQ	43q..	Xpert HCV RNA Quantification
+ZHCXPR	43q..	Xpert HCV RNA Result
+ZHDELR	4JDY.	HDV Antibody Test:
+ZHDR	43jJ.	Hepatitis D Quantitative PCR
+ZHDV	4JDY.	Hepatitis Delta Antibody
+ZHEB	43X7.	Hepatitis E antibody
+ZHEG1E	43W9.	Helicobacter pylori E Value:
+ZHEG1I	43W9.	Helicobacter pylori Index:
+ZHEG3I	43W9.	H.pylori IgG Ab Index =
+ZHEGI	43W9.	H pylori IgG Antibody Index:
+ZHELCT	43j9.	H.influenzae(hel gene) CT =
+ZHELPC	43j9.	PCR result for hel gene =
+ZHESEQ	4L17.	Hepatitis E virus typing
+ZHEVBR	43X8.	HEV IgM Immunoblot:
+ZHEVCR	43X9.	Hepatitis E Immunoblot
+ZHEVGI	43X9.	HEV IgG EIA Index:
+ZHEVMI	43X8.	HEV IgM EIA Index:
+ZHEVPC	43jW.	Hepatitis E PCR result:
+ZHHBCM	43JA.	Anti-HBc IgM Antibody Index
+ZHHBQC	43jG1	XPERT HBV Viral Load:
+ZHHBSB	43d8.	Antibody to Hep B surface Ag:
+ZHHBSQ	4JQ..	Hep B surface qual Ag Index:
+ZHHBTV	43d9.	HBsAg Test Value:
+ZHHCG	4J3B.	HCV Antigen:
+ZHHV6	4JDN.	Human Herpes virus 6 PCR:
+ZHHV6G	4JDN.	Human Herpes Virus  (HHV-6)
+ZHHV7	4JDN.	Human Herpes virus 7 PCR:
+ZHHV8	4JDN.	Human Herpes virus 8 PCR:
+ZHIAAI	4JQ..	HIV Avidity Index
+ZHIAIB	4JQ..	HIV Avidity Buffer OD
+ZHIAIU	4JQ..	HIV Avidity Urea OD
+ZHIB2I	43WK.	HIV Antibody (Bead) Index:
+ZHIB5	4JQ..	Genelabs HIV Western Blot 1&2
+ZHIB6R	43WK.	Confirmatory Inn-LIA HIV:
+ZHIBGX	43nC.	H.Influenzae B Abs
+ZHIC	43d5.	HIV Ag/Ab COMBO Index:
+ZHIC1I	43d5.	HIV Ag/Ab Index:
+ZHIDIL	4J34.	HIV Viral Load Dilution
+ZHIGBR	43WK.	HIV Geenius Blot Result=
+ZHIIC1	43WK.	HIV-1 Antibodies
+ZHIIC2	43WK.	HIV-2 Antibodies
+ZHIICR	43WK.	HIV Immunocomb Result =
+ZHIII	43WK.	HIV Immunocomb INT Control
+ZHIIN	43j7.	HIV Integrase Resistance
+ZHILTR	4JQ..	HIV Proviral DNA (Ltr)
+ZHINPC	4JQ..	H. influenzae  PCR result
+ZHIPC	4J34.	PCR for HIV viral RNA
+ZHIPCT	4J34.	HIV-1 Quantitative PCR:
+ZHIPCU	4J34.	PCR (u/s) for HIV viral RNA
+ZHIPR	43h9.	HIV-1 proviral DNA:
+ZHIPRC	43h9.	HIV-1 proviral DNA Ct:
+ZHIRT	4JQ..	HIV Resistance test:
+ZHISR	43f7.	Histoplasma serology
+ZHITRP	4JQ..	HIV Co-receptor Tropism:
+ZHIXPR	4J34.	Xpert HIV-1 RNA Result
+ZHKUEX	43jS1	Coronavirus HKU1 :
+ZHKULU	43jS1	Coronavirus HKU1 PCR:
+ZHKUPC	43jn.	Coronavirus HKU1 PCR result=
+ZHKUQS	43jS1	Coronavirus HKU1 :
+ZHPC2	43jY.	HPV Hybrid Capture 2 assay:
+ZHPCR	43jY.	HPV PCR:
+ZHPIG	43jY.	In-house genotyping HPV types:
+ZHPINO	43jY.	InnoLipa HPV assay:
+ZHPLA	43jY.	HPV linear array:
+ZHPLEX	43jY.	Anyplex HPV genotyping
+ZHPLUM	43jY.	HPV luminex
+ZHPT	43nA.	Functional Antibodies
+ZHPVHR	43jY.	High Risk HPV Test:
+ZHPVRT	43jY.	Abbott rT HR-HPV Test
+ZHS1CR	43w41	HSV1 PCR:
+ZHS1PC	43w41	HSV1 PCR:
+ZHS1PL	43j6.	PCR for HSV1 DNA:
+ZHS1PN	43j6.	PCR for HSV1 DNA
+ZHS2CR	43w51	HSV2 PCR:
+ZHS2PC	43w51	HSV2 PCR:
+ZHS2PL	43j6.	PCR for HSV2 DNA:
+ZHS2PN	43j6.	PCR for HSV2 DNA:
+ZHSABR	43dE.	Referred HSV type sp Antibody
+ZHSR	43j6.	HSV PCR result:
+ZHSVG	43dE.	LIAISON HSV 1/2 IgG
+ZHXHBQ	43d9.	Liaison HBsAg Quantitation
+ZHYR	43g6.	Abs.to Hydatid cyst fluid Ag:
+ZIACCT	4JQ..	Internal Control A Ct
+ZIACPC	4JQ..	Internal  Control A PCR
+ZIBCCT	4JQ..	Internal Control B Ct
+ZIBCPC	4JQ..	Internal  Control B PCR
+ZIEAA	4JQ..	IF for EBV EA IgA antibody:
+ZIEAG	4JQ..	IF for EBV EA IgG antibody:
+ZIENA	43JH.	IF for EBNA IgG antibody:
+ZIL28B	4JQ3.	IL28B genotype
+ZIMCT	4JT..	IMP PCR CT
+ZIMPC	4JT..	IMP PCR carbapenemase gene
+ZIVCA	4JQ..	IF for EBV VCA IgA antibody:
+ZIVCG	43JG.	IF for EBV VCA IgG antibody:
+ZIVCM	43WP.	IF for EBV VCA IgM antibody:
+ZJCPCR	4JQ..	PCR for JC virus
+ZJCR	4JQ..	JC serology
+ZKPCT	4JT..	KPC PCR CT
+ZKPNCT	4JQ..	K. pneumoniae Ct value
+ZKPNPC	4JQ..	K. pneumoniae  PCR result
+ZKPPC	4JT..	KPC PCR carbapenemase gene
+ZLEG2	43eT.	IC test for Legionella Antigen
+ZLEGR	43WB.	Legionella referred test
+ZLEGU	43eT.	Legionella Urinary Antigen
+ZLEIDM	31B1.	Leishmania Direct Microscopy
+ZLEIP	4JQ..	Leishmania PCR screen:
+ZLEISR	43g7.	Leishmaniasis serology
+ZLEPR	4JDF.	Leptospirosis serology
+ZLISTR	43WC.	Listeria serology
+ZLPCT	43eT.	Legionella pneumophila CT:
+ZLPEX	43eT.	Legionella pneumophila :
+ZLPLU	43eT.	Legionella pneumophila PCR:
+ZLPNQS	43eT.	Legionella pneumophila :
+ZLPPC	43eT.	Legionella pneumophila PCR:
+ZLSPCT	43eT.	Legionella Spp CT:
+ZLSPPC	43eT.	Legionella Spp PCR:
+ZLSTO	4JQ..	Stored - Long Term
+ZLUAGR	4JQ..	SARS-COV2 Antigen (LumiraDX)
+ZLUAGT	4JQ..	SARS-COV2 Antigen Test Result
+ZLVPPC	43js.	Lassa Fever Virus RT- PCR
+ZMALPC	4JRD.	Pan Malaria RT-PCR
+ZMALR	4JDR.	Malarial serology
+ZMBPPC	43js.	Pan Marburg Virus RT-PCR
+ZMCCT	4JQ..	M. catarrhalis Ct value
+ZMCPC	4JQ..	M. catarrhalis  PCR result
+ZMEAG	43dH.	LIAISON Measles IgG
+ZMEAP	43ja.	Measles Virus PCR
+ZMEG2I	43dH.	Measles IgG EIA Index:
+ZMEM1I	43dI.	Measles IgM EIA Index:
+ZMENPC	43j9.	PCR result for ctrA gene =
+ZMERCT	43jn.	MERS- CoV CT value =
+ZMEREX	43jS1	MERS coronavirus
+ZMERPC	43jn.	MERS Coronavirus PCR Result =
+ZMETEX	43jX1	Metapneumovirus :
+ZMETLU	43jX1	Metapneumovirus PCR:
+ZMETPC	4JQ..	Metapneumovirus PCR:
+ZMETQS	43jX1	Metapneumovirus A/B :
+ZMGCT	43jd.	M.genitalium CT
+ZMGENR	43jd.	M genitalium resistance
+ZMGMPC	43jd.	Macrolide resistance result
+ZMGPC	43jd.	M.genitalium result
+ZMMS2	43jS1	MS2 Internal Control =
+ZMNP	43jS1	SARS-COV2(N protein)=
+ZMORF1	43jS1	SARS-COV2(ORF1ab)=
+ZMPC	43jS1	(Moredun) SARS-COV2 PCR=
+ZMPNQS	43jd.	Mycoplasma pneumoniae :
+ZMSP	43jS1	SARS-COV2(S protein)=
+ZMUG2I	43dK.	Mumps IgG EIA Index:
+ZMUM	43dL.	Mumps virus IgM
+ZMUM2I	43dL.	Mumps IgM EIA Index:
+ZMUMP	43jc.	Mumps Virus PCR
+ZMUMPC	43jc.	Mumps real-time PCR CT value
+ZMUT	43jS1	SARS COV2 mutant
+ZMYEX	43jd.	Mycoplasma pneumoniae :
+ZMYLU	43jd.	Mycoplasma pneumoniae PCR:
+ZMYM	43JV.	Myco. pneumonia IgM Antibody:
+ZMYM1I	43JV.	Myco.pneumoniae IgM :
+ZMYPC	4JQ..	Mycoplasma pneumoniae PCR:
+ZNDCT	4JT..	NDM PCR CT
+ZNDPC	4JT..	NDM PCR carbapenemase gene
+ZNL6EX	43jS1	Coronavirus NL63 :
+ZNL6LU	43jS1	Coronavirus NL63 PCR:
+ZNL6PC	43jn.	Coronavirus NL63 PCR result =
+ZNL6QS	43jS1	Coronavirus NL63 :
+ZNMR	4JW0.	N. meningitidis serology
+ZNOPC	43jf1	Norovirus G1 or G2 cDNA
+ZNORO2	43jf.	Norovirus RNA :
+ZOC4EX	43jS1	Coronavirus OC43:
+ZOC4LU	43jS1	Coronavirus OC43 PCR:
+ZOC4PC	43jn.	Coronavirus OC43 PCR result=
+ZOC4QS	43jS1	Coronavirus OC43 :
+ZOXCT	4JT..	OXA-48 PCR CT
+ZOXPC	4JT..	OXA-48 carbapenemase gene
+ZPABR	43WF.	Pneumococcal Antibodies
+ZPACT	4JQ..	P. aeruginosa Ct value
+ZPAPC	4JQ..	P. aeruginosa  PCR result
+ZPAR	43f2.	Paracoccidioidomycosis test:
+ZPBR	43A..	Monospot slide test:
+ZPC	43fD.	Pneumocystis carinii IF test:
+ZPECR	43w8.	Parechovirus PCR:
+ZPEPC	43jL.	Parechovirus PCR:
+ZPERTR	43e2.	Antibody to Bord.pertussis:
+ZPF1EX	43jx1	Parainfluenza virus type 1
+ZPF1LU	43jx1	Parainfluenza virus type 1
+ZPF1PC	43jx.	Parainfluenza virus type 1
+ZPF1QS	43jx1	Parainfluenza virus type 1 :
+ZPF2EX	43jy1	Parainfluenza virus type 2
+ZPF2LU	43jy1	Parainfluenza virus type 2
+ZPF2PC	43jy.	Parainfluenza virus type 2
+ZPF2QS	43jy1	Parainfluenza virus type 2 :
+ZPF3EX	43jz1	Parainfluenza virus type 3
+ZPF3LU	43jz1	Parainfluenza virus type 3
+ZPF3PC	43jz.	Parainfluenza virus type 3
+ZPF3QS	43jz1	Parainfluenza virus type 3 :
+ZPF4EX	43w91	Parainfluenza virus type 4
+ZPF4LU	43w91	Parainfluenza virus type 4
+ZPF4PC	43w9.	Parainfluenza virus type 4
+ZPF4QS	43w91	Parainfluenza virus type 4 :
+ZPNEGX	43WF.	Pneumococcal IgG Abs
+ZPNP	43hC.	Pneumocystis jirovecii PCR:
+ZPNPC	43hC.	Pneumocystis jirovecii PCR:
+ZQ493R	43jS1	SARS CoV2 variant Q493R
+ZQ80KP	43q..	Q80K polymorphism (HCV)
+ZQCOCT	43jS1	Covid-19 Abbott CT Value
+ZQCOPC	43jS1	Covid-19 Abbott PCR Result
+ZREFC	43jS1	COVID test-National initiative
+ZREJ	4JQ..	PATIENT RETESTED TOO SOON:
+ZRFAPC	43w6.	H1N1v H275Y Resistant PCR:
+ZRHEX	43ji1	Rhino/ Enterovirus :
+ZRHLU	43ji1	Rhinovirus PCR:
+ZRHPC	43ji.	Rhinovirus PCR:
+ZRHQS	43ji1	Rhinovirus/enterovirus :
+ZRICR	43ed.	Rickettsial Serology:
+ZROPC	43jj1	Rotavirus cDNA
+ZROT2	4JR8.	IC Test for Rotavirus
+ZROTPC	43jj.	Rotavirus PCR:
+ZRPR	43ej.	RPR:
+ZRSAEX	43jk1	Respiratory syncitial virus A:
+ZRSBEX	43jk1	Respiratory syncitial virus B:
+ZRSLU	43jk1	RSV PCR :
+ZRSPB	43jk1	RSV PCR:
+ZRSPC	43jk1	RSV PCR :
+ZRSPI	43jk1	SARS-CoV2(S protein) Interpret
+ZRSVQS	43jk1	Respiratory syncytial virus A/
+ZRSXP	43jk1	Xpert RSV result=
+ZRUG1I	4JR0.	Rubella IgG Antibody Index:
+ZRUG2	4JR0.	MEIA Rubella IgG Antibody:
+ZRUG3I	43JW.	Rubella IgG Antibody Index:
+ZRUM	43JX.	Rubella IgM Antibody Index:
+ZRUMI	43JX.	Rubella IgM Ab (Screen) Index:
+ZSALCT	4JQ..	Salmonella Ct
+ZSALPC	4JQ..	Salmonella PCR
+ZSAMBA	43jS1	SAMBA SARS-CoV-2 PCR
+ZSAPC	43jl1	Sapovirus CDNA
+ZSAPPC	43jl1	Sapovirus PCR
+ZSC2A	43jS1	SARS-CoV-2 allele specific PCR
+ZSC2QS	43jS1	SARS-CoV-2 :
+ZSCHR	43g8.	Schistosomal serology
+ZSCVG	4JQ..	SARS-CoV-2 IgG index
+ZSCVGR	4JQ..	SARS-CoV-2 IgG
+ZSEECO	43jS1	Seegene SARS-COV2 PCR =
+ZSEEFA	43w61	Influenza A virus PCR :
+ZSEEFB	43wD1	Influenza B virus PCR :
+ZSEERS	43jk1	RSV PCR :
+ZSFACT	43w6.	H1N1(pd2009) Ct:
+ZSFCPC	43k2.	Swine-OIV (CfI) PCR:
+ZSH1QS	43w61	Influenza A 2009 H1 :
+ZSHICT	4JQ..	Shigella/EIEC Ct
+ZSHIEX	43w61	Human Influenza A 2009 H1 :
+ZSHIPC	4JQ..	Shigella/EIEC PCR
+ZSLYPC	43j9.	PCR result for lytA gene =
+ZSPNCT	4JQ..	S. pneumoniae Ct value
+ZSPNPC	4JQ..	S. pneumoniae  PCR result
+ZSTACT	4JQ..	S. aureus Ct value
+ZSTAPC	4JQ..	S. aureus PCR result
+ZSTO	4JQ..	Specimen stored.
+ZSTREP	4JQ..	Inno LIA Streptavidin Control
+ZSTRR	43g9.	Strongyloides serology
+ZSV	4J38.	shell vial culture
+ZSYG1	4JQ..	Inno-LIA:-T.pallidum Blot :
+ZSYGI	43eh.	Anti-treponemal EIA (Index)
+ZSYM1I	43ei.	Anti-treponemal IgM (Index)M
+ZSYM1P	43ei.	Anti-treponemal IgM Pos(M)
+ZSYM2I	43ei.	Anti-treponemal IgM (Index):
+ZSYMI	43ei.	Anti-treponemal IgM (Index)
+ZSYPC	4JR4.	Treponema Pallidum PCR:
+ZSYPV	4JR4.	Treponema pallidum PCR:
+ZTCD	683B.	Toxigenic C.diff =
+ZTCDC	683B.	tcdC gene Ct =
+ZTETGX	43iZ.	Tetanus Toxoid Abs
+ZTIAR	4JQ..	ISAGA-IgA to Toxoplasma gondii
+ZTIER	4JQ..	ISAGA-IgE to Toxoplasma gondii
+ZTIMR	4JQ..	ISAGA-IgM to Toxoplasma gondii
+ZTIS30	4JU..	Tissue 30 day discard check
+ZTMPA	4JQ..	Inno LIA TmpA Synth. peptide:
+ZTOCR	43WG.	Toxocara serology
+ZTODR	43gD.	Toxoplasma Dye test :
+ZTOG1	43gE.	T gondii IgG Antibody:
+ZTOMR	43WH.	EIA-IgM to Toxoplasma gondii:
+ZTOPCR	43jC.	Toxoplasma gondii PCR:
+ZTOR	4JQ..	EIA-IgG to Toxoplasma gondii:
+ZTPN15	4JQ..	Inno LIA TpN15 Rec. Antigen
+ZTPN17	4JQ..	Inno LIA TpN17 Rec Antigen
+ZTPN47	4JQ..	Inno LIA TpN47 Rec Antigen
+ZTPPA	438C.	TPPA:
+ZTRYPR	43gF.	Trypanosoma Serology
+ZU1PC	43jS1	(UoE) SARS-COV2 PCR=
+ZU2PC	43jS1	(UoE) SARS-COV2 PCR =
+ZVAPRP	4JQ..	VAP- Rapid Biomarker Assay
+ZVAPST	4JQ..	VAP- Rapid Biomarker Storage
+ZVBCTV	43dB.	Anti-HBc Test Value:
+ZVCMMT	43W0.	CMV IgM Test Value:
+ZVDECT	4JU..	DO NOT USE
+ZVDET	4JU..	Virus Detection
+ZVDRL	43ej.	VDRL:
+ZVFAE	4JU..	Faeces - Virus Identification
+ZVHAMR	43JJ.	HAV IgM VIDAS Result
+ZVHBTV	43d9.	HBsAg Test Value:
+ZVHCGV	43X2.	VIDAS HCV Ab Test Value
+ZVHEGR	43X9.	HEV IgG VIDAS result
+ZVHEMR	43X8.	HEV IgM VIDAS Result
+ZVHITV	43d5.	HIV Ag/Ab Test Value:
+ZVI	4J38.	Virology comments:
+ZVMCT	4JT..	VIM PCR CT
+ZVMEGT	43dH.	Measles IgG Test Value
+ZVMPC	4JT..	VIM PCR carbapenemase gene
+ZVMUGT	43dK.	Mumps IgG Test Value:
+ZVRES	4JU..	Respiratory Virus Detection
+ZVRUGT	43JW.	Rubella IgG Antibody TV:
+ZVRUMT	43JX.	Rubella IgM Test Value:
+ZVTECT	4JQ..	Verotoxogenic E.Coli Ct
+ZVTEPC	4JQ..	Verotoxogenic E.Coli PCR
+ZVVZT	43Jb.	VZV IgG Test Value:
+ZVZGI	43Jb.	VZV IgG Antibody level:
+ZVZM	43dV.	VZV IgM Antibody:
+ZVZPC	43jF.	Varicella-Zoster virus PCR:
+ZVZVG2	43Jb.	LIAISON VZV IgG
+ZVZVM2	43dV.	LIAISON VZV IgM
+ZVZVPN	43jF.	PCR for VZV DNA :
+ZWFAPC	43w6.	H1N1v WT PCR:
+ZWILD	43jS1	SARS CoV2 wild type
+ZWU2CT	43jS1	(N-gene)SARS-COV2 CT
+ZWU2PC	43jS1	(N-gene)SARS-COV2 PCR
+ZWU3CT	43jS1	(RdRp)SARS-COV2 CT
+ZWU3PC	43jS1	(RdRp)SARS-COV2 PCR
+ZWU4CT	43jS1	Covid-19 CFX E-gene CT value
+ZWU5CT	43jS1	Covid-19 CFX RdRP-gene CT val.
+ZWU6CT	43jS1	Covid-19 CFX N-gene CT value
+ZWU7CT	43jS1	Covid-19 CFX IC CT value
+ZWU9PC	43jS1	(N-gene)SARS-COV2 PCR
+ZWUCFI	43jS1	Covid-19 CFX Interpretive valu
+ZWUCT	43jS1	(E-gene) SARS-COV2 CT
+ZWUPC	43jS1	(E-gene) SARS-COV2 PCR
+ZWUPC2	43jS1	SARS-CoV-2 virus PCR
+ZXHBQ	43d9.	Liaison HBsAg Quantitation
+ZXNOVP	43jf.	XPERT Norovirus Point of Care=
+ZYERR	4JDG.	Yersinia serology

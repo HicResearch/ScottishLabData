@@ -1,11 +1,9 @@
-use RDMP_3564_ExampleData
-
-DROP TABLE FHIR_Glasgow
+--DROP TABLE FHIR_Glasgow
 CREATE TABLE dbo.FHIR_Glasgow (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
-effectiveDate     DATETIME,
+effectiveDate     VARCHAR(50) NULL,
 valueQuantity     VARCHAR(50) NULL,
 valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
@@ -65,5 +63,5 @@ SELECT
 
     clinicalcodedescription AS readCodeDescription
 
-FROM dbo.SCI_Store_20220802
+FROM dbo.Glasgow
 ;

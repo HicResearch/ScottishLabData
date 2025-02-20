@@ -1,14 +1,25 @@
 --------- DaSH's lab data only contains biochemistry and haematology data 
---------- Tests does not comes with readcode have been excluded from furture study
-use RDMP_3564_ExampleData
-DROP TABLE DaSH_v2
+--------- Tests does not comes with readcode haveuse RDMP_3564_ExampleData
+--DROP TABLE DaSH_v2;
+
+-- add category based on the flat file name
+ALTER TABLE DaSH
+ADD category VARCHAR(150) NOT NULL
+DEFAULT 'biochemsitry'; -- edit default value based on the flat file name which indicate the category of the data
+-- if multiple flat files, import each file for one table, conduct the above step  seperatly and merge all table into DaSH
+
+
 select *, 
-substring(Reference_Range, 1, CHARINDEX('{', Reference_Range)-1) as "low",
-substring(Reference_Range, CHARINDEX('{', Reference_Range)+1, LEN(Reference_Range) ) as "high"
+substring(Reference_Range, 1, case when  CHARINDEX('{', Reference_Range) = 0 then LEN(Reference_Range) 
+else CHARINDEX('{', Reference_Range)-1 end) as "low",
+substring(Reference_Range, case when  CHARINDEX('{', Reference_Range) = 0 then LEN(Reference_Range) 
+else CHARINDEX('{', Reference_Range)+1 end, LEN(Reference_Range) ) as "high"
 into DaSH_v2
 from dbo.DaSH;
 
-DROP TABLE FHIR_DaSH
+
+
+--DROP TABLE FHIR_DaSH
 CREATE TABLE dbo.FHIR_DaSH (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
@@ -83,4 +94,3 @@ SELECT
 
 FROM DaSH_v2
 WHERE read_code IS NOT NULL;
-;

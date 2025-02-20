@@ -12,7 +12,7 @@ con <- dbConnect(odbc(),
 ######################################
 #### unit and value transformation ###
 ######################################
-unitchange <- read_excel("unitTransfermation.xls")
+unitchange <- read_csv("Paper Appendix/Appendix B.csv")
 colnames(unitchange)[8] <- "Rule"
 SHList <- c("HIC","Glasgow","Lothian","DaSH")
 # dataframe to host data for censored data percentage

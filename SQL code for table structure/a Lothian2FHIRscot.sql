@@ -1,10 +1,9 @@
-use RDMP_3564_ExampleData
 
 --------------------------------------------------------------------
 ---------- TestCode to ReadCode ------------------------------------
 --------------------------------------------------------------------
 
-DROP dbo.Lothian_ReadCode
+--DROP dbo.Lothian_ReadCode
 SELECT *
 Into dbo.Lothian_ReadCode
 FROM 
@@ -20,7 +19,7 @@ ON b.TestItemCode = lkp.Test_Code;
 --------------------------------------------------------------------
 --------------- Add Unit Information -------------------------------
 --------------------------------------------------------------------
-DROP dbo.Lothian_ReadCode_Unit
+--DROP dbo.Lothian_ReadCode_Unit
 SELECT *
 Into dbo.Lothian_ReadCode_Unit
 FROM 

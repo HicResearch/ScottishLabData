@@ -1,12 +1,11 @@
 --------- HIC's pathology and microbiology data does not comes with readcode, they have been excluded from furture study
-use RDMP_3564_ExampleData
 
-DROP TABLE FHIR_HIC
+--DROP TABLE FHIR_HIC
 CREATE TABLE dbo.FHIR_HIC (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
-effectiveDate     DATETIME,
+effectiveDate     VARCHAR(50) NULL,
 valueQuantity     VARCHAR(50) NULL,
 valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
@@ -18,6 +17,8 @@ healthBoard       VARCHAR(50) NULL,
 readCodeDescription  VARCHAR(250) NULL
 );
 
+-- the example data is based on the HIC's biochemistry
+--only run the biochemistry chunk of code for the example
 --------------------------------------------------------------------
 ---------- biochemistry --------------------------------------------
 --------------------------------------------------------------------
@@ -71,7 +72,7 @@ SELECT
 
     readcodedescription AS readCodeDescription
 
-FROM dbo.Labs_Biochem
+FROM dbo.HIC
 ;
 
 --------------------------------------------------------------------
