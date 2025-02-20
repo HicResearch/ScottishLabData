@@ -1,0 +1,26 @@
+{
+    "id": "6A987D9A",
+    "path": "~/GitHub/ScottishLabData/ExemplarTestData/createTables.R",
+    "project_path": "ExemplarTestData/createTables.R",
+    "type": "r_source",
+    "hash": "3507830562",
+    "contents": "",
+    "dirty": false,
+    "created": 1731407693099.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "27,42",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1730727601,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1730727601,
+    "read_only": false,
+    "read_only_alternatives": []
+}
