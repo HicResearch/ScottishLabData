@@ -1,18 +1,18 @@
-
+use example
 --------------------------------------------------------------------
 ---------- TestCode to ReadCode ------------------------------------
 --------------------------------------------------------------------
 
 --DROP dbo.Lothian_ReadCode
 SELECT *
-Into dbo.Lothian_ReadCode
+Into Lothian_ReadCode
 FROM 
 (
-  SELECT DISTINCT * FROM dbo.Lothian
+  SELECT DISTINCT * FROM Lothian
 )b
 INNER JOIN 
 (
-  SELECT DISTINCT Test_Code, Read_Code FROM dbo.Lothian_TestCode2ReadCode
+  SELECT DISTINCT Test_Code, Read_Code FROM Lothian_TestCode2ReadCode
  )lkp
 ON b.TestItemCode = lkp.Test_Code;
 

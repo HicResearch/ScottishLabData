@@ -1,6 +1,9 @@
 --------- HIC's pathology and microbiology data does not comes with readcode, they have been excluded from furture study
 
+use example
+
 --DROP TABLE FHIR_HIC
+
 CREATE TABLE dbo.FHIR_HIC (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,

@@ -1,5 +1,8 @@
 --------- DaSH's lab data only contains biochemistry and haematology data 
 --------- Tests does not comes with readcode haveuse RDMP_3564_ExampleData
+
+use example
+
 --DROP TABLE DaSH_v2;
 
 -- add category based on the flat file name

@@ -1,4 +1,7 @@
+use example
+
 --DROP TABLE FHIR_Glasgow
+
 CREATE TABLE dbo.FHIR_Glasgow (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
