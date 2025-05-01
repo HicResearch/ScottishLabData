@@ -5,11 +5,19 @@ rm(list = ls()); gc()
 ###################################
 
 #### Connecting to the SQL Server ####
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "sql.hic-tre.dundee.ac.uk",
+#                 Database = "RDMP_3564_ExampleData",
+#                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
+
 con <- dbConnect(odbc(),
                  Driver = "SQL Server",
-                 Server = "sql.hic-tre.dundee.ac.uk",
-                 Database = "RDMP_3564_ExampleData",
-                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
+                 Server = "localhost\\SQLEXPRESS",   
+                 Database = "example", 
+                 UID = "examplelogin",
+                 PWD = rstudioapi::askForPassword("Database password"),
+                 TrustServerCertificate="Yes")
 
 TblRead <- DBI::Id(
   schema = "dbo",
@@ -58,6 +66,8 @@ x <- list(
 tt <- ggvenn(x,
        fill_color =c("#0073C2FF","#EFC000FF","#868686FF","#9900FF"),
        stroke_size = 0.5, set_name_size = 4,  show_percentage = FALSE)
+
+plot(tt)
 
 sum(HIC_ReadCodeAggregates[HIC_ReadCodeAggregates[,"code"] %in% t,"recordCount"])/sum(HIC_ReadCodeAggregates[,"recordCount"])  #0.989
 sum(Glasgow_ReadCodeAggregates[Glasgow_ReadCodeAggregates[,"code"] %in% t,"recordCount"])/sum(Glasgow_ReadCodeAggregates[,"recordCount"])  #0.974

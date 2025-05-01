@@ -5,7 +5,7 @@
 
 
 
-USE RDMP_3564_ExampleData  -- set which database to use.
+USE example  -- set which database to use.
 
 delete FROM dbo.FHIR_HIC where code='';
 delete FROM dbo.FHIR_Glasgow where code='';
@@ -16,7 +16,7 @@ delete FROM dbo.FHIR_DaSH where code='';
 -------------------------------------------------------------------------------------------
 ------ HIC  -------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
-DROP TABLE HIC_ReadCodeAggregates
+--DROP TABLE HIC_ReadCodeAggregates
 ;WITH readCodeCount AS (
 SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_HIC
@@ -32,7 +32,7 @@ FROM readCodeCount
 -------------------------------------------------------------------------------------------
 ------ Glasgow  -------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
-DROP TABLE Glasgow_ReadCodeAggregates
+--DROP TABLE Glasgow_ReadCodeAggregates
 ;WITH readCodeCount AS (
 SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_Glasgow
@@ -46,7 +46,7 @@ FROM readCodeCount
 -------------------------------------------------------------------------------------------
 ------ Lothian  -------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
-DROP TABLE Lothian_ReadCodeAggregates
+--DROP TABLE Lothian_ReadCodeAggregates
 ;WITH readCodeCount AS (
 SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_Lothian
@@ -61,7 +61,7 @@ FROM readCodeCount
 ---------- DaSH ---------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------
 --- recordCountPercent is the % value * 10 for some reason, cannot have float on the results
-DROP TABLE DaSH_ReadCodeAggregates
+--DROP TABLE DaSH_ReadCodeAggregates
 ;with readCodeCount as (
 SELECT code, count(*) AS recordCount, count(*)*100/sum(count(*)) over()  AS recordCountPercent, count(DISTINCT subject) AS patientCount
 FROM dbo.FHIR_DaSH

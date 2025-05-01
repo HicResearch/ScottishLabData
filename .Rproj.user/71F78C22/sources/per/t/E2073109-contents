@@ -5,12 +5,19 @@ rm(list = ls()); gc()
 SHList <- c("HIC","Glasgow","Lothian","DaSH")
 load("./data/selectedCodes.RData")
 ReadCodeList <- selectedCodes
-source("0_functions.R")
+source("./R code for data harmonisation/0_functions.R")
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "sql.hic-tre.dundee.ac.uk",
+#                 Database = "RDMP_3564_ExampleData",
+#                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
 con <- dbConnect(odbc(),
                  Driver = "SQL Server",
-                 Server = "sql.hic-tre.dundee.ac.uk",
-                 Database = "RDMP_3564_ExampleData",
-                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
+                 Server = "localhost\\SQLEXPRESS",   
+                 Database = "example", 
+                 UID = "examplelogin",
+                 PWD = rstudioapi::askForPassword("Database password"),
+                 TrustServerCertificate="Yes")
 ## load demography ##############
 TblRead <- DBI::Id(
   schema = "dbo",
