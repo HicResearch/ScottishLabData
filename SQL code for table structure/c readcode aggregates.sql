@@ -5,7 +5,8 @@
 
 
 
-USE example  -- set which database to use.
+--use example   --uncomment when testing pipeline using example data
+--use RDMP_3564_ExampleData  
 
 delete FROM dbo.FHIR_HIC where code='';
 delete FROM dbo.FHIR_Glasgow where code='';
@@ -25,7 +26,7 @@ GROUP BY code
 SELECT ROW_NUMBER() OVER (ORDER BY recordCount desc) orderNumber,* 
 INTO HIC_ReadCodeAggregates
 FROM readCodeCount
---876
+--875
 
 
 
@@ -41,7 +42,7 @@ GROUP BY code
 SELECT ROW_NUMBER() OVER (ORDER BY recordCount desc) orderNumber,* 
 INTO Glasgow_ReadCodeAggregates
 FROM readCodeCount
---1439
+--1438
 
 -------------------------------------------------------------------------------------------
 ------ Lothian  -------------------------------------------------------------------
@@ -55,7 +56,7 @@ GROUP BY code
 SELECT ROW_NUMBER() OVER (ORDER BY recordCount desc) orderNumber,* 
 INTO Lothian_ReadCodeAggregates
 FROM readCodeCount
---587
+--500
 
 -------------------------------------------------------------------------------------------
 ---------- DaSH ---------------------------------------------------------------------------

@@ -1,14 +1,28 @@
 --------- HIC's pathology and microbiology data does not comes with readcode, they have been excluded from furture study
+--------- Here we only focus on HIC's biochemistry, Haematology, Immunology and VirologyRestructured 
 
-use example
+--use example   --uncomment when testing pipeline using example data
+--use RDMP_3564_ExampleData      
 
---DROP TABLE FHIR_HIC
+--import data from flat file using task ->import data 
+--imported "Labs_Biochem"
+--imported "HaematologyRestructured"
+--imported "ImmunologyRestructured"
+--imported "VirologyRestructured"
+
+--rename table
+exec sp_rename 'Labs_Biochem', 'HIC'
+
+------------------------------------------------------------------------------------------------------------------
+--example data should only run from here -------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
 
 CREATE TABLE dbo.FHIR_HIC (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
-effectiveDate     VARCHAR(50) NULL,
+effectiveDate     DATE NULL,
 valueQuantity     VARCHAR(50) NULL,
 valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
@@ -77,6 +91,11 @@ SELECT
 
 FROM dbo.HIC
 ;
+
+------------------------------------------------------------------------------------------------------------------
+--example data should not run the following code -----------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
 
 --------------------------------------------------------------------
 ---------- Haematology ---------------------------------------------

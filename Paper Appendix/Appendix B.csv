@@ -147,10 +147,8 @@ XZXCVS,SARS-CoV-2,NoData,,NoData,NoData,,
 44Y2.,pH,,NoData,*,,,
 44IA.,Anion Gap,NoData,NoData,mmol/L,NoData,mmol/L,
 44N..,Prot E'phoresis,NoData,,,NoData,,
-68W1.,Anti-tTG IgA (DS2),AU/mL; U/mL,NoData,,NoData,,exclude from analysis 
 42g..,Warfarin dosage,secs.; %; g/L; u/dl,NoData,%; U/ml,mg; ng/ml,,exclude from analysis 
 43G1.,Anti Nuclear Antibody,NoData,NoData,,NoData,,
-4Q3J.,f-Calprotectin-ALP,ug/g; ug/g stool,NoData,,,ug/g,
 44E3.,Bilirubin (POCT),NoData,NoData,umol/L,NoData,umol/L,
 42j9.,APTT (Mixture),Secs.,NoData,seconds,secs,seconds,
 44g1.,Fasting Glucose,mmol/L,,mmol/L,mmol/L,mmol/L,
@@ -179,3 +177,7 @@ XZXCVS,SARS-CoV-2,NoData,,NoData,NoData,,
 44B..,Alpha Feto Protein,kU/L,kU/L,kU/L,kU/L; kU/l,kU/L,
 442U.,Serum free T3 level,pmol/L,NoData,pmol/L,pmol/L; pmo/L,pmol/L,
 4482.,Cortisol,nmol/L,NoData,nmol/L,nmol/L,nmol/L,
+44LP.,25-OH Vitamin D,NoData,nmol/L,nmol/L; pmol/L,NoData,nmol/L,if pmol/L value 1e-03
+46f..,Urinalysis Leu'cyte,NoData,NoData,,NoData,,
+468..,Urinalysis Ketones,NoData,NoData,,NoData,,
+466A.,Urinalysis Sp Grav.,NoData,NoData,,NoData,,

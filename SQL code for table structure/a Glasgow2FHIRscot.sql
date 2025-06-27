@@ -1,12 +1,23 @@
-use example
+--------- Glasgow's lab data comes with one table with all tests 
 
---DROP TABLE FHIR_Glasgow
+--use example   --uncomment when testing pipeline using example data
+--use RDMP_3564_ExampleData      
+
+--import data from flat file using task ->import data 
+--imported "SCI_Store_20220802"
+
+--rename table
+exec sp_rename 'SCI_Store_20220802', 'Glasgow'
+
+------------------------------------------------------------------------------------------------------------------
+--example data should only run the following lines of code -------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 
 CREATE TABLE dbo.FHIR_Glasgow (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
-effectiveDate     VARCHAR(50) NULL,
+effectiveDate     DATE NULL,
 valueQuantity     VARCHAR(50) NULL,
 valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
@@ -42,7 +53,7 @@ SELECT
 
     clinicalcodevalue AS code,
 
-    sampledate AS effectiveDate,
+    convert(date, sampledate, 103) AS effectiveDate,
 
     quantityvalue AS valueQuantity,
 

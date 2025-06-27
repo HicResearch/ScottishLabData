@@ -1,9 +1,47 @@
-use example
---------------------------------------------------------------------
----------- TestCode to ReadCode ------------------------------------
---------------------------------------------------------------------
+--------- Lothian's lab data came in seperate flat files, each file for one year coverage 
 
---DROP dbo.Lothian_ReadCode
+--use example   --uncomment when testing pipeline using example data
+--use RDMP_3564_ExampleData      
+
+--import data from flat file using task ->import data 
+--imported "Lab_Data_2015_Lothian_Corrected"
+--imported "Lab_Data_2016_Lothian_Corrected"
+--imported "Lab_Data_2017_Lothian_Corrected"
+--imported "Lab_Data_2018_Lothian_Corrected"
+--imported "Lab_Data_2019_Lothian_Corrected"
+--imported "Lab_Data_2020_Lothian_Corrected"
+--imported "Lab_Data_2021_Lothian_Corrected"
+
+-- merge all table into DaSH
+SELECT * INTO Lothian FROM (
+  SELECT * 
+  FROM CD_3564_Lab_Data_2015_corrected_V2
+  UNION All
+  SELECT * 
+  FROM CD_3564_Lab_Data_2016_corrected_V2
+  UNION All
+  SELECT * 
+  FROM CD_3564_Lab_Data_2017_corrected_V2
+  UNION All
+  SELECT * 
+  FROM CD_3564_Lab_Data_2018_corrected_V2
+  UNION All
+  SELECT * 
+  FROM CD_3564_Lab_Data_2019_corrected_V2
+  UNION All
+  SELECT * 
+  FROM CD_3564_Lab_Data_2020_corrected_V2
+  UNION All
+  SELECT * 
+  FROM CD_3564_Lab_Data_2021_corrected_V2
+  ) as tmp
+
+------------------------------------------------------------------------------------------------------------------
+--example data should only run the following lines of code -------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
+-- TestCode to ReadCode 
+
 SELECT *
 Into Lothian_ReadCode
 FROM 
@@ -16,32 +54,17 @@ INNER JOIN
  )lkp
 ON b.TestItemCode = lkp.Test_Code;
 
---------------------------------------------------------------------
---------------- Add Unit Information -------------------------------
---------------------------------------------------------------------
---DROP dbo.Lothian_ReadCode_Unit
-SELECT *
-Into dbo.Lothian_ReadCode_Unit
-FROM 
-(
-  SELECT DISTINCT * FROM dbo.Lothian_ReadCode
-)b
-LEFT JOIN 
-(
-  SELECT DISTINCT CTTC_Code, CTTC_Units FROM dbo.Lothian_Unit
- )lkp
-ON b.TestItemCode = lkp.CTTC_Code;
 
 
 --------------------------------------------------------------------
 ---------- Create Table ------------------------------------
 --------------------------------------------------------------------
-DROP TABLE FHIR_Lothian
+
 CREATE TABLE dbo.FHIR_Lothian (
 subject         VARCHAR(50) NOT NULL,
 category          VARCHAR(150) NULL,
 code              VARCHAR(50) collate Latin1_General_BIN NOT NULL,
-effectiveDate     DATETIME,
+effectiveDate     DATE NULL,
 valueQuantity     VARCHAR(50) NULL,
 valueUnit         VARCHAR(50) NULL,
 valueString       VARCHAR(1000) NULL,
@@ -73,43 +96,43 @@ INSERT INTO FHIR_Lothian
 SELECT
     prochi AS subject,
 
-    ordersubcategory AS category,
+    '' AS category,
 
     Read_Code AS code,
 
-    specimencollectiondate AS effectiveDate,
+    SpecimenCollectionDate AS effectiveDate,
 
-    (case when ISNUMERIC(value)=1 
-             then value 
-          when substring(value, 1, 1)='>' or substring(value, 1, 1)='<'
-             then substring(value, 2, LEN(value)-1)
+    (case when ISNUMERIC(Value)=1 
+             then Value 
+          when substring(Value, 1, 1)='>' or substring(value, 1, 1)='<'
+             then substring(Value, 2, LEN(Value)-1)
           else NULL 
      end
        ) AS valueQuantity,
 
-    CTTC_Units AS valueUnit,
+    Unit AS valueUnit,
 
-    value AS valueString,
+    Value AS valueString,
 
-    (case when ISNUMERIC(rangemax)=1 
-             then rangemax 
+    (case when ISNUMERIC(RangeMax)=1 
+             then RangeMax 
           else NULL 
      end
        ) AS referenceRangeHigh,
 
-    (case when ISNUMERIC(rangemin)=1 
-             then rangemin 
+    (case when ISNUMERIC(RangeMin)=1 
+             then RangeMin 
           else NULL 
      end
        ) AS referenceRangeLow,
 
-    orderid AS encounter,
+    0 AS encounter,
 
-    specimentype AS specimen,
+    '' AS specimen,
 
     'Lothian' AS healthboard,
 
-    testitem AS readcodedescription
+    TestItem AS readcodedescription
 
-FROM dbo.Lothian_ReadCode_Unit
+FROM dbo.Lothian_ReadCode
 ;

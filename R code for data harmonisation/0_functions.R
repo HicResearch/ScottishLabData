@@ -55,7 +55,7 @@ outlierCutFunction <- function(data) {
 
 #unit transfer function
 unitTransferFunction <- function(data,unitinfor,rc) {
-  if (is.na(unitinfor$Rule)==TRUE) {
+  if (unitinfor$Rule=="") {
     data[data$code==rc,"valueUnit"] <- unitinfor$Unit
     
   } else {
@@ -96,3 +96,22 @@ CensoredValueFunction <- function(data) {
 }
 
 
+######################################
+######## install packages ############
+######################################
+#install.packages("DBI")
+#install.packages("odbc")
+#install.packages("dplyr")
+#install.packages("dbplyr")
+#install.packages("haven")
+#install.packages("writexl")
+#install.packages("tidyverse")
+#install.packages("plotly")
+#install.packages("ggvenn")
+library(ggvenn)
+library(odbc)
+library(DBI)
+library(dplyr)
+library(dbplyr)
+library(readxl)
+library(plotly)

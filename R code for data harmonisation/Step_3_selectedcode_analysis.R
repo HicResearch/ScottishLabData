@@ -4,49 +4,29 @@ rm(list = ls()); gc()
 ####### pre set up #######################
 SHList <- c("HIC","Glasgow","Lothian","DaSH")
 load("./data/selectedCodes.RData")
+load("./data/Demography.RData")
 ReadCodeList <- selectedCodes
-source("./R code for data harmonisation/0_functions.R")
+source("./0_functions.R")
+
+#Set up the connection, uncomment when running example
 #con <- dbConnect(odbc(),
 #                 Driver = "SQL Server",
-#                 Server = "sql.hic-tre.dundee.ac.uk",
-#                 Database = "RDMP_3564_ExampleData",
-#                 UID="project-3564", PWD="", TrustServerCertificate="Yes")
+#                 Server = "localhost\\SQLEXPRESS",   
+#                 Database = "example", 
+#                 UID = "examplelogin",
+#                 PWD="examplepassword",
+#                 TrustServerCertificate="Yes")
+
+
+#connections used when conducting this project, comment when running example
 con <- dbConnect(odbc(),
                  Driver = "SQL Server",
-                 Server = "localhost\\SQLEXPRESS",   
-                 Database = "example", 
-                 UID = "examplelogin",
-                 PWD = rstudioapi::askForPassword("Database password"),
+                 Server = "sql.hic-tre.dundee.ac.uk",   
+                 Database = "RDMP_3564_ExampleData", 
+                 UID = "project-3564",
+                 PWD = "",
                  TrustServerCertificate="Yes")
-## load demography ##############
-TblRead <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_HIC")
-TblRead2 <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_Glasgow")
-TblRead3 <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_Lothian")
-TblRead4 <- DBI::Id(
-  schema = "dbo",
-  table = "Demography_DaSH")
 
-#This reads the above table as defined under TblRead
-Demography_HIC <- dbReadTable(con, TblRead)
-Demography_Glasgow <- dbReadTable(con, TblRead2)
-Demography_Lothian <- dbReadTable(con, TblRead3)
-Demography_DaSH <- dbReadTable(con, TblRead4)
-Demography_Lothian$anon_date_of_birth <- as.Date(as.character(Demography_Lothian$anon_date_of_birth),format = "%d/%m/%Y")
-Demography_HIC$From <- "HIC"
-Demography_Glasgow$From <- "Glasgow"
-Demography_DaSH$From <- "DaSH"
-Demography_Lothian$From <- "Lothian"
-Demography <- rbind(Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth","From")])
-Demography <- unique(Demography)
 #####################################
 summaryTable <- data.frame(ReadCodeList)
 colnames(summaryTable)[1] <- "ReadCode"

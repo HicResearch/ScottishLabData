@@ -2,7 +2,6 @@
 rm(list = ls()); gc()
 
 
-setwd("D:/project-3564/ScottishLabData")
 SHList <- c("HIC","Glasgow","Lothian","DaSH")
 load("./data/selectedCodes.RData")
 ReadCodeList <- selectedCodes
@@ -10,6 +9,7 @@ source("0_functions.R")
 
 ## setup an empty dataframe ##############
 load("./data/Demography.RData")
+
 summaryTable <- data.frame(ReadCodeList)
 colnames(summaryTable)[1] <- "ReadCode"
 
@@ -58,7 +58,7 @@ for (rc in ReadCodeList) {
         summaryTable[summaryTable$ReadCode==rc,paste0(SH,"_unit")] <- "NoData"
       }
     
-    t <- data[data$code==rc,c("personId","referenceRangeHigh","referenceRangeLow" )]
+    t <- data[data$code==rc,c("subject","referenceRangeHigh","referenceRangeLow" )]
     if (dim(t)[1]!=0) {
       t$range <- paste0(round(t$referenceRangeLow,3),"--", round(t$referenceRangeHigh,3))
       tt <- unique(t$range)

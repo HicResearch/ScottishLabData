@@ -2,27 +2,11 @@
 ####  as well as backup all necessary data in R as #############
 
 ## clear the workspace ######
-#rm(list = ls())
+rm(list = ls()); gc()
 
-######################################
-######## install packages ############
-######################################
-install.packages("DBI")
-install.packages("odbc")
-install.packages("dplyr")
-install.packages("dbplyr")
-install.packages("haven")
-install.packages("writexl")
-install.packages("tidyverse")
-install.packages("plotly")
-install.packages("ggvenn")
-library(ggvenn)
-library(odbc)
-library(DBI)
-library(dplyr)
-library(dbplyr)
-library(readxl)
-library(plotly)
+source("./0_functions.R")
+
+
 ######################################
 #### Connecting to the SQL Server ####
 ######################################
@@ -30,13 +14,23 @@ library(plotly)
 #sort(unique(odbcListDrivers()[[1]]))
 ######################################
 ######################################
-#Set up the connection
+#Set up the connection, uncomment when running example
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "localhost\\SQLEXPRESS",   
+#                 Database = "example", 
+#                 UID = "examplelogin",
+#                 PWD="examplepassword",
+#                 TrustServerCertificate="Yes")
+
+
+#connections used when conducting this project, comment when running example
 con <- dbConnect(odbc(),
                  Driver = "SQL Server",
-                 Server = "localhost\\SQLEXPRESS",   
-                 Database = "example", 
-                 UID = "examplelogin",
-                 PWD = rstudioapi::askForPassword("Database password"),
+                 Server = "sql.hic-tre.dundee.ac.uk",   
+                 Database = "RDMP_3564_ExampleData", 
+                 UID = "project-3564",
+                 PWD = "",
                  TrustServerCertificate="Yes")
 
 #Check the table header names for data table.
