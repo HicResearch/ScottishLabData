@@ -14,23 +14,23 @@ source("0_functions.R")
 load("./data/Demography.RData")
 
 #Set up the connection, uncomment when running example
-#con <- dbConnect(odbc(),
-#                 Driver = "SQL Server",
-#                 Server = "localhost\\SQLEXPRESS",   
-#                 Database = "example", 
-#                 UID = "examplelogin",
-#                 PWD="examplepassword",
-#                 TrustServerCertificate="Yes")
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "localhost\\SQLEXPRESS",   
+                 Database = "example", 
+                 UID = "examplelogin",
+                 PWD="password",
+                 TrustServerCertificate="Yes")
 
 
 #connections used when conducting this project, comment when running example
-con <- dbConnect(odbc(),
-                 Driver = "SQL Server",
-                 Server = "sql.hic-tre.dundee.ac.uk",   
-                 Database = "RDMP_3564_ExampleData", 
-                 UID = "project-3564",
-                 PWD = "",
-                 TrustServerCertificate="Yes")
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "sql.hic-tre.dundee.ac.uk",   
+#                 Database = "RDMP_3564_ExampleData", 
+#                 UID = "project-3564",
+#                 PWD = "",
+#                 TrustServerCertificate="Yes")
 
 
 load("./data/selectedCodes.RData")

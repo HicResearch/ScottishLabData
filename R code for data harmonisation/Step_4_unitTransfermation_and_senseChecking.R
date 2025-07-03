@@ -4,29 +4,29 @@ rm(list = ls()); gc()
 source("./0_functions.R")
 
 #Set up the connection, uncomment when running example
-#con <- dbConnect(odbc(),
-#                 Driver = "SQL Server",
-#                 Server = "localhost\\SQLEXPRESS",   
-#                 Database = "example", 
-#                 UID = "examplelogin",
-#                 PWD="examplepassword",
-#                 TrustServerCertificate="Yes")
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "localhost\\SQLEXPRESS",   
+                 Database = "example", 
+                 UID = "examplelogin",
+                 PWD="password",
+                 TrustServerCertificate="Yes")
 
 
 #connections used when conducting this project, comment when running example
-con <- dbConnect(odbc(),
-                 Driver = "SQL Server",
-                 Server = "sql.hic-tre.dundee.ac.uk",   
-                 Database = "RDMP_3564_ExampleData", 
-                 UID = "project-3564",
-                 PWD = "",
-                 TrustServerCertificate="Yes")
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "sql.hic-tre.dundee.ac.uk",   
+#                 Database = "RDMP_3564_ExampleData", 
+#                 UID = "project-3564",
+#                 PWD = "",
+#                 TrustServerCertificate="Yes")
 
 ######################################
 #### unit and value transformation ###
 ######################################
 # edit the following line accordingly to set path to Appendix B
-unitchange <- read.csv("C:/Users/Administrator/Desktop/ScottishLabData-main/Paper Appendix/Appendix B.csv")
+unitchange <- read.csv("C:/Users/CGao001/OneDrive - University of Dundee/Documents/GitHub/ScottishLabData/Paper Appendix/Appendix B.csv")
 
 colnames(unitchange)[8] <- "Rule"
 SHList <- c("HIC","Glasgow","Lothian","DaSH")

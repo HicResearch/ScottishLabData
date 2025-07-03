@@ -9,23 +9,23 @@ ReadCodeList <- selectedCodes
 source("./0_functions.R")
 
 #Set up the connection, uncomment when running example
-#con <- dbConnect(odbc(),
-#                 Driver = "SQL Server",
-#                 Server = "localhost\\SQLEXPRESS",   
-#                 Database = "example", 
-#                 UID = "examplelogin",
-#                 PWD="examplepassword",
-#                 TrustServerCertificate="Yes")
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "localhost\\SQLEXPRESS",   
+                 Database = "example", 
+                 UID = "examplelogin",
+                 PWD="password",
+                 TrustServerCertificate="Yes")
 
 
 #connections used when conducting this project, comment when running example
-con <- dbConnect(odbc(),
-                 Driver = "SQL Server",
-                 Server = "sql.hic-tre.dundee.ac.uk",   
-                 Database = "RDMP_3564_ExampleData", 
-                 UID = "project-3564",
-                 PWD = "",
-                 TrustServerCertificate="Yes")
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "sql.hic-tre.dundee.ac.uk",   
+#                 Database = "RDMP_3564_ExampleData", 
+#                 UID = "project-3564",
+#                 PWD = "",
+#                 TrustServerCertificate="Yes")
 
 #####################################
 summaryTable <- data.frame(ReadCodeList)
@@ -106,10 +106,12 @@ for (rc in ReadCodeList) {
   }
   
   D <- na.omit(D)
+  data_allfour <- na.omit(data_allfour)
+  if (length(data_allfour)>0) {
   tt <- data.frame(table(data_allfour))
   tt <- tt[tt$data_allfour != "",]
   summaryTable[summaryTable$ReadCode==rc,"readCodeDescription"] <- paste0(tt[tt$Freq==max(tt$Freq),"data_allfour"], collapse = "; ")
-  
+  }
   
 
   #### plot the density distribution ###

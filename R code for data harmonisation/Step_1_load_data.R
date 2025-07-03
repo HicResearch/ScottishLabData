@@ -15,23 +15,23 @@ source("./0_functions.R")
 ######################################
 ######################################
 #Set up the connection, uncomment when running example
-#con <- dbConnect(odbc(),
-#                 Driver = "SQL Server",
-#                 Server = "localhost\\SQLEXPRESS",   
-#                 Database = "example", 
-#                 UID = "examplelogin",
-#                 PWD="examplepassword",
-#                 TrustServerCertificate="Yes")
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "localhost\\SQLEXPRESS",   
+                 Database = "example", 
+                 UID = "examplelogin",
+                 PWD="password",
+                 TrustServerCertificate="Yes")
 
 
 #connections used when conducting this project, comment when running example
-con <- dbConnect(odbc(),
-                 Driver = "SQL Server",
-                 Server = "sql.hic-tre.dundee.ac.uk",   
-                 Database = "RDMP_3564_ExampleData", 
-                 UID = "project-3564",
-                 PWD = "",
-                 TrustServerCertificate="Yes")
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "sql.hic-tre.dundee.ac.uk",   
+#                 Database = "RDMP_3564_ExampleData", 
+#                 UID = "project-3564",
+#                 PWD = "",
+#                 TrustServerCertificate="Yes")
 
 #Check the table header names for data table.
 #NOTE: You may need to replace 'STAGING' with another schema if this is different. 
@@ -121,14 +121,14 @@ Demography_HIC <- dbReadTable(con, TblRead)
 Demography_Glasgow <- dbReadTable(con, TblRead2)
 Demography_Lothian <- dbReadTable(con, TblRead3)
 Demography_DaSH <- dbReadTable(con, TblRead4)
-Demography_Lothian$anon_date_of_birth <- as.Date(as.character(Demography_Lothian$anon_date_of_birth),format = "%d/%m/%Y")
+#Demography_Lothian$anon_date_of_birth <- as.Date(as.character(Demography_Lothian$anon_date_of_birth),format = "%d/%m/%Y")
 Demography_HIC$From <- "HIC"
 Demography_Glasgow$From <- "Glasgow"
 Demography_DaSH$From <- "DaSH"
 Demography_Lothian$From <- "Lothian"
-Demography <- rbind(Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth","From")], 
-                    Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth","From")])
+Demography <- rbind(Demography_HIC[,c("PROCHI", "sex", "anon_date_of_birth", "scsimd5","From")], 
+                    Demography_Glasgow[,c("PROCHI", "sex", "anon_date_of_birth", "scsimd5","From")], 
+                    Demography_Lothian[,c("PROCHI", "sex", "anon_date_of_birth", "scsimd5","From")], 
+                    Demography_DaSH[,c("PROCHI", "sex", "anon_date_of_birth", "scsimd5","From")])
 Demography <- unique(Demography)
 save(Demography_HIC, Demography_Glasgow, Demography_Lothian, Demography_DaSH, Demography, file = "./data/Demography.RData")

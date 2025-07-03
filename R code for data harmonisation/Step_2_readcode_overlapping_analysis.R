@@ -6,23 +6,23 @@ source("./0_functions.R")
 ###################################
 
 #Set up the connection, uncomment when running example
-#con <- dbConnect(odbc(),
-#                 Driver = "SQL Server",
-#                 Server = "localhost\\SQLEXPRESS",   
-#                 Database = "example", 
-#                 UID = "examplelogin",
-#                 PWD="examplepassword",
-#                 TrustServerCertificate="Yes")
+con <- dbConnect(odbc(),
+                 Driver = "SQL Server",
+                 Server = "localhost\\SQLEXPRESS",   
+                 Database = "example", 
+                 UID = "examplelogin",
+                 PWD="password",
+                 TrustServerCertificate="Yes")
 
 
 #connections used when conducting this project, comment when running example
-con <- dbConnect(odbc(),
-                 Driver = "SQL Server",
-                 Server = "sql.hic-tre.dundee.ac.uk",   
-                 Database = "RDMP_3564_ExampleData", 
-                 UID = "project-3564",
-                 PWD = "",
-                 TrustServerCertificate="Yes")
+#con <- dbConnect(odbc(),
+#                 Driver = "SQL Server",
+#                 Server = "sql.hic-tre.dundee.ac.uk",   
+#                 Database = "RDMP_3564_ExampleData", 
+#                 UID = "project-3564",
+#                 PWD = "",
+#                 TrustServerCertificate="Yes")
 
 TblRead <- DBI::Id(
   schema = "dbo",
@@ -58,7 +58,7 @@ t <- c(HIC_ReadCodeAggregates[1:100,"code"],Glasgow_ReadCodeAggregates[1:100,"co
 t <- unique(t)
 t <- t[!t==""]    #180 codes
 
-selectedCodes <- t
+selectedCodes <- na.omit(t)
 save(selectedCodes, file = "./data/selectedCodes.RData")
 
 x <- list(

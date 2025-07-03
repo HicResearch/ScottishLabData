@@ -3,6 +3,10 @@
 --use example   --uncomment when testing pipeline using example data
 --use RDMP_3564_ExampleData      
 
+------------------------------------------------------------------------------------------------------------------
+---- no need for running example data -------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
 --import data from flat file using task ->import data 
 --imported "DaSH538_Biochemistry_Release"
 --imported "DaSH538_Haematology_Release"
@@ -10,13 +14,12 @@
 -- add category based on the flat file name
 ALTER TABLE DaSH538_Biochemistry_Release
 ADD category VARCHAR(150) NOT NULL
-DEFAULT 'biochemsitry'; -- edit default value based on the flat file name which indicate the category of the data
+DEFAULT 'biochemistry'; -- edit default value based on the flat file name which indicate the category of the data
 -- for multiple flat files, import each file for one table, conduct the above step  seperatly 
 -- add category based on the flat file name
 ALTER TABLE DaSH538_Haematology_Release
 ADD category VARCHAR(150) NOT NULL
 DEFAULT 'haematology'; -- edit default value based on the flat file name which indicate the category of the data
-
 -- merge all table into DaSH
 SELECT * INTO DaSH FROM (
   SELECT * 
