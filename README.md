@@ -10,24 +10,6 @@ https://doi.org/10.1016/j.jbi.2024.104771
 ## Background
 In Scotland, laboratory data is captured, stored and reported from local health board systems with significant heterogeneity. For researchers or other users, working on laboratory datasets across regional cohorts requires effort and time.
 
-
-## Requirements
-The over-arching requirement is to develop an open-source software pipeline to generate a harmonised laboratory dataset.
-
-### Functional
-Some additional functional requirements are:
-* Merging different data tables from the database into the same structure table.
-* Standardising the censored results. 
-* Changing all test codes to read codes.
-* Based on the test frequency, focusing on the top 100 recorded Read Codes of each Safe Haven (180 unique Read Codes).
-* Standardising test unit, change test with the same code into having the same unit
-* Technical validation of the harmonised and cleaned data by visualisation
- 
-### Non-Functional
-Two non-functional requirements were also identified:
-* Operate in an environment where compute resources may be limited.
-* Handling the big scale of the data, utilising tools/methods for best performance    
-
 ## Description
 We completed the required data governance applications and extracted laboratory tests (biochemistry, haematology, immunology, virology, pathology and microbiology) from all registered SHARE participants who were residents from 01/01/2015 to 31/12/2021 (or until death) in the region of each of the four regional Safe Havens.
 
@@ -35,7 +17,7 @@ The data was provided as flat files from the Safe Havens to HIC and loaded into 
 
 Data exploration and harmonisation were conducted using a mixture of SQL and R (version 4.1.3). 
 
-### This repository 
+## This repository 
 Repository sub-directories:
 
 - *SQL code for table structure/* SQL code for harmonising the structure of data, standardising the censored results as well as changing all text codes to read codes  
@@ -44,24 +26,51 @@ Repository sub-directories:
 
 - *Paper Appendix/* Appendix for published paper related to this work
 
-### Running SQL scripts
-Tables been loaded into the database:
+## Running code on the example
+### Step 1 
+Install SQL server (https://learn.microsoft.com/en-us/sql/sql-server/what-s-new-in-sql-server-2019?view=sql-server-ver16 ) 
+figure
+### Step 2 
+Install SSMS https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16&redirectedfrom=MSDN
+figure
+### Step 3
+Import sample data into SQL Server
+#### 3.1 Connect to the sql through SSMS
+When open SSMS, the connect to server page will automatically load the local SQL server that is running. Click the connect button and connect to the sql server.
+figure
+#### 3.2 Create a new database
+Right click the databases, then select New Database from the drop down menu
+figure
+Set the database name and click OK
+figure
+#### 3.3 Load the example data into the sql database
+In SQL Server Management Studio, connect to an instance of the SQL Server Database Engine. Expand Databases. Right-click a database. Point to Tasks. Select Import Data. And following the Wizard.
+figure
+figure
+figure
+fgiure
+Check the tables has been successfully imported by selecting the data table then right-click and select “Select Top 1000 Rows”.
+figure
+#### 3.4 Repeat step 3.3 for all 7 csv files in \ScottishLabData\ExemplarTestData folder
+figure
+### Step 4 
+Run the following SQL script “a DaSH2FHIRscot.sql”, “a Glasgow2FHIRscot.sql”, “a HIC2FHIRscot”, “a Lothian2FHIRscot” 
+•	After running all four, you will have four new tables as highlighted 
+figure
+•	Optional code <b create index.sql> to increase the efficiency of the sql code
+•	<c readcode aggregates.sql> conducts test frequency analysis based on the FHIR data structure for each Safe Havens data. It generates four new tables <DaSH_ReadCodeAggregates, Glasgow_ReadCodeAggregates, HIC_ReadCodeAggregates and Lothian_ReadCodeAggregates> which contains the unique code and the frequency counts. The analysis results based on the example data is just for demonstration purposes. The test frequency based on real data has been reported in the paper.
+figure
+### Step 5 
+Set up SQL login in MSSQL and give permission for R to connect to the example database
+•	Add new login by Security ->Logins ->new login
+For the example, please use UID = "examplelogin", PWD="password",
+figure
+figure
+figure
+### Step 6 
+Run the R script code following the step 1 to 7
+•	Make sure to create two empty folders in the R project folder, one called “data” one called “plot”
 
-| Tables Name       | Description           |
-| ------------- |:-------------:|
-| dbo.DaSH     | *DaSH all data* |
-| dbo.SCI_Store_20220802      | *Glasgow all data*     |
-| dbo.Labs_Biochem | *HIC biochemistry data*   |
-| dbo.HaematologyRestructured | *HIC haematology data*   |
-| dbo.ImmunologyRestructured | *HIC immunology data*   |
-| dbo.VirologyRestructured | *HIC virology data*  |
-| dbo.Lothian  | *Lothian all data*   |
-| dbo.Lothian_TestCode2ReadCode | *Lothian local code to read code mapping*   | 
-                     
-Scripts should be run in sequence as marked as "a", "b" and "c" in the name. It does not matter which one to run first between the same mark. For example, either run "a DaSH2FHIRscot.sql" before or after "a Glasgow2FHIRscot.sql" is OK.
- 
-### Running R code
-Scripts should be run in sequence as marked as "0", "1", "2" to "6" in the name. It does not matter which one to run first between the same mark.
  
 ## Acknowledgments
 
