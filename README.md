@@ -87,6 +87,7 @@ For the example, please use UID = "examplelogin", PWD="password",
 ![](https://github.com/HicResearch/ScottishLabData/blob/main/readmefigures/16.png)
 ### Step 6 
 Run the R script code following the step 1 to 7
+
 •	Make sure to create two empty folders in the R project folder, one called “data” one called “plot”
 
  
